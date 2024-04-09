@@ -91,6 +91,9 @@ export function Skill() {
                         <div>
                             <h6>WordPress</h6>
                         </div>
+                        <div>
+                            <h6>Figma</h6>
+                        </div>
                     </div>
                 </div>
             </div>
