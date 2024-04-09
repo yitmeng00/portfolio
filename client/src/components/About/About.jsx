@@ -13,7 +13,7 @@ FUNFACTS.forEach((funfact, index) => {
 
     return (
         <>
-            <div className="bg-primary-200 px-10 py-24 text-center text-7xl text-primary-600 font-bold">
+            <div className="bg-primary-200 px-10 py-24 text-center sm:text-7xl text-5xl text-primary-600 font-bold">
                 <p>ABOUT</p>
             </div>
             <div className="xl:px-40 lg:px-32 px-10 py-10 flex flex-col gap-10 text-justify">
@@ -185,7 +185,7 @@ FUNFACTS.forEach((funfact, index) => {
                                 <h6>May 2019 - April 2022</h6>
                             </div>
                         </div>
-                        <div className="mb-3">
+                        <div className="mb-2">
                             <h6>Bachelor of Computer Science</h6>
                         </div>
                         <div>
