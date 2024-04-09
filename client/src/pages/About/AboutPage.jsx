@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { NavbarBtn } from "../../components";
+import { NavbarBtn } from "../../components/Navbar";
 import Navbar from "../../layouts/Navbar";
+import { About } from "../../components/About";
 
-export function Experience() {
+export function AboutPage() {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     const toggleNavbar = () => {
@@ -12,10 +13,11 @@ export function Experience() {
     return (
         <>
             <section>
-                <div>
-                    <NavbarBtn toggleNavbar={toggleNavbar} />
+                <NavbarBtn toggleNavbar={toggleNavbar} />
+                {navbarOpen ? <Navbar /> : null}
+                <div className="relative">
+                    <About />
                 </div>
-                {navbarOpen ? <Navbar /> : <div className="bg-gray-300 h-screen relative">Experience</div>}
             </section>
         </>
     );

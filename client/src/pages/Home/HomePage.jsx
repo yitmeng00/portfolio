@@ -8,7 +8,7 @@ import { Experience } from "../../components/Home/Experience";
 import { Education } from "../../components/Home/Education";
 import { Project } from "../../components/Home/Project";
 
-export function Home() {
+export function HomePage() {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     const toggleNavbar = () => {
