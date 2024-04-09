@@ -24,8 +24,8 @@ export function Home() {
                 <div className="relative">
                     <Header />
                     <About />
-                    <Experience />
                     <Education />
+                    <Experience />
                     <Project />
                     <Footer />
                 </div>
