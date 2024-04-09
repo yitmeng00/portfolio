@@ -16,7 +16,7 @@ export function Header() {
                         </h1>
                         <h4 className="w-4/5">
                             I am a full-stack software engineer focused on
-                            developing reliable and scalable system, software,
+                            developing impactful and scalable system, software,
                             and web application.
                         </h4>
                         <div className="flex flex-row gap-3 text-4xl">
