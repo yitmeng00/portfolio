@@ -1,13 +1,13 @@
 import { NavLink } from "react-router-dom";
-import { IoReorderTwoOutline, IoCloseOutline } from "react-icons/io5";
 import { PiLinkedinLogoLight, PiGithubLogoLight } from "react-icons/pi";
 
 export function Navbar() {
     return (
-        <section className="p-10 flex flex-col gap-10">
+        <section className="fixed h-screen w-full bg-primary-300 z-10">
+            <div className="flex flex-col gap-5 p-10">
             <div
                 id="navbar__menu-item"
-                className="flex flex-col gap-10 items-center text-6xl"
+                className="flex flex-col gap-10 items-center text-6xl text-primary-600"
             >
                 <div>
                     <NavLink to={"/"}>
@@ -26,7 +26,7 @@ export function Navbar() {
                 </div>
                 <div>
                     <NavLink to={"/projects"}>
-                        <p>Project</p>
+                        <p>Projects</p>
                     </NavLink>
                 </div>
             </div>
@@ -40,6 +40,7 @@ export function Navbar() {
                 <div>
                     <PiGithubLogoLight />
                 </div>
+            </div>
             </div>
         </section>
     );
