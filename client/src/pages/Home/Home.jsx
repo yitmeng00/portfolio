@@ -2,12 +2,11 @@ import { useState } from "react";
 import Navbar from "../../layouts/Navbar";
 import Footer from "../../layouts/Footer";
 import { NavbarBtn } from "../../components/Navbar";
-import { Header } from "../../components/Header";
-import { About } from "../../components/About";
-import { Skill } from "../../components/About";
-import { Experience } from "../../components/Experience";
-import { Education } from "../../components/Education";
-import { Project } from "../../components/Project";
+import { Header } from "../../components/Home/Header";
+import { About } from "../../components/Home/About";
+import { Experience } from "../../components/Home/Experience";
+import { Education } from "../../components/Home/Education";
+import { Project } from "../../components/Home/Project";
 
 export function Home() {
     const [navbarOpen, setNavbarOpen] = useState(false);
