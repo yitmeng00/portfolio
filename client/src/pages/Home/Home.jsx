@@ -1,6 +1,13 @@
 import { useState } from "react";
-import { NavbarBtn } from "../../components";
 import Navbar from "../../layouts/Navbar";
+import Footer from "../../layouts/Footer";
+import { NavbarBtn } from "../../components/Navbar";
+import { Header } from "../../components/Header";
+import { About } from "../../components/About";
+import { Skill } from "../../components/About";
+import { Experience } from "../../components/Experience";
+import { Education } from "../../components/Education";
+import { Project } from "../../components/Project";
 
 export function Home() {
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -12,10 +19,16 @@ export function Home() {
     return (
         <>
             <section>
-                <div>
-                    <NavbarBtn toggleNavbar={toggleNavbar} />
+                <NavbarBtn toggleNavbar={toggleNavbar} />
+                {navbarOpen ? <Navbar /> : null}
+                <div className="relative">
+                    <Header />
+                    <About />
+                    <Experience />
+                    <Education />
+                    <Project />
+                    <Footer />
                 </div>
-                {navbarOpen ? <Navbar /> : <div className="bg-gray-300 h-screen relative">Homepage</div>}
             </section>
         </>
     );
