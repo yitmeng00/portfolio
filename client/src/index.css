@@ -14,7 +14,7 @@
         @apply text-3xl font-bold mb-3;
     }
     h4 {
-        @apply text-2xl;
+        @apply text-2xl mb-3;
     }
     h5 {
         @apply text-xl font-bold;
@@ -25,4 +25,12 @@
 }
 
 @tailwind components;
+
+@layer components {
+    .navbar-heading {
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+}
+
 @tailwind utilities;

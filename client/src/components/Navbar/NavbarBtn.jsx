@@ -10,7 +10,7 @@ export function NavbarBtn({ toggleNavbar }) {
     };
 
     return (
-        <div onClick={handleToggle} className="fixed z-20 end-14 top-10">
+        <div onClick={handleToggle} className="fixed z-20 sm:end-14 sm:top-10 end-6 top-6">
             <button
                 id="navbar__collapsible-btn"
                 className={`rounded-full p-3 text-5xl ${
