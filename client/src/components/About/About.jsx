@@ -1,11 +1,25 @@
 import { Skill } from "./Skill";
+import { NavLink } from "react-router-dom";
+import { PiArrowSquareOutLight } from "react-icons/pi";
 
 export function About() {
     return (
         <section className="mb-24 xl:px-96 lg:px-52 px-10">
             <div className="mb-12">
-                <div>
-                    <h2>ABOUT</h2>
+                <div className="flex flex-row gap-3">
+                    <div>
+                        <h2>ABOUT</h2>
+                    </div>
+                    <div className="hover:text-primary-400 text-2xl relative group/item">
+                        <NavLink to={"/about"}>
+                            <PiArrowSquareOutLight />
+                        </NavLink>
+                        <div className="absolute top-0 left-8 invisible group-hover/item:visible">
+                            <p className="text-sm">
+                                more details
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div className="mb-4 text-justify">
                     <h6>

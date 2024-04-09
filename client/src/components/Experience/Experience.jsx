@@ -1,8 +1,21 @@
+import { NavLink } from "react-router-dom";
+import { PiArrowSquareOutLight } from "react-icons/pi";
+
 export function Experience() {
     return (
         <section className="mb-24 xl:px-96 lg:px-52 px-10">
-            <div>
-                <h2>EXPERIENCES</h2>
+            <div className="flex flex-row gap-3">
+                <div>
+                    <h2>EXPERIENCES</h2>
+                </div>
+                <div className="hover:text-primary-400 text-2xl relative group/item">
+                    <NavLink to={"/experiences"}>
+                        <PiArrowSquareOutLight />
+                    </NavLink>
+                    <div className="absolute top-0 left-8 invisible group-hover/item:visible">
+                        <p className="text-sm">more details</p>
+                    </div>
+                </div>
             </div>
             <div className="flex flex-col gap-10">
                 <div>
