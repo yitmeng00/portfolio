@@ -1,0 +1,204 @@
+[
+    {
+        "name": "Project Management System",
+        "desc": "A system developed to streamline project planning, task management, and progress tracking.",
+        "src": "src/assets/project/project-mgmt-sys.png",
+        "skill": [
+            "React",
+            "Redux",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "Node.js",
+            "Express",
+            "Sequelize",
+            "MySQL",
+            "REST"
+        ],
+        "category": "COMPANY"
+    },
+    {
+        "name": "E-Claim System",
+        "desc": "A system developed to streamline claim submission, and approval processes.",
+        "src": "src/assets/project/e-claim-system.png",
+        "skill": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "jQuery",
+            "AJAX",
+            "PHP",
+            "MySQL",
+            "Google Maps API"
+        ],
+        "category": "COMPANY"
+    },
+    {
+        "name": "IoT Monitoring System",
+        "desc": "A platform developed to monitor and manage IoT devices.",
+        "src": "src/assets/project/iot-monitoring-system.png",
+        "skill": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "SortableJS",
+            "WebSocket",
+            "PHP",
+            "MySQL",
+            "MongoDB",
+            "Weather API"
+        ],
+        "category": "COMPANY"
+    },
+    {
+        "name": "Aspen Spectra Website",
+        "desc": "Official website of Aspen Spectra Sdn Bhd company.",
+        "src": "src/assets/project/aspen-website.png",
+        "skill": [
+            "WordPress",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Web Hosting",
+            "SEO",
+            "Caching"
+        ],
+        "category": "COMPANY"
+    },
+    {
+        "name": "Inventory Management System",
+        "desc": "A system developed to streamline the recording, tracking, and management of inventory.",
+        "src": "src/assets/project/inventory-mgmt-sys.png",
+        "skill": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "PHP",
+            "MySQL",
+            "Chart.js",
+            "xlsx"
+        ],
+        "category": "PERSONAL"
+    },
+    {
+        "name": "Weather App",
+        "desc": "An application developed to provide real-time weather updates, and forecasts.",
+        "src": "src/assets/project/weather-app.png",
+        "skill": [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "axios",
+            "Open Weather API"
+        ],
+        "category": "PERSONAL"
+    },
+    {
+        "name": "Chatroom",
+        "desc": "A chat client developed to facilitate real-time conversation.",
+        "src": "src/assets/project/chatroom.png",
+        "skill": [
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "JavaScript",
+            "WebSocket",
+            "Tailwind",
+            "Node.js",
+            "Express"
+        ],
+        "category": "PERSONAL"
+    },
+    {
+        "name": "To-Do App",
+        "desc": "An application developed to help organize tasks, and track progress efficiently.",
+        "src": "src/assets/project/todo-app.png",
+        "skill": [
+            "HTML",
+            "CSS",
+            "VanillaJS"
+        ],
+        "category": "PERSONAL"
+    },
+    {
+        "name": "Chatbot",
+        "desc": "A chatbot developed to provide instant responses, answers questions regarding the shop.",
+        "src": "src/assets/project/chatbot.png",
+        "skill": [
+            "HTML",
+            "CSS",
+            "VanillaJS",
+            "audio"
+        ],
+        "category": "PERSONAL"
+    },
+    {
+        "name": "Rentwise (Green IT Infrastructure)",
+        "desc": "A green IT company that provides rental, resale & IT asset disposition solutions.",
+        "src": "src/assets/project/rentwise.png",
+        "skill": [
+            "WordPress",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Web Hosting",
+            "SEO",
+            "Caching"
+        ],
+        "category": "COMPANY"
+    },
+    {
+        "name": "Greater Stay (Hotel Booking)",
+        "desc": "A hotel booking company offering services for Est. Bangsar and J.Dupion Boutique Suites.",
+        "src": "src/assets/project/greaterstay.png",
+        "skill": [
+            "WordPress",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Web Hosting",
+            "SEO",
+            "Caching",
+            "E-Commerce"
+        ],
+        "category": "COMPANY"
+    },
+    {
+        "name": "ARK Halal (Halal Business Consultant)",
+        "desc": "A company that provide halal solutions to food establishments, processing plants, ingredients suppliers, as well as importers, exporters, and abattoirs.",
+        "src": "src/assets/project/arkhalal.png",
+        "skill": [
+            "WordPress",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Web Hosting",
+            "SEO",
+            "Caching"
+        ],
+        "category": "COMPANY"
+    },
+    {
+        "name": "Go.Travel, Smart Tourism Mobile App",
+        "desc": "A mobile app that provide real-time location tracking and suggestions for nearby places.",
+        "src": "src/assets/project/fyp-homepage.png",
+        "skill": [
+            "Java",
+            "Firebase",
+            "Google Location API",
+            "Google Maps API",
+            "Android Studio"
+        ],
+        "category": "PERSONAL"
+    }
+]
