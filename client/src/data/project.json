@@ -2,7 +2,7 @@
     {
         "name": "Project Management System",
         "desc": "A system developed to streamline project planning, task management, and progress tracking.",
-        "src": "src/assets/project/project-mgmt-sys.png",
+        "src": "assets/project/project-mgmt-sys.png",
         "skill": [
             "React",
             "Redux",
@@ -21,7 +21,7 @@
     {
         "name": "E-Claim System",
         "desc": "A system developed to streamline claim submission, and approval processes.",
-        "src": "src/assets/project/e-claim-system.png",
+        "src": "assets/project/e-claim-system.png",
         "skill": [
             "HTML",
             "CSS",
@@ -38,7 +38,7 @@
     {
         "name": "IoT Monitoring System",
         "desc": "A platform developed to monitor and manage IoT devices.",
-        "src": "src/assets/project/iot-monitoring-system.png",
+        "src": "assets/project/iot-monitoring-system.png",
         "skill": [
             "HTML",
             "CSS",
@@ -56,7 +56,7 @@
     {
         "name": "Aspen Spectra Website",
         "desc": "Official website of Aspen Spectra Sdn Bhd company.",
-        "src": "src/assets/project/aspen-website.png",
+        "src": "assets/project/aspen-website.png",
         "skill": [
             "WordPress",
             "HTML",
@@ -72,7 +72,7 @@
     {
         "name": "Inventory Management System",
         "desc": "A system developed to streamline the recording, tracking, and management of inventory.",
-        "src": "src/assets/project/inventory-mgmt-sys.png",
+        "src": "assets/project/inventory-mgmt-sys.png",
         "skill": [
             "HTML",
             "CSS",
@@ -88,7 +88,7 @@
     {
         "name": "Weather App",
         "desc": "An application developed to provide real-time weather updates, and forecasts.",
-        "src": "src/assets/project/weather-app.png",
+        "src": "assets/project/weather-app.png",
         "skill": [
             "React",
             "JavaScript",
@@ -103,7 +103,7 @@
     {
         "name": "Chatroom",
         "desc": "A chat client developed to facilitate real-time conversation.",
-        "src": "src/assets/project/chatroom.png",
+        "src": "assets/project/chatroom.png",
         "skill": [
             "HTML",
             "CSS",
@@ -119,7 +119,7 @@
     {
         "name": "To-Do App",
         "desc": "An application developed to help organize tasks, and track progress efficiently.",
-        "src": "src/assets/project/todo-app.png",
+        "src": "assets/project/todo-app.png",
         "skill": [
             "HTML",
             "CSS",
@@ -130,7 +130,7 @@
     {
         "name": "Chatbot",
         "desc": "A chatbot developed to provide instant responses, answers questions regarding the shop.",
-        "src": "src/assets/project/chatbot.png",
+        "src": "assets/project/chatbot.png",
         "skill": [
             "HTML",
             "CSS",
@@ -142,7 +142,7 @@
     {
         "name": "Rentwise (Green IT Infrastructure)",
         "desc": "A green IT company that provides rental, resale & IT asset disposition solutions.",
-        "src": "src/assets/project/rentwise.png",
+        "src": "assets/project/rentwise.png",
         "skill": [
             "WordPress",
             "HTML",
@@ -158,7 +158,7 @@
     {
         "name": "Greater Stay (Hotel Booking)",
         "desc": "A hotel booking company offering services for Est. Bangsar and J.Dupion Boutique Suites.",
-        "src": "src/assets/project/greaterstay.png",
+        "src": "assets/project/greaterstay.png",
         "skill": [
             "WordPress",
             "HTML",
@@ -175,7 +175,7 @@
     {
         "name": "ARK Halal (Halal Business Consultant)",
         "desc": "A company that provide halal solutions to food establishments, processing plants, ingredients suppliers, as well as importers, exporters, and abattoirs.",
-        "src": "src/assets/project/arkhalal.png",
+        "src": "assets/project/arkhalal.png",
         "skill": [
             "WordPress",
             "HTML",
@@ -191,7 +191,7 @@
     {
         "name": "Go.Travel, Smart Tourism Mobile App",
         "desc": "A mobile app that provide real-time location tracking and suggestions for nearby places.",
-        "src": "src/assets/project/fyp-homepage.png",
+        "src": "assets/project/fyp-homepage.png",
         "skill": [
             "Java",
             "Firebase",

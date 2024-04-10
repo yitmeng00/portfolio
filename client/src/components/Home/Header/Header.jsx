@@ -38,7 +38,7 @@ export function Header() {
                     </div>
                     <div className="hidden lg:block">
                         <img
-                            src="src/assets/home/code-typing-illustration.png"
+                            src="assets/home/code-typing-illustration.png"
                             alt="header-img"
                             className="size-2/3"
                         />
