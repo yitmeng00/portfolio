@@ -5,10 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Page Not Found</title>
         <script>
-            window.location.replace("/portfolio/");
+            // Redirect to the requested URL for single-page applications （SPAs）
+            window.location.replace(`/portfolio/${window.location.pathname}`);
         </script>
     </head>
     <body>
-        <!-- You can add custom content for your 404 page if needed -->
+        <p>Redirecting...</p>
     </body>
 </html>
