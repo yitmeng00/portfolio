@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { NavbarBtn } from "../../components/Navbar";
 import Navbar from "../../layouts/Navbar";
+import Footer from "../../layouts/Footer";
+import { Project } from "../../components/Project";
 
 export function ProjectPage() {
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -14,7 +16,10 @@ export function ProjectPage() {
             <section>
                 <NavbarBtn toggleNavbar={toggleNavbar} />
                 {navbarOpen ? <Navbar /> : null}
-                <div className="relative">Project</div>
+                <div className="relative">
+                    <Project />
+                    <Footer />
+                </div>
             </section>
         </>
     );
