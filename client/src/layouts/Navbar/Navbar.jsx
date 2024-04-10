@@ -10,7 +10,7 @@ export function Navbar() {
                     className="flex flex-col lg:gap-20 gap-10 items-center text-primary-600 navbar-heading font-medium"
                 >
                     <div className="hover:text-primary-200 hover:underline hover:decoration-wavy hover:decoration-primary-500">
-                        <NavLink to={"/portfolio"}>
+                        <NavLink to={"/portfolio/"}>
                             <p>Home</p>
                         </NavLink>
                     </div>
