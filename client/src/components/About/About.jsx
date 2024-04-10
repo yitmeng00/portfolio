@@ -234,6 +234,30 @@ FUNFACTS.forEach((funfact, index) => {
                     </div>
                 </div>
             </div>
+            <div className="xl:px-40 lg:px-32 px-10 py-10">
+                <div>
+                    <h2>ACHIEVEMENT</h2>
+                </div>
+                <div className="flex flex-col">
+                    <div>
+                        <div className="flex sm:flex-row flex-col sm:justify-between">
+                            <div className="font-bold">
+                                <h6>Enterprise Design Thinking Practitioner</h6>
+                            </div>
+                            <div className="font-light">
+                                <h6>March 10, 2022</h6>
+                            </div>
+                        </div>
+                        <div className="mb-2">
+                            <h6>
+                                Issued by IBM, this badge showcases proficiency
+                                in leveraging design thinking methodologies for
+                                enterprise-level problem-solving.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }
