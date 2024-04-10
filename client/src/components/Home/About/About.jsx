@@ -11,7 +11,7 @@ export function About() {
                         <h2>ABOUT</h2>
                     </div>
                     <div className="hover:text-primary-400 text-2xl relative group/item">
-                        <NavLink to={"/about"}>
+                        <NavLink to={"/portfolio/about"}>
                             <PiArrowSquareOutLight />
                         </NavLink>
                         <div className="absolute top-0 left-8 invisible group-hover/item:visible">

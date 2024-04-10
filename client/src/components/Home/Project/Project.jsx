@@ -9,7 +9,7 @@ export function Project() {
                     <h2>PROJECTS</h2>
                 </div>
                 <div className="hover:text-primary-400 text-2xl relative group/item">
-                    <NavLink to={"/projects"}>
+                    <NavLink to={"/portfolio/projects"}>
                         <PiArrowSquareOutLight />
                     </NavLink>
                     <div className="absolute top-0 left-8 invisible group-hover/item:visible">

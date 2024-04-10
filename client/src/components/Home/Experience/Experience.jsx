@@ -9,7 +9,7 @@ export function Experience() {
                     <h2>EXPERIENCES</h2>
                 </div>
                 <div className="hover:text-primary-400 text-2xl relative group/item">
-                    <NavLink to={"/experiences"}>
+                    <NavLink to={"/portfolio/experiences"}>
                         <PiArrowSquareOutLight />
                     </NavLink>
                     <div className="absolute top-0 left-8 invisible group-hover/item:visible">
