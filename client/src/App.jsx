@@ -7,10 +7,10 @@ import { ProjectPage } from "./pages/Project/ProjectPage.jsx";
 function App() {
     return (
         <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/experiences" element={<ExperiencePage />} />
-            <Route path="/projects" element={<ProjectPage />} />
+            <Route path="/portfolio" element={<HomePage />} />
+            <Route path="/portfolio/about" element={<AboutPage />} />
+            <Route path="/portfolio/experiences" element={<ExperiencePage />} />
+            <Route path="/portfolio/projects" element={<ProjectPage />} />
         </Routes>
     );
 }
