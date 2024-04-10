@@ -5,8 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Page Not Found</title>
         <script>
-            // Redirect to the requested URL for single-page applications （SPAs）
-            window.location.replace("/portfolio/" + window.location.pathname);
+            // Get the base URL without the current pathname
+            const baseUrl = window.location.href.replace(
+                window.location.pathname,
+                "/portfolio/"
+            );
+
+            // Redirect to the requested URL for single-page applications (SPAs)
+            window.location.replace(baseUrl + window.location.pathname);
         </script>
     </head>
     <body>
