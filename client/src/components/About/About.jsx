@@ -87,6 +87,9 @@ FUNFACTS.forEach((funfact, index) => {
                                 <h6>React</h6>
                             </div>
                             <div>
+                                <h6>Vite</h6>
+                            </div>
+                            <div>
                                 <h6>JavaScript</h6>
                             </div>
                             <div>
@@ -119,6 +122,12 @@ FUNFACTS.forEach((funfact, index) => {
                             </div>
                             <div>
                                 <h6>Express</h6>
+                            </div>
+                            <div>
+                                <h6>Sequelize</h6>
+                            </div>
+                            <div>
+                                <h6>Mongoose</h6>
                             </div>
                             <div>
                                 <h6>PHP</h6>

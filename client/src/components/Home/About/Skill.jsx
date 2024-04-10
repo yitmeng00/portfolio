@@ -14,6 +14,9 @@ export function Skill() {
                             <h6>React</h6>
                         </div>
                         <div>
+                            <h6>Vite</h6>
+                        </div>
+                        <div>
                             <h6>JavaScript</h6>
                         </div>
                         <div>
@@ -46,6 +49,12 @@ export function Skill() {
                         </div>
                         <div>
                             <h6>Express</h6>
+                        </div>
+                        <div>
+                            <h6>Sequelize</h6>
+                        </div>
+                        <div>
+                            <h6>Mongoose</h6>
                         </div>
                         <div>
                             <h6>PHP</h6>
