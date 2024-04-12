@@ -41,7 +41,9 @@ export function Chatbot() {
                             <h6>
                                 I developed a Chatbot as part of my personal
                                 project aimed at providing instant responses and
-                                answering questions regarding the shop.
+                                answering questions regarding the shop. The idea
+                                for the conversation background is inspired by
+                                WhatsApp.
                             </h6>
                             <h6>
                                 The key focus of this Chatbot is its ability to
