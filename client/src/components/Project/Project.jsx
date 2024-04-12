@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import projects from "../../data/project.json";
 
 export function Project() {
@@ -52,31 +53,35 @@ export function Project() {
                 {filteredProjects.map((project, index) => (
                     <div
                         key={index}
-                        className="p-10 shadow-lg hover:scale-105 transition duration-150 cursor-pointer"
+                        className="shadow-lg hover:scale-105 transition duration-150"
                     >
-                        <div className="mb-3">
-                            <img
-                                src={project.src}
-                                alt={project.name}
-                                className="w-full max-h-52 object-cover"
-                            />
-                        </div>
-                        <div className="text-sm font-bold">
-                            <p>{project.name}</p>
-                        </div>
-                        <div className="text-sm mb-3">
-                            <p>{project.desc}</p>
-                        </div>
-                        <div className="flex flex-wrap gap-3">
-                            {project.skill.map((skill, index) => (
-                                <div
-                                    key={index}
-                                    className="rounded border border-black px-2 py-1 text-sm"
-                                >
-                                    <p>{skill}</p>
+                        <NavLink to={`/portfolio/projects/${project.path}`}>
+                            <div className="p-10">
+                                <div className="mb-3">
+                                    <img
+                                        src={project.src}
+                                        alt={project.name}
+                                        className="w-full max-h-52 object-cover"
+                                    />
                                 </div>
-                            ))}
-                        </div>
+                                <div className="text-sm font-bold">
+                                    <p>{project.name}</p>
+                                </div>
+                                <div className="text-sm mb-3">
+                                    <p>{project.desc}</p>
+                                </div>
+                                <div className="flex flex-wrap gap-3">
+                                    {project.skill.map((skill, index) => (
+                                        <div
+                                            key={index}
+                                            className="rounded border border-black px-2 py-1 text-sm"
+                                        >
+                                            <p>{skill}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </NavLink>
                     </div>
                 ))}
             </div>

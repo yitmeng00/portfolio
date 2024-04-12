@@ -16,6 +16,9 @@ export default {
                     600: "#504538",
                 },
             },
+            maxHeight: {
+                projectimg: "35em",
+            },
         },
     },
     plugins: [],
