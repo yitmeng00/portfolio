@@ -51,8 +51,7 @@ FUNFACTS.forEach((funfact, index) => {
                     <h6>
                         And hey, life's not just about work; I love sports too
                         such as badminton, tennis, jogging, swimming, and
-                        hiking. I'm game for anything that gets the adrenaline
-                        pumping. Besides sports, I'm big on giving back. Whether
+                        hiking. Besides sports, I'm big on giving back. Whether
                         it's getting my hands dirty planting trees, lending a
                         paw at the local pet shelter, or doing my bit for
                         cleaner beaches, I believe in making a positive mark
@@ -258,11 +257,11 @@ FUNFACTS.forEach((funfact, index) => {
                             </div>
                         </div>
                         <div className="mb-2">
-                            <h6>
+                            <p>
                                 Issued by IBM, this badge showcases proficiency
                                 in leveraging design thinking methodologies for
                                 enterprise-level problem-solving.
-                            </h6>
+                            </p>
                         </div>
                     </div>
                 </div>
