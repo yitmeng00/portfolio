@@ -16,6 +16,7 @@
             "MySQL",
             "REST"
         ],
+        "path": "project-mgmt-sys",
         "category": "COMPANY"
     },
     {
@@ -33,6 +34,7 @@
             "MySQL",
             "Google Maps API"
         ],
+        "path": "e-claim-system",
         "category": "COMPANY"
     },
     {
@@ -51,10 +53,11 @@
             "MongoDB",
             "Weather API"
         ],
+        "path": "iot-monitoring-system",
         "category": "COMPANY"
     },
     {
-        "name": "Aspen Spectra Website",
+        "name": "Aspen Spectra",
         "desc": "Official website of Aspen Spectra Sdn Bhd company.",
         "src": "assets/project/aspen-website.png",
         "skill": [
@@ -67,6 +70,7 @@
             "SEO",
             "Caching"
         ],
+        "path": "aspen-website",
         "category": "COMPANY"
     },
     {
@@ -76,6 +80,7 @@
         "skill": [
             "HTML",
             "CSS",
+            "Bootstrap",
             "JavaScript",
             "jQuery",
             "PHP",
@@ -83,6 +88,7 @@
             "Chart.js",
             "xlsx"
         ],
+        "path": "inventory-mgmt-sys",
         "category": "PERSONAL"
     },
     {
@@ -99,6 +105,7 @@
             "axios",
             "Open Weather API"
         ],
+        "path": "weather-app",
         "category": "PERSONAL"
     },
     {
@@ -111,10 +118,10 @@
             "Tailwind",
             "JavaScript",
             "WebSocket",
-            "Tailwind",
             "Node.js",
             "Express"
         ],
+        "path": "chatroom",
         "category": "PERSONAL"
     },
     {
@@ -126,6 +133,7 @@
             "CSS",
             "VanillaJS"
         ],
+        "path": "todo-app",
         "category": "PERSONAL"
     },
     {
@@ -138,6 +146,7 @@
             "VanillaJS",
             "audio"
         ],
+        "path": "chatbot",
         "category": "PERSONAL"
     },
     {
@@ -154,6 +163,7 @@
             "SEO",
             "Caching"
         ],
+        "path": "rentwise",
         "category": "COMPANY"
     },
     {
@@ -171,6 +181,7 @@
             "Caching",
             "E-Commerce"
         ],
+        "path": "greaterstay",
         "category": "COMPANY"
     },
     {
@@ -187,6 +198,7 @@
             "SEO",
             "Caching"
         ],
+        "path": "arkhalal",
         "category": "COMPANY"
     },
     {
@@ -198,8 +210,10 @@
             "Firebase",
             "Google Location API",
             "Google Maps API",
+            "News API",
             "Android Studio"
         ],
+        "path": "go-travel",
         "category": "PERSONAL"
     }
 ]

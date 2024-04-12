@@ -19,9 +19,11 @@ export function Project() {
             </div>
             <div className="flex flex-col gap-10">
                 <div>
-                    <div className="font-bold">
-                        <h6>Project Management System</h6>
-                    </div>
+                    <NavLink to={"/portfolio/projects/project-mgmt-sys"}>
+                        <div className="font-bold underline text-primary-600">
+                            <h6>Project Management System</h6>
+                        </div>
+                    </NavLink>
                     <div className="mb-2 text-justify">
                         <h6>
                             A system developed to streamline project planning,
@@ -65,9 +67,11 @@ export function Project() {
                     </div>
                 </div>
                 <div>
-                    <div className="font-bold">
-                        <h6>E-Claim System</h6>
-                    </div>
+                    <NavLink to={"/portfolio/projects/e-claim-system"}>
+                        <div className="font-bold underline text-primary-600">
+                            <h6>E-Claim System</h6>
+                        </div>
+                    </NavLink>
                     <div className="mb-2 text-justify">
                         <h6>
                             A system developed to streamline claim submission
@@ -107,9 +111,11 @@ export function Project() {
                     </div>
                 </div>
                 <div>
-                    <div className="font-bold">
-                        <h6>IoT Monitoring System</h6>
-                    </div>
+                    <NavLink to={"/portfolio/projects/iot-monitoring-system"}>
+                        <div className="font-bold underline text-primary-600">
+                            <h6>IoT Monitoring System</h6>
+                        </div>
+                    </NavLink>
                     <div className="mb-2 text-justify">
                         <h6>
                             A platform developed to monitor and manage IoT
