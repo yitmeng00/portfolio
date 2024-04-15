@@ -27,8 +27,9 @@ export function Experience() {
                             </li>
                             <li>
                                 <p>
-                                    Implemented Agile methodologies for my team,
-                                    increased team productivity by 20%
+                                    Implemented Agile approach for the
+                                    development team, increased team
+                                    productivity by 20%.
                                 </p>
                             </li>
                             <li>
@@ -40,24 +41,21 @@ export function Experience() {
                             </li>
                             <li>
                                 <p>
-                                    Implemented WebSocket for real-time data
-                                    transmission in IoT monitoring system,
-                                    enabling instant updates on environmental
-                                    conditions.
+                                    Involved in an IoT monitoring system
+                                    project, worked on front-end development,
+                                    implemented WebSocket for real-time data
+                                    transmission to enable instant updates on
+                                    environmental conditions.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Designed and developed multiple
-                                    cross-browser compatible and responsive web
-                                    pages across various screen sizes.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Optimized server-side logics and implemented
-                                    Redis for data caching, cutting API response
-                                    time by 69.07%.
+                                    Involved in a project management system
+                                    project, worked on full-stack development,
+                                    implemented Redis for data caching, cutting
+                                    API response time by an average of 69.07%,
+                                    packaged the system in a Docker container on
+                                    the server.
                                 </p>
                             </li>
                             <li>
@@ -69,16 +67,17 @@ export function Experience() {
                             </li>
                             <li>
                                 <p>
-                                    Setup database replication with data backup
-                                    and recovery strategies, ensuring 100% data
-                                    availability and minimizing system downtime.
+                                    Performed database replication with data
+                                    backup and recovery strategies for MySQL and
+                                    MongoDB, ensuring 100% data availability and
+                                    minimizing system downtime.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Reduced query execution time by 53.16%
-                                    through the optimization of the database
-                                    with indexes and stored procedures.
+                                    Reduced query execution time by an average
+                                    of 53.16% through the optimization of the
+                                    database with indexes and stored procedures.
                                 </p>
                             </li>
                         </ul>

@@ -97,6 +97,12 @@ export function ProjectMgmtSys() {
                             <div className="rounded border border-black px-2 py-1">
                                 <p>REST</p>
                             </div>
+                            <div className="rounded border border-black px-2 py-1">
+                                <p>Redis</p>
+                            </div>
+                            <div className="rounded border border-black px-2 py-1">
+                                <p>Docker</p>
+                            </div>
                         </div>
                     </div>
                 </div>
