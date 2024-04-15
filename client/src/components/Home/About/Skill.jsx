@@ -86,6 +86,9 @@ export function Skill() {
                             <h6>Agile</h6>
                         </div>
                         <div>
+                            <h6>Docker</h6>
+                        </div>
+                        <div>
                             <h6>Git</h6>
                         </div>
                         <div>

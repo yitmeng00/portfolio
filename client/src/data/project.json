@@ -14,7 +14,9 @@
             "Express",
             "Sequelize",
             "MySQL",
-            "REST"
+            "REST",
+            "Redis",
+            "Docker"
         ],
         "path": "project-mgmt-sys",
         "category": "COMPANY"
