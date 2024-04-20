@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import CodeBlock from "./CodeBlock";
+import { PiArrowSquareOutLight } from "react-icons/pi";
 
 export function About() {
     const code = `const FUNFACTS = [
@@ -249,7 +250,91 @@ FUNFACTS.forEach((funfact, index) => {
                 <div>
                     <h2>ACHIEVEMENT</h2>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col gap-8">
+                    <div>
+                        <div className="flex sm:flex-row flex-col sm:justify-between">
+                            <div className="font-bold">
+                                <h6>JavaScript Essentials 2</h6>
+                            </div>
+                            <div className="font-light">
+                                <h6>April 20, 2024</h6>
+                            </div>
+                        </div>
+                        <div className="mb-2">
+                            <h6>Issued by Cisco</h6>
+                        </div>
+                        <div className="flex sm:flex-row flex-col gap-5 sm:items-center">
+                            <div>
+                                <img
+                                    className="size-40 max-w-max"
+                                    src="assets/achievement/javascript-essentials-2.png"
+                                    alt="javascript-essentials-2"
+                                />
+                            </div>
+                            <div className="flex flex-col gap-2">
+                                <p>
+                                    This badge showcases proficiency in advanced
+                                    JavaScript coding techniques, including
+                                    class-based and classless approaches in
+                                    object-oriented programming, familiarity
+                                    with a curated range of built-in objects to
+                                    extend programming capabilities, and the
+                                    ability to manage complex data structures
+                                    such as Map and Set, alongside expertise in
+                                    asynchronous programming.
+                                </p>
+                                <NavLink
+                                    to={`https://www.credly.com/badges/5ac0b97a-559e-4d2f-ba57-487176f1a454/`}
+                                >
+                                    <div className="flex flex-row items-center gap-2 border border-primary-600 rounded w-max px-2 py-1">
+                                        <button>Show credential</button>
+                                        <PiArrowSquareOutLight />
+                                    </div>
+                                </NavLink>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="flex sm:flex-row flex-col sm:justify-between">
+                            <div className="font-bold">
+                                <h6>JavaScript Essentials 1</h6>
+                            </div>
+                            <div className="font-light">
+                                <h6>April 19, 2024</h6>
+                            </div>
+                        </div>
+                        <div className="mb-2">
+                            <h6>Issued by Cisco</h6>
+                        </div>
+                        <div className="flex sm:flex-row flex-col gap-5 sm:items-center">
+                            <div>
+                                <img
+                                    className="size-40 max-w-max"
+                                    src="assets/achievement/javascript-essentials-1.png"
+                                    alt="javascript-essentials-1"
+                                />
+                            </div>
+                            <div className="flex flex-col gap-2">
+                                <p>
+                                    This badge showcases proficiency in core
+                                    JavaScript syntax, variable manipulation,
+                                    flow control, function implementation, data
+                                    type understanding, algorithmic thinking,
+                                    problem analysis using programming concepts,
+                                    and the development of simple JavaScript
+                                    programs.
+                                </p>
+                                <NavLink
+                                    to={`https://www.credly.com/badges/b6ebcea4-fc74-4c52-afc9-5cd5c872f7e9/`}
+                                >
+                                    <div className="flex flex-row items-center gap-2 border border-primary-600 rounded w-max px-2 py-1">
+                                        <button>Show credential</button>
+                                        <PiArrowSquareOutLight />
+                                    </div>
+                                </NavLink>
+                            </div>
+                        </div>
+                    </div>
                     <div>
                         <div className="flex sm:flex-row flex-col sm:justify-between">
                             <div className="font-bold">
@@ -260,11 +345,31 @@ FUNFACTS.forEach((funfact, index) => {
                             </div>
                         </div>
                         <div className="mb-2">
-                            <p>
-                                Issued by IBM, this badge showcases proficiency
-                                in leveraging design thinking methodologies for
-                                enterprise-level problem-solving.
-                            </p>
+                            <h6>Issued by IBM</h6>
+                        </div>
+                        <div className="flex sm:flex-row flex-col gap-5 sm:items-center">
+                            <div>
+                                <img
+                                    className="size-40 max-w-max"
+                                    src="assets/achievement/enterprise-design-thinking-practitioner.png"
+                                    alt="enterprise-design-thinking-practitioner"
+                                />
+                            </div>
+                            <div className="flex flex-col gap-2">
+                                <p>
+                                    This badge showcases proficiency in
+                                    leveraging design thinking methodologies for
+                                    enterprise-level problem-solving.
+                                </p>
+                                <NavLink
+                                    to={`https://www.credly.com/badges/4ebf470a-099e-45a9-b479-c053c0087788/`}
+                                >
+                                    <div className="flex flex-row items-center gap-2 border border-primary-600 rounded w-max px-2 py-1">
+                                        <button>Show credential</button>
+                                        <PiArrowSquareOutLight />
+                                    </div>
+                                </NavLink>
+                            </div>
                         </div>
                     </div>
                 </div>
