@@ -60,6 +60,15 @@ export function Experience() {
                             </li>
                             <li>
                                 <p>
+                                    Involved in a Milestone integration project,
+                                    worked on back-end development, assisted in
+                                    integrating the Milestone SDK with the door
+                                    access system, enabling the XProtect
+                                    Management Client to show alarm alerts.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
                                     Designed, administered, and maintained
                                     multiple database schemas, including MySQL
                                     and MongoDB.
