@@ -132,6 +132,12 @@ FUNFACTS.forEach((funfact, index) => {
                             <div>
                                 <h6>PHP</h6>
                             </div>
+                            <div>
+                                <h6>C#</h6>
+                            </div>
+                            <div>
+                                <h6>.NET</h6>
+                            </div>
                         </div>
                     </div>
                     <div>
