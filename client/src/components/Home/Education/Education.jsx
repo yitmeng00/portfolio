@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { PiArrowSquareOutLight } from "react-icons/pi";
+import { educations } from "../../../data/education";
 
 export function Education() {
     return (
@@ -18,19 +19,21 @@ export function Education() {
                 </div>
             </div>
             <div className="flex flex-col">
-                <div>
-                    <div className="flex sm:flex-row flex-col sm:justify-between">
-                        <div className="font-bold">
-                            <h6>UCSI University</h6>
+                {educations.map((education) => (
+                    <div key={education.id}>
+                        <div className="flex sm:flex-row flex-col sm:justify-between">
+                            <div className="font-bold">
+                                <h6>{education.institution}</h6>
+                            </div>
+                            <div className="font-light">
+                                <h6>{education.duration}</h6>
+                            </div>
                         </div>
-                        <div className="font-light">
-                            <h6>May 2019 - April 2022</h6>
+                        <div>
+                            <h6>{education.degree}</h6>
                         </div>
                     </div>
-                    <div>
-                        <h6>Bachelor of Computer Science</h6>
-                    </div>
-                </div>
+                ))}
             </div>
         </section>
     );
