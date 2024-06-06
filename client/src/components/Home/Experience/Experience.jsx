@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { PiArrowSquareOutLight } from "react-icons/pi";
+import { experiences } from "../../../data/experience";
 
 export function Experience() {
     return (
@@ -18,58 +19,24 @@ export function Experience() {
                 </div>
             </div>
             <div className="flex flex-col gap-10">
-                <div>
-                    <div className="flex sm:flex-row flex-col sm:justify-between">
-                        <div className="font-bold">
-                            <h6>Aspen Spectra Sdn Bhd</h6>
+                {experiences
+                    .sort((a, b) => b.id - a.id)
+                    .slice(0, 3)
+                    .map((experience) => (
+                        <div key={experience.id}>
+                            <div className="flex sm:flex-row flex-col sm:justify-between">
+                                <div className="font-bold">
+                                    <h6>{experience.company}</h6>
+                                </div>
+                                <div className="font-light">
+                                    <h6>{experience.period}</h6>
+                                </div>
+                            </div>
+                            <div>
+                                <h6>{experience.title}</h6>
+                            </div>
                         </div>
-                        <div className="font-light">
-                            <h6>May 2022 - Present</h6>
-                        </div>
-                    </div>
-                    <div>
-                        <h6>Full Stack Software Engineer</h6>
-                    </div>
-                </div>
-                <div>
-                    <div className="flex sm:flex-row flex-col sm:justify-between">
-                        <div className="font-bold">
-                            <h6>IBM</h6>
-                        </div>
-                        <div className="font-light">
-                            <h6>January 2022 - April 2022</h6>
-                        </div>
-                    </div>
-                    <div>
-                        <h6>Web Application Developer Intern</h6>
-                    </div>
-                </div>
-                <div>
-                    <div className="flex sm:flex-row flex-col sm:justify-between">
-                        <div className="font-bold">
-                            <h6>W. I. T. Solution</h6>
-                        </div>
-                        <div className="font-light">
-                            <h6>September 2021 - December 2021</h6>
-                        </div>
-                    </div>
-                    <div>
-                        <h6>Full Stack Developer Intern</h6>
-                    </div>
-                </div>
-                <div>
-                    <div className="flex sm:flex-row flex-col sm:justify-between">
-                        <div className="font-bold">
-                            <h6>W. I. T. Solution</h6>
-                        </div>
-                        <div className="font-light">
-                            <h6>July 2020 - April 2021</h6>
-                        </div>
-                    </div>
-                    <div>
-                        <h6>Part Time Web Developer</h6>
-                    </div>
-                </div>
+                    ))}
             </div>
         </section>
     );

@@ -1,0 +1,66 @@
+export const experiences = [
+    {
+        id: 1,
+        company: "Trigle Dynamic",
+        period: "September 2019 - March 2021",
+        title: "Seasonal Event Crew",
+        responsibilities: [
+            "Assisted in the setup, and dismantle of the event.",
+            "Assisted in coordinating event schedules, activities, and resources to ensure smooth operations.",
+            "Provided exceptional customer service by addressing customer concerns.",
+        ],
+    },
+    {
+        id: 2,
+        company: "W. I. T. Solution",
+        period: "July 2020 - April 2021",
+        title: "Part Time Web Developer",
+        responsibilities: [
+            "Designed and developed responsive WordPress websites for clients.",
+            "Implemented SEO best practices within WordPress websites.",
+            "Optimized website performance through techniques like image optimization and caching.",
+        ],
+    },
+    {
+        id: 3,
+        company: "W. I. T. Solution",
+        period: "September 2021 - December 2021",
+        title: "Full Stack Developer Intern",
+        responsibilities: [
+            "Collaborated with the software development team to develop additional features for an internal project for TM client.",
+            "Wrote and tested server-side logics, integrating them with front-end screens and ensuring their functionality.",
+            "Administered and managed the MySQL database.",
+        ],
+    },
+    {
+        id: 4,
+        company: "IBM",
+        period: "January 2022 - April 2022",
+        title: "Web Application Developer Intern",
+        responsibilities: [
+            "Involved in the entire application lifecycle within a development team to build a Workflow Automation System in an Agile environment.",
+            "Collaborated closely with front-end developers to integrate front-end screens with server-side logics.",
+            "Ensured the system’s ability to interact with multiple APIs and databases, including MySQL and MongoDB.",
+            "Designed and developed custom REST APIs using C#, and ASP.NET",
+            "Troubleshooted, debugged, and improved server-side logics to ensure functionality and scalability.",
+        ],
+    },
+    {
+        id: 5,
+        company: "Aspen Spectra Sdn Bhd",
+        period: "May 2022 - June 2024",
+        title: "Full Stack Software Engineer",
+        responsibilities: [
+            "Involved in the entire application lifecycle within a development team for every project.",
+            "Implemented Agile approach for the development team, increased team productivity by 20%.",
+            "Led the successful development of an e-claim system to streamline claim processes, reducing process time by 75%.",
+            "Involved in an IoT monitoring system project, worked on front-end development, implemented WebSocket for real-time data transmission to enable instant updates on environmental conditions.",
+            "Involved in a project management system project, worked on full-stack development, implemented Redis for data caching, cutting API response time by an average of 69.07%, packaged the system in a Docker container on the server.",
+            "Involved in a inventory management system project, worked on back-end development, integrated RFID SDK for mobile app.",
+            "Involved in a Milestone integration project, worked on back-end development, assisted in integrating the Milestone SDK with the door access system, enabling the XProtect Management Client to show alarm alerts.",
+            "Designed, administered, and maintained multiple database schemas, including MySQL and MongoDB.",
+            "Performed database replication with data backup and recovery strategies for MySQL and MongoDB, ensuring 100% data availability and minimizing system downtime.",
+            "Reduced query execution time by an average of 53.16% through the optimization of the database with indexes and stored procedures.",
+        ],
+    },
+];
