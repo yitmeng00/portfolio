@@ -1,0 +1,20 @@
+# editorconfig.org
+# top-most EditorConfig file
+root = true
+
+# These settings apply to all files.
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# JavaScript and TypeScript files
+[*.{js,ts}]
+max_line_length = 100
+
+# JSX and TSX files
+[*.{jsx,tsx}]
+max_line_length = 100
