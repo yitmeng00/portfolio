@@ -1,0 +1,9 @@
+.about__container {
+  h2 {
+    @apply font-bold mb-3;
+  }
+
+  h6 {
+    @apply text-justify mb-4 tracking-wide;
+  }
+}
