@@ -10,7 +10,7 @@ const Redirect = ({ children }: RedirectProps) => {
   const router = useRouter();
 
   useEffect(() => {
-    router.push("/portfolio/home");
+    router.push("/portfolio");
   }, [router]);
 
   return <>{children}</>;
