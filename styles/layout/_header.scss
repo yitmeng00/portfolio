@@ -1,0 +1,23 @@
+#home-header__container {
+  @apply flex flex-row items-center gap-2 h-screen bg-primary-200 p-8 sm:p-36 lg:p-48;
+
+  .header__heading-wrapper {
+    @apply flex flex-col gap-3;
+
+    h1 span {
+      @apply font-extrabold text-primary-600;
+    }
+
+    .header__icon-wrapper {
+      @apply flex flex-row gap-1;
+
+      svg {
+        @apply hover:text-primary-600;
+      }
+    }
+  }
+
+  .header__img {
+    @apply hidden lg:block;
+  }
+}
