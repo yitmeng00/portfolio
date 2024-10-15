@@ -8,7 +8,7 @@ const HomeHeader: React.FC = () => {
     <header id="home-header__container">
       <div className="header__heading-wrapper">
         <h3>
-          Hello, my name is <span className="underline">Ivan</span>.
+          Hello, my name is <span>Ivan</span>.
         </h3>
         <h5>
           I am a full-stack software engineer focused on developing impactful and scalable system,
