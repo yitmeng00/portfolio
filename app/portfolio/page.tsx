@@ -1,7 +1,6 @@
 "use client";
 
-import HomeAbout from "@/ui/features/about/About";
-import HomeHeader from "@/ui/components/HomeHeader";
+import { HomeHeader } from "@/ui/features/home";
 import PageContainer from "@/ui/components/PageContainer";
 
 const HomePage = () => {
