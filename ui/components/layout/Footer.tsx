@@ -1,6 +1,6 @@
 import CopyrightIcon from "@mui/icons-material/Copyright";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer>
       <CopyrightIcon fontSize="small" />
