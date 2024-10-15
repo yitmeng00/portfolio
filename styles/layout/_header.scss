@@ -4,8 +4,12 @@
   .header__heading-wrapper {
     @apply flex flex-col gap-3;
 
-    h1 span {
-      @apply font-extrabold text-primary-600;
+    h3 {
+      @apply md:text-6xl;
+
+      span {
+        @apply font-extrabold text-primary-600;
+      }
     }
 
     .header__icon-wrapper {
@@ -20,4 +24,8 @@
   .header__img {
     @apply hidden lg:block;
   }
+}
+
+.main-header__container {
+  @apply bg-primary-200 px-10 py-24 text-center text-primary-600 font-bold;
 }

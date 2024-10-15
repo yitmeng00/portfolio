@@ -3,17 +3,17 @@ import Link from "next/link";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-const HomeHeader = () => {
+const HomeHeader: React.FC = () => {
   return (
     <header id="home-header__container">
       <div className="header__heading-wrapper">
-        <h1>
+        <h3>
           Hello, my name is <span className="underline">Ivan</span>.
-        </h1>
-        <h4>
+        </h3>
+        <h5>
           I am a full-stack software engineer focused on developing impactful and scalable system,
           software, and web application.
-        </h4>
+        </h5>
         <div className="header__icon-wrapper">
           <Link href={"https://www.linkedin.com/in/yitmengwong/"}>
             <LinkedInIcon fontSize="large" />
