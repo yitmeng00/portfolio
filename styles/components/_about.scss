@@ -11,7 +11,7 @@
 }
 
 .skill__wrapper {
-  @apply flex flex-col gap-2 pb-5;
+  @apply flex flex-col gap-2;
 
   h6 {
     @apply font-bold underline;
@@ -30,6 +30,6 @@
   @apply flex flex-row gap-2;
 
   .journey__year {
-    @apply font-bold min-w-28;
+    @apply font-bold min-w-32;
   }
 }
