@@ -7,3 +7,19 @@
     @apply font-extrabold text-primary-600 pb-3;
   }
 }
+
+.not-found__container {
+  @apply bg-primary-200 h-screen items-center justify-center flex flex-col gap-3 text-7xl;
+
+  svg {
+    @apply text-primary-600;
+  }
+
+  .not-found__main-heading {
+    @apply font-bold text-primary-600;
+  }
+
+  .not-found__sub-heading {
+    @apply text-primary-600;
+  }
+}
