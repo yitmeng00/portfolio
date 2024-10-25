@@ -25,3 +25,11 @@
 .project__wrapper ul {
   @apply list-disc ps-5;
 }
+
+.journey__wrapper {
+  @apply flex flex-row gap-2;
+
+  .journey__year {
+    @apply font-bold min-w-28;
+  }
+}
