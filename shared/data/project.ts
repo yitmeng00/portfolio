@@ -23,14 +23,14 @@ export const projectData: Project[] = [
   },
   {
     id: 6,
-    name: "Work Company Website",
+    name: "Responsive Website",
   },
   {
     id: 7,
-    name: "Client WordPress Website",
+    name: "WordPress Website",
   },
   {
     id: 8,
-    name: "Go.Travel, Smart Tourism Mobile App - FYP",
+    name: "Smart Tourism Mobile App",
   },
 ];
