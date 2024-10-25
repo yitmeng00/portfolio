@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <CopyrightIcon fontSize="small" />
-      <p> 2024. Designed & Developed by Ivan.</p>
+      <p> 2024 Ivan Wong. All Rights Reserved.</p>
     </footer>
   );
 };
