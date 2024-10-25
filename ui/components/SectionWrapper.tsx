@@ -8,7 +8,7 @@ interface SectionWrapperProps {
 const SectionWrapper: React.FC<SectionWrapperProps> = ({ title, children }) => {
   return (
     <section className="section__wrapper">
-      <h4>{title}</h4>
+      <h5 className="section__title">{title}</h5>
       {children}
     </section>
   );

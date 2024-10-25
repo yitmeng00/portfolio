@@ -3,7 +3,7 @@ import SectionWrapper from "@/ui/components/SectionWrapper";
 
 const Project: React.FC = () => {
   return (
-    <SectionWrapper title="PROJECTS INVOLVED">
+    <SectionWrapper title="PROJECTS">
       <div className="project__wrapper">
         <ul>
           {projectData.map((project) => (

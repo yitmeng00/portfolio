@@ -7,7 +7,6 @@ const Skill: React.FC = () => {
     <SectionWrapper title="TECH STACK">
       {skillData.map((skill) => (
         <div key={skill.id} className="skill__wrapper">
-          <h6>{skill.category.toUpperCase()}</h6>
           <div className="skill__chip-wrapper">
             {skill.techstack.map((tech, index) => (
               <div key={index}>

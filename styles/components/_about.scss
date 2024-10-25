@@ -1,15 +1,17 @@
 .about__container {
+  @apply flex flex-col gap-4;
+
   h3 {
     @apply font-bold mb-3;
   }
 
   h6 {
-    @apply text-justify mb-4 tracking-wide;
+    @apply text-justify tracking-wide;
   }
 }
 
 .skill__wrapper {
-  @apply flex flex-col gap-2 pb-5;
+  @apply flex flex-col gap-2;
 
   h6 {
     @apply font-bold underline;
@@ -22,4 +24,12 @@
 
 .project__wrapper ul {
   @apply list-disc ps-5;
+}
+
+.journey__wrapper {
+  @apply flex flex-row gap-2;
+
+  .journey__year {
+    @apply font-bold min-w-32;
+  }
 }

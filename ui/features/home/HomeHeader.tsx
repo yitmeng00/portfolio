@@ -7,13 +7,13 @@ const HomeHeader: React.FC = () => {
   return (
     <header id="home-header__container">
       <div className="header__heading-wrapper">
-        <h3>
+        <h4 className="header__main-heading">
           Hello, my name is <span>Ivan</span>.
-        </h3>
-        <h5>
-          I am a full-stack software engineer focused on developing impactful and scalable system,
+        </h4>
+        <h6 className="header__sub-heading">
+          I am a full-stack developer based in KL with a passion for building impactful and scalable
           software, and web application.
-        </h5>
+        </h6>
         <div className="header__icon-wrapper">
           <Link href={"https://www.linkedin.com/in/yitmengwong/"}>
             <LinkedInIcon fontSize="large" />

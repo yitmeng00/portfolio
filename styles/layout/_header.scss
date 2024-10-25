@@ -1,15 +1,19 @@
 #home-header__container {
-  @apply flex flex-row items-center gap-2 h-screen bg-primary-200 p-8 sm:p-36 lg:p-48;
+  @apply flex flex-row items-center justify-center gap-7 h-screen bg-primary-200;
 
   .header__heading-wrapper {
-    @apply flex flex-col gap-3;
+    @apply flex flex-col gap-3 w-1/2;
 
-    h3 {
+    .header__main-heading {
       @apply md:text-6xl;
 
       span {
         @apply font-extrabold text-primary-600;
       }
+    }
+
+    .header__sub-heading {
+      @apply md:text-2xl;
     }
 
     .header__icon-wrapper {
