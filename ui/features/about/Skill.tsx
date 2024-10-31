@@ -10,7 +10,17 @@ const Skill: React.FC = () => {
           <div className="skill__chip-wrapper">
             {skill.techstack.map((tech, index) => (
               <div key={index}>
-                <Chip label={tech} variant="outlined" />
+                <Chip
+                  label={tech}
+                  variant="outlined"
+                  sx={{
+                    borderColor: "#504538",
+                    fontFamily: "Poppins, sans-serif",
+                    color: "#504538",
+                    fontWeight: 600,
+                    boxShadow: "rgba(95,85,74,0.75) 1.5px 1.5px 3px",
+                  }}
+                />
               </div>
             ))}
           </div>

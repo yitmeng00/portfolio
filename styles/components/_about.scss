@@ -22,14 +22,14 @@
   }
 }
 
-.project__wrapper ul {
-  @apply list-disc ps-5;
+.project__list-item-wrapper {
+  @apply flex flex-row gap-1 items-center;
 }
 
-.journey__wrapper {
+.bio__wrapper {
   @apply flex flex-row gap-2;
 
-  .journey__year {
-    @apply font-bold min-w-32;
+  .bio__year {
+    @apply font-bold text-primary-600 min-w-32;
   }
 }
