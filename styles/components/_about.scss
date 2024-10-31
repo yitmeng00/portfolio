@@ -22,8 +22,8 @@
   }
 }
 
-.project__wrapper ul {
-  @apply list-disc ps-5;
+.project__list-item-wrapper {
+  @apply flex flex-row gap-1 items-center;
 }
 
 .bio__wrapper {
