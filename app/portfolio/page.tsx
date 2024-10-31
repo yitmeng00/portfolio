@@ -1,7 +1,7 @@
 "use client";
 
 import PageContainer from "@/ui/components/PageContainer";
-import { About, Skill, Project, Journey } from "@/ui/features/about";
+import { About, Skill, Project, Bio } from "@/ui/features/about";
 import { HomeHeader } from "@/ui/features/home";
 import { motion, useScroll } from "framer-motion";
 
@@ -14,7 +14,7 @@ const HomePage = () => {
       <HomeHeader />
       <PageContainer>
         <About />
-        <Journey />
+        <Bio />
         <Skill />
         <Project />
       </PageContainer>
