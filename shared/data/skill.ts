@@ -10,6 +10,7 @@ export const skillData: Skill[] = [
       "JS",
       "TS",
       "Tailwind",
+      "Bulma",
       "Node",
       "Express",
       "PHP",

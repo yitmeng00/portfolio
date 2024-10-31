@@ -1,4 +1,4 @@
 export const aboutData: string[] = [
-  `Hey there! I've always been that kid who asked 'why' a million times and never quite grew out of it. Learning new things has been my passion forever. It's like there's this whole world out there, waiting to be explored, understood, and improved. That's why I dove into the world of technology; it's the modern-day magic wand that makes life more easier, efficient, and convenient.`,
-  `I'm currently a software engineer focused on full-stack web dev, and when I'm not coding, I'm usually into sports or photography. Photography is my zen zone—it's where I get to capture life's beautiful moments in pixels.`,
+  `Hey there! I’m a full-stack developer with a huge appetite for learning, currently focused on full-stack web dev. For me, the best part of being a developer is being able to craft solutions that actually make a difference. Whether it’s developing a feature that improves user experience or building something from scratch that solves a real-life problem, it’s all about using tech as a modern-day magic wand to make life easier, more efficient, and more convenient.`,
+  `When I’m not coding, you’ll likely find me with a camera in hand. Photography is my zen zone—it’s where I get to capture life’s beautiful moments in pixels.`,
 ];
