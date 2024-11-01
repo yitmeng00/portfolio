@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-poppins;
+    @apply font-noto;
   }
 
   h1 {
@@ -45,4 +45,8 @@
 }
 
 @layer utilities {
+  /* Define a utility for the Noto Serif font */
+  .font-noto {
+    font-family: var(--font-noto-serif), serif;
+  }
 }
