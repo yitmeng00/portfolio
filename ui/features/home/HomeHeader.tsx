@@ -7,13 +7,13 @@ const HomeHeader: React.FC = () => {
   return (
     <header id="home-header__container">
       <div className="header__heading-wrapper">
-        <h4 className="header__main-heading">
+        <h2 className="header__main-heading">
           Hello, my name is <span>Ivan</span>.
-        </h4>
-        <h6 className="header__sub-heading">
+        </h2>
+        <p className="header__sub-heading">
           I am a full-stack developer based in KL with a passion for building impactful and scalable
           software, and web application.
-        </h6>
+        </p>
         <div className="header__icon-wrapper">
           <Link href={"https://www.linkedin.com/in/yitmengwong/"}>
             <LinkedInIcon fontSize="large" />
@@ -28,6 +28,11 @@ const HomeHeader: React.FC = () => {
         alt="Header Image"
         width={300}
         height={300}
+        sizes="100vw"
+        style={{
+          width: "25%",
+          height: "auto",
+        }}
         priority={true}
         className="header__img"
       />

@@ -4,31 +4,19 @@
 
 @layer base {
   body {
-    @apply font-poppins;
+    @apply font-noto;
   }
 
   h1 {
-    @apply text-7xl;
+    @apply text-6xl font-black text-primary-600;
   }
 
   h2 {
-    @apply text-6xl;
-  }
-
-  h3 {
-    @apply text-5xl;
-  }
-
-  h4 {
     @apply text-4xl;
   }
 
-  h5 {
-    @apply text-2xl;
-  }
-
   h6 {
-    @apply text-lg;
+    @apply text-2xl text-primary-600;
   }
 
   p {
@@ -40,10 +28,13 @@
   @import "layout/main";
   @import "layout/footer";
   @import "layout/header";
-  @import "layout/navbar";
   @import "components/about";
   @import "components/progress-bar";
 }
 
 @layer utilities {
+  /* Define a utility for the Noto Serif font */
+  .font-noto {
+    font-family: var(--font-noto-serif), serif;
+  }
 }
