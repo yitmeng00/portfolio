@@ -7,9 +7,9 @@ const HomeHeader: React.FC = () => {
   return (
     <header id="home-header__container">
       <div className="header__heading-wrapper">
-        <h4 className="header__main-heading">
+        <h2 className="header__main-heading">
           Hello, my name is <span>Ivan</span>.
-        </h4>
+        </h2>
         <p className="header__sub-heading">
           I am a full-stack developer based in KL with a passion for building impactful and scalable
           software, and web application.
