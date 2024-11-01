@@ -23,6 +23,12 @@ const About: React.FC = () => {
         </span>{" "}
         is my zen zone—it’s where I get to capture life’s beautiful moments in pixels.
       </p>
+      <p className="about__paragraph-item">
+        <span className="about__paragraph-item-heading">FUN FACT:</span> I have a quirky habit of
+        documenting my life. I love capturing everything in my album—the shops I visit, the food I
+        eat, the streets I walk, and even the daily items I buy. It’s my way of turning little
+        moments into lasting memories!
+      </p>
     </section>
   );
 };
