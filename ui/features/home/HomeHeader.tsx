@@ -11,8 +11,7 @@ const HomeHeader: React.FC = () => {
           Hello, my name is <span>Ivan</span>.
         </h2>
         <p className="header__sub-heading">
-          I am a full-stack developer based in KL with a passion for building impactful and scalable
-          software, and web application.
+          I’m a full-stack developer based in Kuala Lumpur, focused on full-stack web development.
         </p>
         <div className="header__icon-wrapper">
           <Link href={"https://www.linkedin.com/in/yitmengwong/"}>
