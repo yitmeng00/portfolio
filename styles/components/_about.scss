@@ -3,6 +3,10 @@
 
   .about__paragraph-item {
     @apply text-lg text-justify tracking-wide;
+
+    .about__paragraph-item-heading {
+      @apply font-black text-primary-600;
+    }
   }
 }
 
