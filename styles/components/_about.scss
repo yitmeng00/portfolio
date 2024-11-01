@@ -1,21 +1,13 @@
 .about__container {
   @apply flex flex-col gap-4;
 
-  h3 {
-    @apply font-bold mb-3;
-  }
-
-  h6 {
-    @apply text-justify tracking-wide;
+  .about__paragraph-item {
+    @apply text-lg text-justify tracking-wide;
   }
 }
 
 .skill__wrapper {
   @apply flex flex-col gap-2;
-
-  h6 {
-    @apply font-bold underline;
-  }
 
   .skill__chip-wrapper {
     @apply flex flex-wrap gap-2;

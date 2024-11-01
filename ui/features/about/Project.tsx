@@ -18,12 +18,14 @@ const Project: React.FC = () => {
           }}
         >
           {projectData.map((project) => (
-            <div className="project__list-item-wrapper">
+            <div className="project__list-item-wrapper" key={project.id}>
               <SubdirectoryArrowRightIcon sx={{ color: "#504538" }} />
               <ListItem
-                key={project.id}
                 sx={{
-                  padding: 1,
+                  paddingTop: 1,
+                  paddingBottom: 1,
+                  paddingLeft: 3,
+                  paddingRight: 3,
                   borderWidth: 1,
                   borderColor: "#504538",
                   borderRadius: 20,

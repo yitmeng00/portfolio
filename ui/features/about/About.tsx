@@ -4,7 +4,9 @@ const About: React.FC = () => {
   return (
     <section className="about__container">
       {aboutData.map((paragraph, index) => (
-        <h6 key={index}>{paragraph}</h6>
+        <p key={index} className="about__paragraph-item">
+          {paragraph}
+        </p>
       ))}
     </section>
   );

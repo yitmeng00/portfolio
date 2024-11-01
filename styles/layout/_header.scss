@@ -8,12 +8,12 @@
       @apply md:text-6xl;
 
       span {
-        @apply font-extrabold text-primary-600;
+        @apply font-black text-primary-600;
       }
     }
 
     .header__sub-heading {
-      @apply md:text-2xl;
+      @apply text-xl;
     }
 
     .header__icon-wrapper {

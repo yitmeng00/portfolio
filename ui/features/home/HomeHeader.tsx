@@ -10,10 +10,10 @@ const HomeHeader: React.FC = () => {
         <h4 className="header__main-heading">
           Hello, my name is <span>Ivan</span>.
         </h4>
-        <h6 className="header__sub-heading">
+        <p className="header__sub-heading">
           I am a full-stack developer based in KL with a passion for building impactful and scalable
           software, and web application.
-        </h6>
+        </p>
         <div className="header__icon-wrapper">
           <Link href={"https://www.linkedin.com/in/yitmengwong/"}>
             <LinkedInIcon fontSize="large" />
@@ -28,6 +28,11 @@ const HomeHeader: React.FC = () => {
         alt="Header Image"
         width={300}
         height={300}
+        sizes="100vw"
+        style={{
+          width: "25%",
+          height: "auto",
+        }}
         priority={true}
         className="header__img"
       />
