@@ -27,7 +27,7 @@ export const bioData: Bio[] = [
     desc: "Worked at Aspen Spectra as a Software Engineer.",
   },
   {
-    id: 4,
+    id: 6,
     year: "2024 - Present",
     desc: "Working at Snappymob as a Software Engineer.",
   },
