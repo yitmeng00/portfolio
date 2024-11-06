@@ -1,5 +1,5 @@
 .page__container {
-  @apply flex flex-col gap-16 py-20 xl:px-96 lg:px-52 px-10;
+  @apply flex flex-col gap-16 py-20 xl:px-96 lg:px-52 px-10 min-h-screen;
 }
 
 .section__wrapper {
@@ -10,8 +10,24 @@
 
 .not-found__container {
   @apply bg-primary-200 h-screen items-center justify-center flex flex-col gap-3;
+}
 
-  svg {
-    @apply text-primary-600 text-7xl;
+.project-about__container {
+  @apply flex flex-col gap-4 text-justify;
+}
+
+.project-about__img-container {
+  @apply flex flex-row gap-5 mb-5 overflow-x-scroll;
+
+  .project-about__img-wrapper {
+    @apply flex flex-col gap-2 italic items-center;
+
+    img {
+      @apply h-[32rem] w-auto max-w-max;
+    }
+
+    p {
+      @apply text-xs;
+    }
   }
 }
