@@ -42,7 +42,8 @@ const InventoryManagementSystem = () => {
             <p>
               I was involved in the full-stack development for this project. In collaboration with
               the development team, I designed, set up, and managed the MySQL database, developed
-              the UI using React with JavaScript and Tailwind CSS, visualized data with Chart.js,
+              the UI using React with Tailwind. Tailwind was chosen as the CSS framework for its
+              flexibility and highly customizable styling. I also visualized data with Chart.js,
               integrated with backend APIs built with Node and the Express framework, set up the
               WebSocket server, designed and developed the mobile app UI using Java, and integrated
               the RFID scanner SDK with the mobile app.

@@ -8,7 +8,7 @@ import SectionWrapper from "@/ui/components/SectionWrapper";
 
 const ProjectManagementSystem = () => {
   const techStack = [
-    "React",
+    "React.js",
     "Redux",
     "JavaScript",
     "Tailwind",
@@ -40,8 +40,9 @@ const ProjectManagementSystem = () => {
             <p>
               I was involved in full-stack development for this project. In collaboration with the
               development team, I designed, set up, and managed the MySQL database, developed the UI
-              using React with JavaScript and Tailwind CSS, integrated with backend APIs built with
-              Node and the Express framework, and set up Docker with Redis to ensure smooth
+              using React with Tailwind. Tailwind was chosen as the CSS framework for its
+              flexibility and highly customizable styling. I also integrated with backend APIs built
+              with Node and the Express framework, and set up Docker with Redis to ensure smooth
               deployment and scalability.
             </p>
           </div>
