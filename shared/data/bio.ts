@@ -8,27 +8,32 @@ export const bioData: Bio[] = [
   },
   {
     id: 2,
-    year: "2021",
-    desc: "Worked at W. I. T. Solution as a Full-Stack Developer Intern.",
+    year: "2020 - 2021",
+    desc: "Part Time Web Developer at W. I. T. Solution.",
   },
   {
     id: 3,
-    year: "2022",
-    desc: "Worked at IBM as a Web Application Developer Intern.",
+    year: "2021",
+    desc: "Full-Stack Developer Intern at W. I. T. Solution.",
   },
   {
     id: 4,
     year: "2022",
-    desc: "Completed a Bachelor's Degree in Computer Science at UCSI University.",
+    desc: "Web Application Developer Intern at IBM.",
   },
   {
     id: 5,
-    year: "2022 - 2024",
-    desc: "Worked at Aspen Spectra as a Software Engineer.",
+    year: "2022",
+    desc: "Completed a Bachelor's Degree in Computer Science at UCSI University.",
   },
   {
     id: 6,
+    year: "2022 - 2024",
+    desc: "Software Engineer at Aspen Spectra.",
+  },
+  {
+    id: 7,
     year: "2024 - Present",
-    desc: "Working at Snappymob as a Software Engineer.",
+    desc: "Software Engineer at Snappymob.",
   },
 ];

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -15,24 +14,32 @@ const HomeHeader: React.FC = () => {
         </p>
         <div className="header__icon-wrapper">
           <Link href={"https://www.linkedin.com/in/yitmengwong/"}>
-            <LinkedInIcon fontSize="large" />
+            <LinkedInIcon
+              fontSize="large"
+              sx={{
+                ":hover": {
+                  color: "#504538",
+                },
+              }}
+            />
           </Link>
           <Link href={"https://github.com/yitmeng00"}>
-            <GitHubIcon fontSize="large" />
+            <GitHubIcon
+              fontSize="large"
+              sx={{
+                ":hover": {
+                  color: "#504538",
+                },
+              }}
+            />
           </Link>
         </div>
       </div>
-      <Image
+      <img
         src="/assets/code-typing-illustration.png"
         alt="Header Image"
-        width={300}
-        height={300}
-        sizes="100vw"
-        style={{
-          width: "25%",
-          height: "auto",
-        }}
-        priority={true}
+        width="400rem"
+        height="auto"
         className="header__img"
       />
     </header>

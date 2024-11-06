@@ -1,0 +1,7 @@
+.navigate-back-btn__wrapper {
+  @apply fixed lg:start-8 lg:top-8 start-4 top-4 rounded-full bg-primary-300 p-3 shadow-[4px_4px_0px_0px_rgba(95,85,74,0.75)] transition-transform duration-200 ease-in-out;
+
+  &:hover {
+    @apply cursor-pointer scale-95 shadow-[2px_2px_0px_0px_rgba(95,85,74,0.75)];
+  }
+}
