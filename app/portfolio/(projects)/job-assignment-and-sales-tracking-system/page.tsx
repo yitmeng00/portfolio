@@ -8,8 +8,8 @@ import SectionWrapper from "@/ui/components/SectionWrapper";
 
 const JobAssignmentAndSalesTrackingSystem = () => {
   const techStack = [
-    "Next",
-    "React",
+    "Next.js",
+    "React.js",
     "Redux",
     "TypeScript",
     "Tailwind",
@@ -24,7 +24,7 @@ const JobAssignmentAndSalesTrackingSystem = () => {
       <NavigateBackBtn />
       <MainHeader title="Job Assignment and Sales Tracking System" />
       <PageContainer>
-        <SectionWrapper title="TECH INVOLVED">
+        <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
         <SectionWrapper title="ABOUT">
@@ -37,12 +37,13 @@ const JobAssignmentAndSalesTrackingSystem = () => {
               driver performance.
             </p>
             <p>
-              I focused on front-end development for this project, working closely with UI/UX
-              designers to develop UI components and layouts using Next.js. Tailwind was chosen as
-              the CSS framework for its flexibility and highly customizable styling, while MUI
-              components were selected for their similarity to the designed UI components, helping
-              to reduce development time. I also integrated the front end with backend APIs to
-              ensure functionality and optimized the front end for performance.
+              This project is currently in progress, and I am focusing on front-end development,
+              working closely with UI/UX designers to create UI components and layouts using
+              Next.js. Tailwind was chosen as the CSS framework for its flexibility and highly
+              customizable styling, while MUI components were selected for their alignment with the
+              designed UI components, helping to reduce development time. I also integrated the
+              front end with backend APIs to ensure functionality and optimized the front end for
+              performance.
             </p>
           </div>
         </SectionWrapper>

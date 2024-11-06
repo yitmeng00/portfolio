@@ -7,7 +7,7 @@ import PageContainer from "@/ui/components/PageContainer";
 import SectionWrapper from "@/ui/components/SectionWrapper";
 
 const ResponsiveWebsite = () => {
-  const techStack = ["Vue", "Nuxt", "Buefy", "Bulma", "JavaScript", "HTML", "CSS", "WordPress"];
+  const techStack = ["Vue.js", "Nuxt", "Buefy", "Bulma", "JavaScript", "HTML", "CSS", "WordPress"];
 
   return (
     <>
