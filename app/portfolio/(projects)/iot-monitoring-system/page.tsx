@@ -26,10 +26,12 @@ const IoTMonitoringSystem = () => {
               to make informed decisions based on the current conditions.
             </p>
             <p>
-              I focused on the front-end development for this project. In collaboration with the
-              development team, I design, set up, and manage the MongoDB database, develop the UI
-              using HTML with Bootstrap, and integrate the frontend with the backend APIs and
-              WebSocket server to retrieve data, enabling seamless real-time updates.
+              I focused on front-end and database development for this project. I was responsible
+              for designing and setting up the database schema, as well as developing the UI using
+              HTML. Bootstrap was chosen as the CSS framework for its ready-made components, which
+              helped save development time and ensured responsiveness. I also integrated the
+              frontend with backend APIs and the WebSocket server to retrieve data, enabling
+              seamless real-time updates.
             </p>
           </div>
         </SectionWrapper>

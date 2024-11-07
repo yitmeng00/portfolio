@@ -26,12 +26,14 @@ const EClaimSystem = () => {
               efficiency and accuracy, ensuring that claims are processed more quickly.
             </p>
             <p>
-              I was involved in the entire software development life cycle, including leading the
-              development team. In collaboration with the team, the process began with gathering
-              requirements through meetings with internal departments, followed by designing the
-              system architecture, setting up and managing the MySQL database, developing the UI
-              using HTML with Bootstrap, integrating with the backend using JavaScript and PHP, and
-              conducting user acceptance testing.
+              I was involved in the entire software development life cycle as the lead developer. In
+              collaboration with the team, the process began with gathering requirements through
+              meetings with internal departments, followed by creating software requirement
+              specification documents, designing the system architecture, designing and setting up
+              the database schema, and developing the UI using HTML. Bootstrap was used as the CSS
+              framework for its ready-made components, which helped save development time and
+              ensured responsiveness. I also worked on integrating the frontend, backend, and
+              database, and conducted user acceptance testing after development.
             </p>
             <p>
               Upon successful development, the E-Claim System was deployed on a cloud server. The

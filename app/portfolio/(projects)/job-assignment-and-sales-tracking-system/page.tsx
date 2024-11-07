@@ -38,12 +38,12 @@ const JobAssignmentAndSalesTrackingSystem = () => {
             </p>
             <p>
               This project is currently in progress, and I am focusing on front-end development,
-              working closely with UI/UX designers to create UI components and layouts using
-              Next.js. Tailwind was chosen as the CSS framework for its flexibility and highly
-              customizable styling, while MUI components were selected for their alignment with the
-              designed UI components, helping to reduce development time. I also integrated the
-              front end with backend APIs to ensure functionality and optimized the front end for
-              performance.
+              working closely with UI/UX designers. My responsibilities include developing UI
+              components and layouts using Next.js. Tailwind was chosen as the CSS framework for its
+              flexibility and customizable styling, while the MUI component library was selected for
+              its alignment with the designed UI, helping to reduce development time. I am also
+              working on integrating the frontend with backend APIs to ensure full functionality and
+              optimizing the front end for performance.
             </p>
           </div>
         </SectionWrapper>
