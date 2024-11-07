@@ -18,8 +18,6 @@ const ProjectManagementSystem = () => {
     "Express",
     "Sequelize",
     "MySQL",
-    "Redis",
-    "Docker",
   ];
 
   return (
@@ -38,12 +36,12 @@ const ProjectManagementSystem = () => {
               efficiency.
             </p>
             <p>
-              I was involved in full-stack development for this project. In collaboration with the
-              development team, I designed, set up, and managed the MySQL database, developed the UI
-              using React with Tailwind. Tailwind was chosen as the CSS framework for its
-              flexibility and highly customizable styling. I also integrated with backend APIs built
-              with Node and the Express framework, and set up Docker with Redis to ensure smooth
-              deployment and scalability.
+              I was involved in the full-stack development for this project. In collaboration with
+              the development team, I was responsible for designing and setting up the database
+              schema, developing UI components and layout using React, and integrating the frontend,
+              backend, and database. Tailwind was chosen as the CSS framework for its flexibility
+              and highly customizable styling. The backend was built using Node with Express for its
+              efficiency and scalability.
             </p>
           </div>
         </SectionWrapper>

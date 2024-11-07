@@ -20,20 +20,20 @@ const ResponsiveWebsite = () => {
         <SectionWrapper title="ABOUT">
           <div className="project-about__container">
             <p>
-              I was involved in the development and enhancement of previous and current company
-              websites, collaborating closely with UI/UX designers to ensure alignment with the
-              overall vision.
+              I was involved in the development of Aspen Spectra’s official website and am currently
+              working on enhancing Snappymob’s official website, collaborating closely with UI/UX
+              designers to ensure alignment with the overall vision.
             </p>
             <p>
-              For current company website, I worked with Vue.js using the Nuxt framework, Buefy for
-              UI components, and Bulma as the CSS framework. My responsibilities included developing
-              and implementing new features, refactoring and enhancing page design and structure,
-              and ensuring responsiveness across devices.
-            </p>
-            <p>
-              For the previous company website, developed on WordPress, I took full ownership of the
+              For the Aspen Spectra website, developed on WordPress, I took full ownership of the
               entire development process. This included customizing templates, optimizing for SEO,
               implementing caching strategies to improve performance, and managing web hosting.
+            </p>
+            <p>
+              For the Snappymob website, I am working with Vue.js using the Nuxt framework, Buefy
+              for UI components, and Bulma as the CSS framework. My responsibilities include
+              developing and implementing new features, refactoring and enhancing page design and
+              structure, and ensuring responsiveness across devices.
             </p>
           </div>
         </SectionWrapper>
