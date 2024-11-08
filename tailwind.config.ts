@@ -19,6 +19,9 @@ const config: Config = {
           600: "#504538",
         },
       },
+      screens: {
+        xs: "425px",
+      },
     },
   },
   plugins: [],

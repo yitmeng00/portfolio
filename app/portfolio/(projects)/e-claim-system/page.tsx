@@ -14,16 +14,16 @@ const EClaimSystem = () => {
       <NavigateBackBtn />
       <MainHeader title="E-Claim System" />
       <PageContainer>
+        <h3>Streamlined the claim process with 75% time savings.</h3>
         <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
         <SectionWrapper title="ABOUT">
           <div className="project-about__container">
             <p>
-              The E-Claim System is an internal system designed to streamline and digitalize the
-              claims process, aiming to reduce the time and complexity associated with manual claim
-              submissions and approvals. By automating the process, the system helps increase
-              efficiency and accuracy, ensuring that claims are processed more quickly.
+              The core objective of E-Claim System to reduce the time and complexity associated with
+              manual claim submissions and approvals. By automating the process, the system helps
+              increase efficiency and accuracy, ensuring that claims are processed more quickly.
             </p>
             <p>
               I was involved in the entire software development life cycle as the lead developer. In

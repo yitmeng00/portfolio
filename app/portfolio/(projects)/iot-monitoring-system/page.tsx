@@ -7,13 +7,14 @@ import PageContainer from "@/ui/components/PageContainer";
 import SectionWrapper from "@/ui/components/SectionWrapper";
 
 const IoTMonitoringSystem = () => {
-  const techStack = ["HTML", "CSS", "Bootstrap", "JavaScript", "MongoDB", "Web Socket"];
+  const techStack = ["HTML", "CSS", "Bootstrap", "JavaScript", "MongoDB", "WebSocket"];
 
   return (
     <>
       <NavigateBackBtn />
       <MainHeader title="IoT Monitoring System" />
       <PageContainer>
+        <h3>A real-time monitoring system for environmental conditions.</h3>
         <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
@@ -27,11 +28,10 @@ const IoTMonitoringSystem = () => {
             </p>
             <p>
               I focused on front-end and database development for this project. I was responsible
-              for designing and setting up the database schema, as well as developing the UI using
-              HTML. Bootstrap was chosen as the CSS framework for its ready-made components, which
-              helped save development time and ensured responsiveness. I also integrated the
-              frontend with backend APIs and the WebSocket server to retrieve data, enabling
-              seamless real-time updates.
+              for designing and setting up the database schema, as well as developing the UI
+              dashboard using HTML and Bootstrap, which provided ready-made components that helped
+              save development time and ensured responsiveness. I also connected front-end to the
+              WebSocket server to receive real-time sensor data.
             </p>
           </div>
         </SectionWrapper>

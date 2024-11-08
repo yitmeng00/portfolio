@@ -7,7 +7,7 @@ import Link from "next/link";
 const Project: React.FC = () => {
   return (
     <SectionWrapper title="HANDS-ON ADVENTURES">
-      <div className="project__wrapper">
+      <div className="project__wrapper" id="project__section">
         <List
           dense={true}
           disablePadding={true}

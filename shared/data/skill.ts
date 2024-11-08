@@ -7,6 +7,7 @@ export const skillData: Skill[] = [
       "React.js",
       "Next.js",
       "Vue.js",
+      "Nuxt",
       "JavaScript",
       "TypeScript",
       "Sass",

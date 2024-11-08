@@ -19,6 +19,8 @@ const InventoryManagementSystem = () => {
     "Sequelize",
     "MySQL",
     "Chart.js",
+    "Android",
+    "Java",
   ];
 
   return (
@@ -26,6 +28,7 @@ const InventoryManagementSystem = () => {
       <NavigateBackBtn />
       <MainHeader title="Inventory Management System" />
       <PageContainer>
+        <h3>RFID-driven digital solution for accurate stock counting.</h3>
         <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
@@ -42,11 +45,11 @@ const InventoryManagementSystem = () => {
             <p>
               I was involved in the full-stack development for this project. In collaboration with
               the development team, I designed and set up the database schema, developed the UI
-              components and layout using React. Tailwind was chosen as the CSS framework for its
-              flexibility and highly customizable styling. I also visualized data with Chart.js,
-              integrated with backend APIs built with Node and the Express framework, set up the
-              WebSocket server, designed and developed the mobile app UI using Java, and integrated
-              the RFID scanner SDK with the mobile app.
+              components and layout using React, and chose Tailwind as the CSS framework for its
+              flexibility and highly customizable styling. I also built backend APIs, integrated the
+              frontend, backend, and database, visualized data with Chart.js, set up the WebSocket
+              server, designed and developed the mobile app UI using Java, and integrated the RFID
+              scanner SDK with the mobile app.
             </p>
           </div>
         </SectionWrapper>

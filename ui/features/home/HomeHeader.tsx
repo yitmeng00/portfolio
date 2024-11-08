@@ -6,9 +6,9 @@ const HomeHeader: React.FC = () => {
   return (
     <header id="home-header__container">
       <div className="header__heading-wrapper">
-        <h2 className="header__main-heading">
+        <h4 className="header__main-heading">
           Hello, my name is <span>Ivan</span>.
-        </h2>
+        </h4>
         <p className="header__sub-heading">
           I’m a full-stack developer based in Kuala Lumpur, focused on full-stack web development.
         </p>
@@ -38,7 +38,7 @@ const HomeHeader: React.FC = () => {
       <img
         src="/assets/code-typing-illustration.png"
         alt="Header Image"
-        width="400rem"
+        width="350rem"
         height="auto"
         className="header__img"
       />
