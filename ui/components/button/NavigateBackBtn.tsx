@@ -5,7 +5,7 @@ const NavigateBackBtn: React.FC = () => {
   const router = useRouter();
 
   const handleBack = () => {
-    router.back();
+    router.push("/#project__section");
   };
 
   return (

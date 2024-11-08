@@ -10,19 +10,20 @@ import Link from "@mui/material/Link";
 const SmartTourismMobileApp = () => {
   const techStack = [
     "Java",
-    "XML",
     "Firebase",
     "Google Location API",
     "Google Maps API",
     "News API",
     "Android",
+    "XML",
   ];
 
   return (
     <>
       <NavigateBackBtn />
-      <MainHeader title="Smart Tourism Mobile App, Go. Travel" />
+      <MainHeader title="Go. Travel" />
       <PageContainer>
+        <h3>A Smart Tourism Guide Android application I developed for my final year project.</h3>
         <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
@@ -41,15 +42,12 @@ const SmartTourismMobileApp = () => {
               <p>All Categories Screen</p>
             </div>
             <div className="project-about__img-wrapper">
-              <img
-                src="/assets/projects/fyp-nearby-restaurant.png"
-                alt="FYP Nearby Restaurant Screen"
-              />
-              <p>Nearby Restaurant Screen</p>
-            </div>
-            <div className="project-about__img-wrapper">
               <img src="/assets/projects/fyp-review.png" alt="FYP Review and Rating Screen" />
               <p>Review and Rating Screen</p>
+            </div>
+            <div className="project-about__img-wrapper">
+              <img src="/assets/projects/fyp-saved-place.png" alt="FYP Favourite Place Screen" />
+              <p>Favourite Place Screen</p>
             </div>
             <div className="project-about__img-wrapper">
               <img src="/assets/projects/fyp-google-maps.jpg" alt="FYP Google Maps Screen" />
@@ -58,10 +56,9 @@ const SmartTourismMobileApp = () => {
           </div>
           <div className="project-about__container">
             <p>
-              I developed a Smart Tourism Guide Android application, Go.Travel, using Java for my
-              final year project, with the core objective of enhancing the travel experience. The
-              app is built with a minimum SDK API 16 (Android 4.1), XML for the layout and styling,
-              and Firebase for the real-time database.
+              Go.Travel was built using Java with a minimum SDK of API 16 (Android 4.1). XML was
+              used for layout and styling, and Firebase was used as the real-time database. The core
+              objective of the app is to enhance the travel experience.
             </p>
             <p>
               Some of the key features of the app included a variety of detailed categories of

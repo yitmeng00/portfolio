@@ -25,6 +25,7 @@ const ProjectManagementSystem = () => {
       <NavigateBackBtn />
       <MainHeader title="Project Management System" />
       <PageContainer>
+        <h3>An end-to-end solution for optimized task management.</h3>
         <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
@@ -38,10 +39,10 @@ const ProjectManagementSystem = () => {
             <p>
               I was involved in the full-stack development for this project. In collaboration with
               the development team, I was responsible for designing and setting up the database
-              schema, developing UI components and layout using React, and integrating the frontend,
-              backend, and database. Tailwind was chosen as the CSS framework for its flexibility
-              and highly customizable styling. The backend was built using Node with Express for its
-              efficiency and scalability.
+              schema, developing UI components and layouts using React, building backend APIs, and
+              integrating the frontend, backend, and database. Tailwind was chosen as the CSS
+              framework for its flexibility and highly customizable styling. The backend was built
+              using Node with Express for its efficiency and scalability.
             </p>
           </div>
         </SectionWrapper>

@@ -8,7 +8,7 @@
       @apply md:text-6xl;
 
       span {
-        @apply font-black text-primary-600;
+        @apply font-extrabold text-primary-600;
       }
     }
 
@@ -27,5 +27,9 @@
 }
 
 .main-header__container {
-  @apply bg-primary-200 px-10 py-24 text-center text-primary-600 font-black;
+  @apply lg:px-36 px-0;
+
+  .main-header__wrapper {
+    @apply bg-primary-200 h-96 flex items-end justify-center text-center px-20 py-10 text-primary-600 font-extrabold;
+  }
 }

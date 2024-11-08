@@ -33,11 +33,6 @@ export const projectData: Project[] = [
   },
   {
     id: 7,
-    name: "WordPress Website",
-    url: "wordpress-website",
-  },
-  {
-    id: 8,
     name: "Smart Tourism Mobile App",
     url: "smart-tourism-mobile-app",
   },
