@@ -4,11 +4,11 @@
 
 @layer base {
   body {
-    @apply font-noto;
+    @apply font-newsreader;
   }
 
   h1 {
-    @apply text-6xl font-black text-primary-600;
+    @apply text-6xl font-extrabold text-primary-600;
   }
 
   h2 {
@@ -34,8 +34,8 @@
 }
 
 @layer utilities {
-  /* Define a utility for the Noto Serif font */
-  .font-noto {
-    font-family: var(--font-noto-serif), serif;
+  /* Define a utility for the Brygada1918 font */
+  .font-newsreader {
+    font-family: var(--font-newsreader);
   }
 }
