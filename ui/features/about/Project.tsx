@@ -48,7 +48,7 @@ const Project: React.FC = () => {
                     primary={project.name}
                     sx={{
                       ".MuiListItemText-primary": {
-                        fontFamily: "var(--font-noto-serif), sans-serif",
+                        fontFamily: "var(--font-newsreader)",
                         letterSpacing: 1,
                       },
                     }}

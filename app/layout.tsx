@@ -6,100 +6,18 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "@/styles/app.scss";
 
-const notoSerif = localFont({
+const newsreader = localFont({
   src: [
     {
-      path: "../public/fonts/NotoSerif-VariableFont_wdth,wght.ttf",
-      weight: "100",
+      path: "../public/fonts/Newsreader-VariableFont_opsz,wght.ttf",
       style: "normal",
     },
     {
-      path: "../public/fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf",
-      weight: "100",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/NotoSerif-VariableFont_wdth,wght.ttf",
-      weight: "200",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf",
-      weight: "200",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/NotoSerif-VariableFont_wdth,wght.ttf",
-      weight: "300",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf",
-      weight: "300",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/NotoSerif-VariableFont_wdth,wght.ttf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf",
-      weight: "400",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/NotoSerif-VariableFont_wdth,wght.ttf",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf",
-      weight: "500",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/NotoSerif-VariableFont_wdth,wght.ttf",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf",
-      weight: "600",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/NotoSerif-VariableFont_wdth,wght.ttf",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf",
-      weight: "700",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/NotoSerif-VariableFont_wdth,wght.ttf",
-      weight: "800",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf",
-      weight: "800",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/NotoSerif-VariableFont_wdth,wght.ttf",
-      weight: "900",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf",
-      weight: "900",
+      path: "../public/fonts/Newsreader-Italic-VariableFont_opsz,wght.ttf",
       style: "italic",
     },
   ],
-  variable: "--font-noto-serif",
+  variable: "--font-newsreader",
 });
 
 export const metadata: Metadata = {
@@ -113,7 +31,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${notoSerif.variable}`}>
+      <body className={`${newsreader.variable}`}>
         {children}
         <Analytics />
         <SpeedInsights />
