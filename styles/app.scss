@@ -7,6 +7,10 @@
     @apply font-newsreader;
   }
 
+  ::-webkit-scrollbar {
+    @apply hidden;
+  }
+
   h1 {
     @apply xl:text-8xl xs:text-6xl text-5xl font-medium text-primary-600;
   }
