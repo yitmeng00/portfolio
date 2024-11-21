@@ -1,0 +1,19 @@
+.navbar__container {
+  @apply z-20 fixed h-full w-full bg-primary-300;
+}
+
+.navbar__menu-toggle-btn {
+  @apply z-30 fixed items-center justify-center text-primary-600 top-8 right-8;
+}
+
+.navbar__menu-wrapper {
+  @apply flex flex-col lg:gap-20 gap-10 px-10 py-20 h-full items-center justify-center;
+
+  .navbar__menu-item {
+    @apply hover:text-primary-200 hover:underline hover:decoration-wavy hover:decoration-primary-500 text-primary-600 font-medium;
+  }
+
+  .navbar__footer-wrapper {
+    @apply flex flex-row gap-3 text-primary-600;
+  }
+}
