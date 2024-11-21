@@ -18,7 +18,7 @@ export default function HomeLayout({ children }: { children: ReactNode }) {
     <>
       <motion.div className="main__progress-bar" style={{ scaleX: scrollYProgress }} />
       <motion.nav initial={false} animate={isOpen ? "open" : "closed"}>
-        <MainMenu />
+        <MainMenu onToggleOpen={handleToggleOpen} />
         <MenuToggle isOpen={isOpen} onToggleOpen={handleToggleOpen} />
       </motion.nav>
       {children}

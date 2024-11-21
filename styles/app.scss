@@ -7,7 +7,7 @@
     @apply font-newsreader;
   }
 
-  ::-webkit-scrollbar {
+  body::-webkit-scrollbar {
     @apply hidden;
   }
 
