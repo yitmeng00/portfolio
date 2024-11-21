@@ -1,6 +1,5 @@
 "use client";
 
-import { NavigateBackBtn } from "@/ui/components/button";
 import { MainHeader } from "@/ui/components/layout";
 import MainChip from "@/ui/components/MainChip";
 import PageContainer from "@/ui/components/PageContainer";
@@ -25,7 +24,6 @@ const InventoryManagementSystem = () => {
 
   return (
     <>
-      <NavigateBackBtn />
       <MainHeader title="Inventory Management System" />
       <PageContainer>
         <h3>RFID-driven digital solution for accurate stock counting.</h3>
