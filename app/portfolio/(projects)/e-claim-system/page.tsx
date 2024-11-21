@@ -1,6 +1,5 @@
 "use client";
 
-import { NavigateBackBtn } from "@/ui/components/button";
 import { MainHeader } from "@/ui/components/layout";
 import MainChip from "@/ui/components/MainChip";
 import PageContainer from "@/ui/components/PageContainer";
@@ -11,7 +10,6 @@ const EClaimSystem = () => {
 
   return (
     <>
-      <NavigateBackBtn />
       <MainHeader title="E-Claim System" />
       <PageContainer>
         <h3>Streamlined the claim process with 75% time savings.</h3>

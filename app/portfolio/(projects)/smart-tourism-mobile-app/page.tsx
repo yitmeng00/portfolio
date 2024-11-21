@@ -1,6 +1,5 @@
 "use client";
 
-import { NavigateBackBtn } from "@/ui/components/button";
 import { MainHeader } from "@/ui/components/layout";
 import MainChip from "@/ui/components/MainChip";
 import PageContainer from "@/ui/components/PageContainer";
@@ -20,7 +19,6 @@ const SmartTourismMobileApp = () => {
 
   return (
     <>
-      <NavigateBackBtn />
       <MainHeader title="Go. Travel" />
       <PageContainer>
         <h3>A Smart Tourism Guide Android application I developed for my final year project.</h3>

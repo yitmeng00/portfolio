@@ -1,6 +1,5 @@
 "use client";
 
-import { NavigateBackBtn } from "@/ui/components/button";
 import { MainHeader } from "@/ui/components/layout";
 import MainChip from "@/ui/components/MainChip";
 import PageContainer from "@/ui/components/PageContainer";
@@ -21,7 +20,6 @@ const JobAssignmentAndSalesTrackingSystem = () => {
 
   return (
     <>
-      <NavigateBackBtn />
       <MainHeader title="Job Assignment and Sales Tracking System" />
       <PageContainer>
         <SectionWrapper title="TECHNOLOGIES">

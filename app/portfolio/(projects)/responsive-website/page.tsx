@@ -1,6 +1,5 @@
 "use client";
 
-import { NavigateBackBtn } from "@/ui/components/button";
 import { MainHeader } from "@/ui/components/layout";
 import MainChip from "@/ui/components/MainChip";
 import PageContainer from "@/ui/components/PageContainer";
@@ -23,7 +22,6 @@ const ResponsiveWebsite = () => {
 
   return (
     <>
-      <NavigateBackBtn />
       <MainHeader title="Responsive Website" />
       <PageContainer>
         <h3>Crafting and optimizing web solutions to reflect brand identity.</h3>
@@ -46,7 +44,7 @@ const ResponsiveWebsite = () => {
             <p>
               Currently, I am working on enhancing my company’s official website, collaborating
               closely with the UI/UX design team to align with their creative vision. Leveraging
-              Vue.js with the Nuxt framework, Buefy for UI components, and Bulma for styling, I am
+              Vue.js with the Nuxt framework, Buefy for UI components, and Bulma for styling. I am
               developing and implementing new features, refining and restructuring page designs, and
               ensuring responsiveness across devices.
             </p>

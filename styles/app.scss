@@ -38,11 +38,11 @@
   @import "layout/header";
   @import "components/about";
   @import "components/progress-bar";
-  @import "components/button";
+  @import "components/navbar";
 }
 
 @layer utilities {
-  /* Define a utility for the Brygada1918 font */
+  /* Define a utility for the Newsreader font */
   .font-newsreader {
     font-family: var(--font-newsreader);
   }

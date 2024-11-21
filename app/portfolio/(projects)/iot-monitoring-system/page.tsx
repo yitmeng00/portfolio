@@ -1,6 +1,5 @@
 "use client";
 
-import { NavigateBackBtn } from "@/ui/components/button";
 import { MainHeader } from "@/ui/components/layout";
 import MainChip from "@/ui/components/MainChip";
 import PageContainer from "@/ui/components/PageContainer";
@@ -11,7 +10,6 @@ const IoTMonitoringSystem = () => {
 
   return (
     <>
-      <NavigateBackBtn />
       <MainHeader title="IoT Monitoring System" />
       <PageContainer>
         <h3>A real-time monitoring system for environmental conditions.</h3>
