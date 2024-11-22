@@ -1,7 +1,7 @@
 "use client";
 
 import { Footer } from "@/ui/components/layout";
-import { ReactNode } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import { motion, useScroll, useCycle } from "motion/react";
 import MainMenu from "@/ui/components/MainMenu";
 import { MenuToggle } from "@/ui/components/MenuToggle";
@@ -9,10 +9,21 @@ import { MenuToggle } from "@/ui/components/MenuToggle";
 export default function HomeLayout({ children }: { children: ReactNode }) {
   const { scrollYProgress } = useScroll();
   const [isOpen, toggleOpen] = useCycle(false, true);
+  const [hydrated, setHydrated] = useState(false);
+
+  useEffect(() => {
+    // Mark the component as hydrated once it is rendered on the client
+    setHydrated(true);
+  }, []);
 
   const handleToggleOpen = () => {
     toggleOpen();
   };
+
+  if (!hydrated) {
+    // Avoid rendering motion.nav until client-side hydration is complete
+    return null;
+  }
 
   return (
     <>
