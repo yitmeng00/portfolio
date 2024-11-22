@@ -1,8 +1,19 @@
 "use client";
-import Redirect from "@/ui/features/Redirect";
+import PageContainer from "@/ui/components/PageContainer";
+import { About, Skill, Bio } from "@/ui/features/about";
+import { HomeHeader } from "@/ui/features/home";
 
-const HelloWorld = () => {
-  return <Redirect />;
+const HomePage = () => {
+  return (
+    <>
+      <HomeHeader />
+      <PageContainer>
+        <About />
+        <Bio />
+        <Skill />
+      </PageContainer>
+    </>
+  );
 };
 
-export default HelloWorld;
+export default HomePage;
