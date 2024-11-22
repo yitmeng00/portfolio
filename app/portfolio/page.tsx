@@ -1,21 +1,18 @@
 "use client";
 
+import { MainHeader } from "@/ui/components/layout";
 import PageContainer from "@/ui/components/PageContainer";
-import { About, Skill, Project, Bio } from "@/ui/features/about";
-import { HomeHeader } from "@/ui/features/home";
+import { Project } from "@/ui/features/about";
 
-const HomePage = () => {
+const PortfolioPage = () => {
   return (
     <>
-      <HomeHeader />
+      <MainHeader title="HANDS-ON ADVENTURES" />
       <PageContainer>
-        <About />
-        <Bio />
-        <Skill />
         <Project />
       </PageContainer>
     </>
   );
 };
 
-export default HomePage;
+export default PortfolioPage;

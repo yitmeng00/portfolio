@@ -31,8 +31,11 @@ interface MainMenuProps {
 const MainMenu: React.FC<MainMenuProps> = ({ onToggleOpen }) => (
   <motion.div initial={false} variants={navbar} className="navbar__container">
     <div className="navbar__menu-wrapper">
-      <Link href="/portfolio" className="navbar__menu-item" onClick={onToggleOpen}>
+      <Link href="/" className="navbar__menu-item" onClick={onToggleOpen}>
         <h1>Home</h1>
+      </Link>
+      <Link href="/portfolio" className="navbar__menu-item" onClick={onToggleOpen}>
+        <h1>Portfolio</h1>
       </Link>
       <div className="navbar__footer-wrapper">
         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
