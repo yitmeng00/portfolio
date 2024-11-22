@@ -29,7 +29,7 @@ interface MainMenuProps {
 }
 
 const MainMenu: React.FC<MainMenuProps> = ({ onToggleOpen }) => (
-  <motion.div initial="closed" variants={navbar} className="navbar__container">
+  <motion.div initial={false} variants={navbar} className="navbar__container">
     <div className="navbar__menu-wrapper">
       <Link href="/portfolio" className="navbar__menu-item" onClick={onToggleOpen}>
         <h1>Home</h1>
