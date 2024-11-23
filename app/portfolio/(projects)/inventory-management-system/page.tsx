@@ -30,6 +30,19 @@ const InventoryManagementSystem = () => {
         <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
+        <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-0">
+          <SectionWrapper title="ROLE">
+            <p>Full-stack, Database, Mobile</p>
+          </SectionWrapper>
+          <SectionWrapper title="RESPONSIBILITIES">
+            <p>
+              Environment Setup, UI Components Styling and Development, API Development and
+              Integration, Performance Optimization, Responsive Design, Database Schema Design and
+              Setup, Database Administration and Optimization, WebSocket Setup, Mobile Development,
+              RFID SDK Integration, Testing
+            </p>
+          </SectionWrapper>
+        </div>
         <SectionWrapper title="ABOUT">
           <div className="project-about__container">
             <p>
@@ -39,15 +52,6 @@ const InventoryManagementSystem = () => {
               improving inventory accuracy and reducing human error. The project comprises two main
               components: a web application focused on data management, and a mobile app focused on
               stock counting with RFID handheld scanner.
-            </p>
-            <p>
-              I was involved in the full-stack development for this project. In collaboration with
-              the development team, I designed and set up the database schema, developed the UI
-              components and layout using React, and chose Tailwind as the CSS framework for its
-              flexibility and highly customizable styling. I also built backend APIs, integrated the
-              frontend, backend, and database, visualized data with Chart.js, set up the WebSocket
-              server, designed and developed the mobile app UI using Java, and integrated the RFID
-              scanner SDK with the mobile app.
             </p>
           </div>
         </SectionWrapper>

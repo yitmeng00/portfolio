@@ -27,20 +27,24 @@ const ProjectManagementSystem = () => {
         <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
+        <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-0">
+          <SectionWrapper title="ROLE">
+            <p>Full-stack, Database</p>
+          </SectionWrapper>
+          <SectionWrapper title="RESPONSIBILITIES">
+            <p>
+              Environment Setup, UI Components Styling and Development, API Development and
+              Integration, Performance Optimization, Responsive Design, Database Schema Design and
+              Setup, Database Administration and Optimization, Testing
+            </p>
+          </SectionWrapper>
+        </div>
         <SectionWrapper title="ABOUT">
           <div className="project-about__container">
             <p>
               The Project Management System is an internal system designed to help track project
               timelines and progress, aiming to reduce delays and improve overall task completion
               efficiency.
-            </p>
-            <p>
-              I was involved in the full-stack development for this project. In collaboration with
-              the development team, I was responsible for designing and setting up the database
-              schema, developing UI components and layouts using React, building backend APIs, and
-              integrating the frontend, backend, and database. Tailwind was chosen as the CSS
-              framework for its flexibility and highly customizable styling. The backend was built
-              using Node with Express for its efficiency and scalability.
             </p>
           </div>
         </SectionWrapper>

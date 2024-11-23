@@ -1,6 +1,6 @@
 "use client";
 import PageContainer from "@/ui/components/PageContainer";
-import { About, Skill, Bio } from "@/ui/features/about";
+import { About, Skill, Bio } from "@/ui/features/home";
 import { HomeHeader } from "@/ui/features/home";
 
 const HomePage = () => {

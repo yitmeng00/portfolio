@@ -16,6 +16,19 @@ const EClaimSystem = () => {
         <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
+        <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-0">
+          <SectionWrapper title="ROLE">
+            <p>Full-stack, Database</p>
+          </SectionWrapper>
+          <SectionWrapper title="RESPONSIBILITIES">
+            <p>
+              System Architecture Design, Environment Setup, UI Components Styling and Development,
+              API Development and Integration, Performance Optimization, Responsive Design, Database
+              Schema Design and Setup, Database Administration and Optimization, User Acceptance
+              Testing
+            </p>
+          </SectionWrapper>
+        </div>
         <SectionWrapper title="ABOUT">
           <div className="project-about__container">
             <p>
