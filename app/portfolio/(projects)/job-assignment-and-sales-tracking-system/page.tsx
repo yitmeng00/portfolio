@@ -25,6 +25,17 @@ const JobAssignmentAndSalesTrackingSystem = () => {
         <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
+        <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-0">
+          <SectionWrapper title="ROLE">
+            <p>Front-end</p>
+          </SectionWrapper>
+          <SectionWrapper title="RESPONSIBILITIES">
+            <p>
+              Environment Setup, UI Components Styling and Development, API Integration, Performance
+              Optimization, Responsive Design, Testing
+            </p>
+          </SectionWrapper>
+        </div>
         <SectionWrapper title="ABOUT">
           <div className="project-about__container">
             <p>
@@ -35,13 +46,9 @@ const JobAssignmentAndSalesTrackingSystem = () => {
               driver performance.
             </p>
             <p>
-              This project is currently in progress, and I am focusing on front-end development,
-              working closely with UI/UX designers. My responsibilities include developing UI
-              components and layouts using Next.js. Tailwind was chosen as the CSS framework for its
-              flexibility and customizable styling, while the MUI component library was selected for
-              its alignment with the designed UI, helping to reduce development time. I am also
-              working on integrating the frontend with backend APIs to ensure full functionality and
-              optimizing the front end for performance.
+              Tailwind was chosen as the CSS framework for its flexibility and customizable styling,
+              while the MUI component library was selected for its alignment with the designed UI,
+              helping to reduce development time.
             </p>
           </div>
         </SectionWrapper>

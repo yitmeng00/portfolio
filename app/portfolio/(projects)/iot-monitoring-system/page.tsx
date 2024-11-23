@@ -16,6 +16,17 @@ const IoTMonitoringSystem = () => {
         <SectionWrapper title="TECHNOLOGIES">
           <MainChip techStack={techStack} />
         </SectionWrapper>
+        <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-0">
+          <SectionWrapper title="ROLE">
+            <p>Front-end</p>
+          </SectionWrapper>
+          <SectionWrapper title="RESPONSIBILITIES">
+            <p>
+              Environment Setup, UI Components Styling and Development, API Integration, Performance
+              Optimization, Responsive Design, WebSocket Connection, Testing
+            </p>
+          </SectionWrapper>
+        </div>
         <SectionWrapper title="ABOUT">
           <div className="project-about__container">
             <p>
@@ -23,13 +34,6 @@ const IoTMonitoringSystem = () => {
               as humidity levels, soil quality, and temperature, collected from various sensors. The
               system’s core functionality is to monitor and display real-time data, enabling users
               to make informed decisions based on the current conditions.
-            </p>
-            <p>
-              I focused on front-end and database development for this project. I was responsible
-              for designing and setting up the database schema, as well as developing the UI
-              dashboard using HTML and Bootstrap, which provided ready-made components that helped
-              save development time and ensured responsiveness. I also connected front-end to the
-              WebSocket server to receive real-time sensor data.
             </p>
           </div>
         </SectionWrapper>

@@ -1,5 +1,4 @@
 import { projectData } from "@/shared/data/project";
-import SectionWrapper from "@/ui/components/SectionWrapper";
 import { List, ListItem, ListItemText } from "@mui/material";
 import SubdirectoryArrowRightIcon from "@mui/icons-material/SubdirectoryArrowRight";
 import Link from "next/link";
