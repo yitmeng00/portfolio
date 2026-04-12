@@ -1,10 +1,11 @@
 "use client";
 
+import Link from "next/link";
+
 import { MainHeader } from "@/ui/components/layout";
 import MainChip from "@/ui/components/MainChip";
 import PageContainer from "@/ui/components/PageContainer";
 import SectionWrapper from "@/ui/components/SectionWrapper";
-import Link from "@mui/material/Link";
 
 const SmartTourismMobileApp = () => {
   const techStack = [
@@ -78,11 +79,7 @@ const SmartTourismMobileApp = () => {
               My journal article on this project was published by the Journal of Advances in
               Artificial Life Robotics in October 2022 —{" "}
               <span>
-                <Link
-                  href="https://www.jstage.jst.go.jp/article/jaalr/3/2/3_7/_article"
-                  underline="always"
-                  sx={{ color: "#504538", textDecorationColor: "#504538" }}
-                >
+                <Link href="https://www.jstage.jst.go.jp/article/jaalr/3/2/3_7/_article">
                   Publication
                 </Link>
                 .

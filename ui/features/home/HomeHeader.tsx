@@ -1,7 +1,8 @@
-import Link from "next/link";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { faGithub, faSquareLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "motion/react";
+import Image from "next/image";
+import Link from "next/link";
 
 const HomeHeader: React.FC = () => {
   return (
@@ -16,22 +17,23 @@ const HomeHeader: React.FC = () => {
         <div className="header__icon-wrapper">
           <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
             <Link href={"https://www.linkedin.com/in/yitmengwong/"}>
-              <LinkedInIcon fontSize="large" />
+              <FontAwesomeIcon icon={faSquareLinkedin} style={{ width: "24px", height: "24px" }} />
             </Link>
           </motion.div>
           <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
             <Link href={"https://github.com/yitmeng00"}>
-              <GitHubIcon fontSize="large" />
+              <FontAwesomeIcon icon={faGithub} style={{ width: "24px", height: "24px" }} />
             </Link>
           </motion.div>
         </div>
       </div>
-      <img
+      <Image
         src="/assets/code-typing-illustration.png"
         alt="Header Image"
-        width="350rem"
-        height="auto"
+        width={350}
+        height={350}
         className="header__img"
+        loading="eager"
       />
     </header>
   );

@@ -1,6 +1,6 @@
+import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
 
 interface MenuToggleProps {
   isOpen: boolean;
@@ -15,6 +15,10 @@ export const MenuToggle: React.FC<MenuToggleProps> = ({ isOpen, onToggleOpen }) 
     onClick={onToggleOpen}
     className="navbar__menu-toggle-btn"
   >
-    {isOpen ? <CloseIcon fontSize="large" /> : <MenuIcon fontSize="large" />}
+    {isOpen ? (
+      <FontAwesomeIcon icon={faXmark} style={{ width: "35px", height: "35px" }} />
+    ) : (
+      <FontAwesomeIcon icon={faBars} style={{ width: "35px", height: "35px" }} />
+    )}
   </motion.button>
 );

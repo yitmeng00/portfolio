@@ -1,4 +1,4 @@
-import Link from "@mui/material/Link";
+import Link from "next/link";
 
 const About: React.FC = () => {
   return (
@@ -13,13 +13,7 @@ const About: React.FC = () => {
       <p className="about__paragraph-item">
         When I’m not coding, you’ll likely find me with a camera in hand.{" "}
         <span>
-          <Link
-            href="https://unsplash.com/@yitmeng_w"
-            underline="always"
-            sx={{ color: "#504538", textDecorationColor: "#504538" }}
-          >
-            Photography
-          </Link>
+          <Link href="https://unsplash.com/@yitmeng_w">Photography</Link>
         </span>{" "}
         is my zen zone—it’s where I get to capture life’s beautiful moments in pixels.
       </p>
