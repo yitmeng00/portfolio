@@ -1,1 +1,18 @@
-This is a personal portfolio built using Next.js.
+## Table of Contents
+
+- [Introduction](#introduction)
+- [License](#license)
+
+## Introduction
+
+This is my personal portfolio website, built using technologies:
+
+- Next.js
+- TypeScript
+- Tailwind
+- Sass
+- Motion
+
+## License
+
+This project is licensed under the MIT License.
