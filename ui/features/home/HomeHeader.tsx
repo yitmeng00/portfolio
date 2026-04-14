@@ -1,15 +1,20 @@
 import { faGithub, faSquareLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "motion/react";
-import Image from "next/image";
 import Link from "next/link";
+
+import HomeHeaderBackground from "./HomeHeaderBackground";
 
 const HomeHeader: React.FC = () => {
   return (
     <header id="home-header__container">
+      <HomeHeaderBackground />
       <div className="header__heading-wrapper">
         <h4 className="header__main-heading">
-          Hello, my name is <span>Ivan</span>.
+          Hello, <span>Yit Meng</span> here
+        </h4>
+        <h4 className="header__main-heading">
+          but you can call me <span>Ivan</span>
         </h4>
         <p className="header__sub-heading">
           I’m a full-stack developer based in Kuala Lumpur, focused on full-stack web development.
@@ -27,14 +32,6 @@ const HomeHeader: React.FC = () => {
           </motion.div>
         </div>
       </div>
-      <Image
-        src="/assets/code-typing-illustration.png"
-        alt="Header Image"
-        width={350}
-        height={350}
-        className="header__img"
-        loading="eager"
-      />
     </header>
   );
 };
