@@ -6,7 +6,7 @@
   }
 
   .header__heading-wrapper {
-    @apply flex flex-col gap-3 w-1/2 text-center;
+    @apply z-10 flex flex-col gap-3 w-1/2 text-center;
 
     .header__main-heading {
       @apply md:text-6xl;
