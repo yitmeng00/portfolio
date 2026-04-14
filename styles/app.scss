@@ -1,7 +1,6 @@
 @use "layout/main";
 @use "layout/footer";
 @use "layout/header";
-@use "components/progress-bar";
 @use "components/navbar";
 
 @import url("tailwindcss"); // Signals to Sass that this is a plain CSS import
