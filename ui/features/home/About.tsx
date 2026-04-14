@@ -13,7 +13,9 @@ const About: React.FC = () => {
       <p className="about__paragraph-item">
         When I’m not coding, you’ll likely find me with a camera in hand.{" "}
         <span>
-          <Link href="https://unsplash.com/@yitmeng_w">Photography</Link>
+          <u>
+            <Link href="https://unsplash.com/@yitmeng_w">Photography</Link>
+          </u>
         </span>{" "}
         is my zen zone—it’s where I get to capture life’s beautiful moments in pixels.
       </p>

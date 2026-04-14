@@ -38,10 +38,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${newsreader.variable}`}>
-        <ClientProvider>
-          {children}
-          <Footer />
-        </ClientProvider>
+        {/* TODO: Re-enable after other portfolio pages are done */}
+        {/* <ClientProvider> */}
+        {children}
+        <Footer />
+        {/* </ClientProvider> */}
         <Analytics />
         <SpeedInsights />
       </body>
