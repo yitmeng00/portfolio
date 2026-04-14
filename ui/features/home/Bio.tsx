@@ -1,5 +1,5 @@
-import SectionWrapper from "@/ui/components/SectionWrapper";
 import { bioData } from "@/shared/data/bio";
+import SectionWrapper from "@/ui/components/SectionWrapper";
 
 const Bio: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const Bio: React.FC = () => {
       {bioData.map((bio) => (
         <div key={bio.id} className="bio__wrapper">
           <p className="bio__year">{bio.year}</p>
-          <p>{bio.desc}</p>
+          <p dangerouslySetInnerHTML={{ __html: bio.desc }} />
         </div>
       ))}
     </SectionWrapper>

@@ -3,11 +3,12 @@
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
 
-import { TRANSITION_MS } from "@/shared/const/animation";
 import { BREAKPOINT_MOBILE, BREAKPOINT_TABLET } from "@/shared/const/viewport";
 import { MeshState } from "@/shared/interface/Scene";
 import { ShapeVariant } from "@/shared/interface/Shape";
 import { buildScene } from "@/shared/utils/sceneBuilder";
+
+const TRANSITION_MS = 400;
 
 // Determines which layout variant to use based on width
 const getVariant = (width: number): ShapeVariant => {

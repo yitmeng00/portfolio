@@ -17,7 +17,8 @@ const HomeHeader: React.FC = () => {
           but you can call me <span>Ivan</span>
         </h4>
         <p className="header__sub-heading">
-          I’m a full-stack developer based in Kuala Lumpur, focused on full-stack web development.
+          A Full Stack Software Engineer (AWS Certified) focused on scalable system design and
+          advancing toward a Solution Architect role.
         </p>
         <div className="header__icon-wrapper">
           <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>

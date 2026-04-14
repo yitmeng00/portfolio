@@ -8,32 +8,69 @@ export const bioData: Bio[] = [
   },
   {
     id: 2,
-    year: "2020 - 2021",
-    desc: "Part Time Web Developer at W. I. T. Solution.",
+    year: "2005/05",
+    desc: "Achieved consolation award in the 12th UCMAS Abacus & Mental Arithmetic National & International Competition at UNITEN.",
   },
   {
     id: 3,
-    year: "2021",
-    desc: "Full-Stack Developer Intern at W. I. T. Solution.",
+    year: "2013 - 2017",
+    desc: "Completed secondary education at SMJK Yu Hua Kajang. Served as President of the Librarian Club (2016 - 2017).",
   },
+
   {
     id: 4,
-    year: "2022",
-    desc: "Web Application Developer Intern at IBM.",
+    year: "2019/07",
+    desc: "Conducted a showcase for Kechara Soup Kitchen at the JCI Malaysia Global Goals Summit 2019, highlighting their contributions to the SDGs, and raising awareness of SDG initiatives.",
   },
   {
     id: 5,
-    year: "2022",
-    desc: "Completed a Bachelor's Degree in Computer Science at UCSI University.",
+    year: "2020/07 - 2021/04",
+    desc: "Part Time Web Developer at W. I. T. Solution.",
   },
   {
     id: 6,
-    year: "2022 - 2024",
-    desc: "Software Engineer at Aspen Spectra.",
+    year: "2020/10",
+    desc: "Participated in MYHackathon.",
   },
   {
     id: 7,
-    year: "2024 - Present",
+    year: "2021/09 - 2021/12",
+    desc: "Full-Stack Developer Intern at W. I. T. Solution.",
+  },
+  {
+    id: 8,
+    year: "2022/01 - 2022/04",
+    desc: "Web Application Developer Intern at IBM.",
+  },
+  {
+    id: 9,
+    year: "2022/03",
+    desc: "Obtained IBM Enterprise Design Thinking Practitioner certification.",
+  },
+  {
+    id: 10,
+    year: "2019/05 - 2022/04",
+    desc: "Completed a Bacehlor's Degree in Computer Science at UCSI University.",
+  },
+  {
+    id: 11,
+    year: "2022",
+    desc: `Published <i><a href="https://www.jstage.jst.go.jp/article/jaalr/3/2/3_7/_article" target="_blank"><u>"Go.Travel - A Smart Tourism Guide Mobile Application"</i></u></a> in the Journal of Advances in Artificial Life Robotics.`,
+  },
+
+  {
+    id: 12,
+    year: "2022/05 - 2024/06",
+    desc: "Software Engineer at Aspen Spectra.",
+  },
+  {
+    id: 13,
+    year: "2024/06 - 2026/02",
     desc: "Software Engineer at Snappymob.",
+  },
+  {
+    id: 14,
+    year: "2026/03",
+    desc: "Obtained AWS Certified Solutions Architect - Associate certification.",
   },
 ];

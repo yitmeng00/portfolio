@@ -65,9 +65,9 @@
 }
 
 .bio__wrapper {
-  @apply flex flex-row gap-2;
+  @apply flex flex-row gap-6;
 
   .bio__year {
-    @apply font-bold text-primary-600 min-w-32;
+    @apply font-bold text-primary-600 min-w-40;
   }
 }

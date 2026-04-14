@@ -23,7 +23,7 @@ const newsreader = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ivan Wong",
+  title: "Ivan",
   description: "Personal Portfolio",
   icons: {
     icon: "/favicon.png",

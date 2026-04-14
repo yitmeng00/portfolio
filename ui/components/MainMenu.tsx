@@ -5,10 +5,10 @@ import Link from "next/link";
 import * as React from "react";
 
 const navbar = {
-  open: (height = 1000) => ({
+  open: (height: number = 1000) => ({
     clipPath: `circle(${height * 2 + 200}px at calc(100% - 50px) 50px)`,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       stiffness: 20,
       restDelta: 2,
     },
@@ -17,7 +17,7 @@ const navbar = {
     clipPath: "circle(30px at calc(100% - 50px) 50px)",
     transition: {
       delay: 0.2,
-      type: "spring",
+      type: "spring" as const,
       stiffness: 400,
       damping: 40,
     },
