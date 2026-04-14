@@ -3,7 +3,7 @@
 }
 
 .navbar__menu-toggle-btn {
-  @apply z-30 fixed items-center justify-center text-primary-600 top-8 right-8;
+  @apply z-30 fixed items-center justify-center text-primary-600 top-8 right-8 cursor-pointer;
 }
 
 .navbar__menu-wrapper {

@@ -1,8 +1,8 @@
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { ReactNode } from "react";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "@/styles/app.scss";
 import { Footer } from "@/ui/components/layout";
@@ -23,21 +23,26 @@ const newsreader = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ivan Wong",
+  title: "Ivan",
   description: "Personal Portfolio",
   icons: {
     icon: "/favicon.png",
   },
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: ReactNode;
+}>) {
   return (
     <html lang="en">
       <body className={`${newsreader.variable}`}>
-        <ClientProvider>
-          {children}
-          <Footer />
-        </ClientProvider>
+        {/* TODO: Re-enable after other portfolio pages are done */}
+        {/* <ClientProvider> */}
+        {children}
+        <Footer />
+        {/* </ClientProvider> */}
         <Analytics />
         <SpeedInsights />
       </body>

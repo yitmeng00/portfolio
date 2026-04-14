@@ -1,6 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@use "layout/main";
+@use "layout/footer";
+@use "layout/header";
+@use "components/navbar";
+
+@import url("tailwindcss"); // Signals to Sass that this is a plain CSS import
+
+@theme {
+  /* Colors */
+  --color-primary-100: #f4eee8;
+  --color-primary-200: #f2e6d9;
+  --color-primary-300: #e1c8ab;
+  --color-primary-400: #c1a788;
+  --color-primary-500: #5f554a;
+  --color-primary-600: #504538;
+
+  /* Screens */
+  --breakpoint-xs: 425px;
+}
 
 @layer base {
   body {
@@ -36,17 +52,6 @@
   }
 }
 
-@layer components {
-  @import "layout/main";
-  @import "layout/footer";
-  @import "layout/header";
-  @import "components/progress-bar";
-  @import "components/navbar";
-}
-
-@layer utilities {
-  /* Define a utility for the Newsreader font */
-  .font-newsreader {
-    font-family: var(--font-newsreader);
-  }
+@utility font-newsreader {
+  font-family: var(--font-newsreader);
 }

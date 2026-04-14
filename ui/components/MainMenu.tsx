@@ -1,14 +1,14 @@
-import * as React from "react";
+import { faGithub, faSquareLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "motion/react";
 import Link from "next/link";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import * as React from "react";
 
 const navbar = {
-  open: (height = 1000) => ({
+  open: (height: number = 1000) => ({
     clipPath: `circle(${height * 2 + 200}px at calc(100% - 50px) 50px)`,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       stiffness: 20,
       restDelta: 2,
     },
@@ -17,7 +17,7 @@ const navbar = {
     clipPath: "circle(30px at calc(100% - 50px) 50px)",
     transition: {
       delay: 0.2,
-      type: "spring",
+      type: "spring" as const,
       stiffness: 400,
       damping: 40,
     },
@@ -40,12 +40,12 @@ const MainMenu: React.FC<MainMenuProps> = ({ onToggleOpen }) => (
       <div className="navbar__footer-wrapper">
         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
           <Link href={"https://www.linkedin.com/in/yitmengwong/"}>
-            <LinkedInIcon fontSize="large" />
+            <FontAwesomeIcon icon={faSquareLinkedin} style={{ width: "24px", height: "24px" }} />
           </Link>
         </motion.div>
         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
           <Link href={"https://github.com/yitmeng00"}>
-            <GitHubIcon fontSize="large" />
+            <FontAwesomeIcon icon={faGithub} style={{ width: "24px", height: "24px" }} />
           </Link>
         </motion.div>
       </div>

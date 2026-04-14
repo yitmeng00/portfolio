@@ -1,8 +1,12 @@
 #home-header__container {
-  @apply flex flex-row items-center justify-center gap-7 h-screen bg-primary-200;
+  @apply flex flex-row items-center justify-center h-screen bg-primary-200;
+
+  .home-header__background {
+    @apply absolute inset-0 z-0 pointer-events-none;
+  }
 
   .header__heading-wrapper {
-    @apply flex flex-col gap-3 w-1/2;
+    @apply z-10 flex flex-col gap-3 w-1/2 text-center;
 
     .header__main-heading {
       @apply md:text-6xl;
@@ -17,12 +21,8 @@
     }
 
     .header__icon-wrapper {
-      @apply flex flex-row gap-2 text-primary-600;
+      @apply flex flex-row gap-2 justify-center text-primary-600;
     }
-  }
-
-  .header__img {
-    @apply hidden lg:block;
   }
 }
 

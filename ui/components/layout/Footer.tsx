@@ -1,10 +1,13 @@
-import CopyrightIcon from "@mui/icons-material/Copyright";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer: React.FC = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer>
-      <CopyrightIcon fontSize="small" />
-      <p> 2024 Ivan Wong. All Rights Reserved.</p>
+      <FontAwesomeIcon icon={faCopyright} />
+      <p> {currentYear} Ivan Wong. All Rights Reserved.</p>
     </footer>
   );
 };
