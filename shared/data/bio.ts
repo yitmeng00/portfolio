@@ -45,7 +45,7 @@ export const bioData: Bio[] = [
   {
     id: 9,
     year: "2022/03",
-    desc: "Obtained IBM Enterprise Design Thinking Practitioner certification.",
+    desc: `Obtained IBM <a href="https://www.credly.com/badges/4ebf470a-099e-45a9-b479-c053c0087788/public_url" target="_blank"><u>Enterprise Design Thinking Practitioner</u></a> certification.`,
   },
   {
     id: 10,
@@ -61,7 +61,7 @@ export const bioData: Bio[] = [
   {
     id: 12,
     year: "2022/05 - 2024/06",
-    desc: "Software Engineer at Aspen Spectra.",
+    desc: "Full Stack Software Engineer at Aspen Spectra.",
   },
   {
     id: 13,
@@ -71,6 +71,6 @@ export const bioData: Bio[] = [
   {
     id: 14,
     year: "2026/03",
-    desc: "Obtained AWS Certified Solutions Architect - Associate certification.",
+    desc: `Obtained <a href="https://www.credly.com/badges/424f6aaa-740b-4f74-831e-7a2b55c31bc7/public_url" target="_blank"><u>AWS Certified Solutions Architect - Associate</u></a> certification.`,
   },
 ];
