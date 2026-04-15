@@ -15,7 +15,7 @@ const AWSSAAC03: React.FC = () => {
         constraints. And that mental model, it turns out, is genuinely useful on real projects.
       </p>
       <p>Here's what I actually took away.</p>
-      <h6>First, a quick note on the exam itself</h6>
+      <h5>First, a quick note on the exam itself</h5>
       <p>
         SAA-C03 has a reputation as an "entry-level" cert, and technically that's true — it sits at
         the Associate tier. But don't let that fool you into underestimating it. The exam quality is
@@ -31,7 +31,7 @@ const AWSSAAC03: React.FC = () => {
         Associate doesn't mean easy. It means foundational — and the foundation it builds is wider
         and sturdier than most people expect.
       </div>
-      <h6>How I actually studied for it</h6>
+      <h5>How I actually studied for it</h5>
       <p>
         My study stack was pretty straightforward and I think it worked well for the way I learn.
       </p>
@@ -98,7 +98,7 @@ const AWSSAAC03: React.FC = () => {
         anything that doesn't quite click. That loop — learn, test, verify — is what actually builds
         the mental model rather than just familiarity with the material.
       </p>
-      <h6>It forces you to think in trade-offs, not just solutions</h6>
+      <h5>It forces you to think in trade-offs, not just solutions</h5>
       <p>
         The most common SAA-C03 exam question format isn't "what service does X?" It's "given these
         requirements and these constraints, which option is <em>most appropriate</em>?" And there's
@@ -117,7 +117,7 @@ const AWSSAAC03: React.FC = () => {
         Every AWS architecture decision is really a trade-off decision. The exam drills this so
         deeply that it starts to become second nature.
       </div>
-      <h6>High availability isn't magic — it's a deliberate design pattern</h6>
+      <h5>High availability isn't magic — it's a deliberate design pattern</h5>
       <p>
         Before studying for the SAA-C03 exam, I understood high availability at a conceptual level.
         I knew the goal was to avoid downtime, but it still felt abstract.
@@ -129,7 +129,7 @@ const AWSSAAC03: React.FC = () => {
         failure. It shifted my thinking from “what is high availability?” to “how is high
         availability actually achieved?”
       </p>
-      <h6>You learn to match the right tool to the right problem</h6>
+      <h5>You learn to match the right tool to the right problem</h5>
       <p>
         AWS has an overwhelming number of services. Before studying, I used a fairly small subset
         and treated the rest as noise. The SAA forces you to build a working mental map of the
@@ -152,7 +152,7 @@ const AWSSAAC03: React.FC = () => {
         <em>why</em> behind choosing one over another.
       </p>
 
-      <h6>Security is an architecture concern, not an afterthought</h6>
+      <h5>Security is an architecture concern, not an afterthought</h5>
       <p>
         This was one of the bigger mindset shifts for me. In day-to-day development, security often
         gets addressed reactively — you build the feature, then think about what could go wrong. The
@@ -170,10 +170,10 @@ const AWSSAAC03: React.FC = () => {
         SAA curriculum will reorder your priorities.
       </div>
 
-      <h6>
+      <h5>
         Cost optimisation isn't just about “saving money” — it's about designing systems that
         deliver the required performance and reliability at the lowest reasonable cost
-      </h6>
+      </h5>
       <p>
         The exam has an entire domain dedicated to cost-optimised architecture. And while it can
         feel dry in study mode — reserved instances vs. spot vs. on-demand, S3 storage tiers, data
@@ -197,7 +197,7 @@ const AWSSAAC03: React.FC = () => {
           constraint early — not as an audit after the fact — is a habit the SAA genuinely instills.
         </p>
       </div>
-      <h6>What the exam doesn't teach you (and where real experience fills the gap)</h6>
+      <h5>What the exam doesn't teach you (and where real experience fills the gap)</h5>
       <p>
         To be fair about it: the SAA is not the same as having built and operated cloud systems. The
         exam doesn't teach you what it feels like to get paged at 2am because a CloudWatch alarm

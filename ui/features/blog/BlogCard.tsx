@@ -29,7 +29,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
           />
         </div>
         <span className="blog-grid-category">{post.category}</span>
-        <h6 className="blog-grid-title">{post.title}</h6>
+        <h5 className="blog-grid-title">{post.title}</h5>
       </Link>
     </div>
   );
