@@ -4,6 +4,7 @@
 @use "components/navbar";
 @use "components/gallery";
 @use "components/social-link";
+@use "components/blog";
 
 @import url("tailwindcss"); // Signals to Sass that this is a plain CSS import
 
@@ -48,4 +49,8 @@
   p {
     @apply text-lg;
   }
+}
+
+@utility blog-grid-title {
+  @apply xs:text-2xl font-semibold text-black;
 }

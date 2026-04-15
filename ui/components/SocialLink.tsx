@@ -2,7 +2,7 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
-import { socialLinks } from "@/shared/data/socialLink";
+import { SOCIAL_LINKS } from "@/shared/data/socialLink";
 
 interface SocialLinkProps {
   className?: string;
@@ -10,7 +10,7 @@ interface SocialLinkProps {
 
 const SocialLink: React.FC<SocialLinkProps> = ({ className = "" }) => (
   <div id="social-link__container" className={className}>
-    {socialLinks.map((item) => (
+    {SOCIAL_LINKS.map((item) => (
       <Link key={item.label} href={item.href} target="_blank" className="group">
         <FontAwesomeIcon
           icon={faArrowUpRightFromSquare}

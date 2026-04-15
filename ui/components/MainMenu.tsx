@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { menuItems } from "@/shared/data/menu";
+import { MENU_ITEMS } from "@/shared/data/menu";
 
 import SocialLink from "./SocialLink";
 
@@ -12,7 +12,7 @@ const MainMenu: React.FC<MainMenuProps> = ({ onToggleOpen }) => (
   <div className="navbar__container">
     <div className="navbar__menu-wrapper">
       <div className="navbar__menu">
-        {menuItems.map((item, index) => (
+        {MENU_ITEMS.map((item, index) => (
           <Link
             key={item.href}
             href={item.href}

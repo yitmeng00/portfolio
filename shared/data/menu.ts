@@ -1,6 +1,7 @@
 import { MenuItem } from "../interface/Menu";
 
-export const menuItems: MenuItem[] = [
+export const MENU_ITEMS: MenuItem[] = [
   { label: "Home", href: "/" },
   { label: "Gallery", href: "/gallery" },
+  { label: "Blog", href: "/blog" },
 ];
