@@ -43,18 +43,22 @@
 }
 
 #blog-detail {
-  @apply flex flex-col items-center text-center gap-2;
+  @apply flex flex-col gap-2;
 
   .blog-detail-category {
-    @apply text-sm font-medium text-black border border-black/30 rounded-full px-3 my-2;
+    @apply text-sm font-medium text-black border border-black/30 rounded-full px-3 my-2 w-fit;
   }
 
   .blog-detail-title {
     @apply font-bold;
   }
 
+  .blog-detail-desc {
+    @apply font-light text-xl mt-2;
+  }
+
   .blog-detail-publish-date {
-    @apply mt-8;
+    @apply mt-8 mb-3;
   }
 }
 
@@ -130,6 +134,10 @@
 
     .divider {
       @apply my-8 border-0 border-t border-[0.5px];
+    }
+
+    .last-word {
+      @apply text-[0.9rem] italic;
     }
   }
 }

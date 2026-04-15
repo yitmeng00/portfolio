@@ -32,6 +32,7 @@ const BlogDetailPage = async ({ params }: Props) => {
       <BlogDetailHeader
         category={post.category}
         title={post.title}
+        description={post.description}
         publishedAt={post.publishedAt}
       />
       <BlogDetailContent content={post.content} />
