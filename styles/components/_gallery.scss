@@ -58,7 +58,7 @@
   @apply fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 transition-opacity duration-200;
 
   .gallery-lightbox__content {
-    @apply relative flex items-center justify-center max-w-5xl w-full bg-white rounded-lg;
+    @apply relative flex items-center justify-center max-w-5xl w-full bg-white rounded-lg min-h-[80vh];
 
     img {
       @apply w-auto max-w-full max-h-[80vh] m-12;
