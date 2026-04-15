@@ -8,8 +8,10 @@ const HomePage = () => {
     <>
       <HomeHeader />
       <PageContainer className="py-20 xl:px-64 md:px-32 px-10">
-        <About />
-        <Bio />
+        <main>
+          <About />
+          <Bio />
+        </main>
       </PageContainer>
     </>
   );

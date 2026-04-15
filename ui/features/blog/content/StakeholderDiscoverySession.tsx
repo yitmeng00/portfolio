@@ -10,7 +10,7 @@ const StakeholderDiscoverySession: React.FC = () => {
         codebase. They're in the assumptions you made before you wrote a single line.
       </p>
       <p>Here's what I wish someone had told me before my first stakeholder discovery session.</p>
-      <h6>Assume everything will change. Seriously, everything.</h6>
+      <h5>Assume everything will change. Seriously, everything.</h5>
       <p>
         The feature that the stakeholder described in week one will not be the feature you build in
         week six. That's not a failure — that's just how software projects work when real humans are
@@ -30,7 +30,7 @@ const StakeholderDiscoverySession: React.FC = () => {
         When stakeholders say "this is final", treat it as "this is final for now." Build
         accordingly.
       </div>
-      <h6>A POC is worth a thousand words in a meeting</h6>
+      <h5>A POC is worth a thousand words in a meeting</h5>
       <p>
         I used to walk into alignment sessions with slides and diagrams. Clean UML, system flow
         charts, database schemas. I was proud of them. The stakeholders nodded politely and said
@@ -57,7 +57,7 @@ const StakeholderDiscoverySession: React.FC = () => {
           journey. Even static HTML is fine. Get a reaction before you get a sign-off.
         </p>
       </div>
-      <h6>Resource constraints are a business requirement, not an afterthought</h6>
+      <h5>Resource constraints are a business requirement, not an afterthought</h5>
       <p>
         Budget, timeline, team size — these aren't constraints that get bolted onto the project plan
         at the end. They're requirements. And if you don't surface them early in discovery, they'll
@@ -75,7 +75,7 @@ const StakeholderDiscoverySession: React.FC = () => {
         A technically brilliant solution that the team can't operate is not a good solution.
       </div>
 
-      <h6>The client's own team isn't always on the same page</h6>
+      <h5>The client's own team isn't always on the same page</h5>
       <p>
         This one surprised me the most. You'd think that by the time they've brought in an engineer
         to build something, the people commissioning the work would have aligned internally on what
@@ -104,7 +104,7 @@ const StakeholderDiscoverySession: React.FC = () => {
           requirements matter.
         </p>
       </div>
-      <h6>The mindset shift that ties it all together</h6>
+      <h5>The mindset shift that ties it all together</h5>
       <p>
         Discovery isn't an admin task you do before the "real work" begins. It <em>is</em> the real
         work — arguably the most leveraged work on the whole project. An hour spent surfacing a
