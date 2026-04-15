@@ -2,6 +2,14 @@
   @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12;
 }
 
+.blog-grid__load-more-btn-wrapper {
+  @apply flex justify-center;
+
+  .blog-grid__load-more-btn {
+    @apply px-6 py-2 border rounded-lg hover:bg-primary-100 transition hover:cursor-pointer;
+  }
+}
+
 #blog-card {
   @apply text-center;
 
