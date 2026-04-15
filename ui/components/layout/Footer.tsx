@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
 
   return (
     <footer>
-      <FontAwesomeIcon icon={faCopyright} />
+      <FontAwesomeIcon icon={faCopyright} style={{ width: "18px", height: "18px" }} />
       <p> {currentYear} Ivan Wong. All Rights Reserved.</p>
     </footer>
   );
