@@ -11,12 +11,7 @@ interface SocialLinkProps {
 const SocialLink: React.FC<SocialLinkProps> = ({ className = "" }) => (
   <div id="social-link__container" className={className}>
     {socialLinks.map((item) => (
-      <Link
-        key={item.label}
-        href={item.href}
-        target="_blank"
-        className="group flex items-center gap-2"
-      >
+      <Link key={item.label} href={item.href} target="_blank" className="group">
         <FontAwesomeIcon
           icon={faArrowUpRightFromSquare}
           style={{ width: "13px", height: "13px" }}

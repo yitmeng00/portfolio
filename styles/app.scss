@@ -30,19 +30,15 @@
   }
 
   h1 {
-    @apply xl:text-8xl xs:text-5xl text-4xl font-medium text-primary-600;
+    @apply xl:text-8xl xs:text-5xl text-4xl font-semibold text-primary-600;
   }
 
   h2 {
-    @apply text-6xl font-extrabold text-primary-600;
-  }
-
-  h3 {
-    @apply md:text-5xl text-3xl font-light text-primary-600;
+    @apply md:text-6xl text-5xl font-extrabold text-primary-600;
   }
 
   h4 {
-    @apply text-4xl;
+    @apply md:text-5xl text-4xl font-semibold;
   }
 
   h6 {

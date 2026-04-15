@@ -9,16 +9,16 @@
     @apply z-10 flex flex-col gap-3 w-1/2 items-center justify-center text-center;
 
     .header__main-heading {
-      @apply md:text-6xl text-transparent uppercase;
+      @apply text-transparent uppercase;
       -webkit-text-stroke: 2px #504538;
 
       span {
-        @apply font-extrabold text-primary-600;
+        @apply font-bold text-primary-600;
       }
     }
 
     .header__sub-heading {
-      @apply text-xl;
+      @apply md:text-lg text-base font-light;
     }
 
     .header__icon-wrapper {
