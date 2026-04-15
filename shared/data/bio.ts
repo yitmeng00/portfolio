@@ -16,7 +16,6 @@ export const BIO_DATA: Bio[] = [
     year: "2013 - 2017",
     desc: "Completed secondary education at SMJK Yu Hua Kajang. Served as President of the Librarian Club (2016 - 2017).",
   },
-
   {
     id: 4,
     year: "2019/07",
