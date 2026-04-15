@@ -14,12 +14,18 @@ const newsreader = localFont({
       path: "../public/fonts/Newsreader-VariableFont_opsz,wght.ttf",
       style: "normal",
     },
-    {
-      path: "../public/fonts/Newsreader-Italic-VariableFont_opsz,wght.ttf",
-      style: "italic",
-    },
   ],
   variable: "--font-newsreader",
+});
+
+const notoSans = localFont({
+  src: [
+    {
+      path: "../public/fonts/NotoSans-VariableFont_wdth,wght.ttf",
+      style: "normal",
+    },
+  ],
+  variable: "--font-noto-sans",
 });
 
 export const metadata: Metadata = {
@@ -37,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${newsreader.variable}`}>
+      <body className={`${newsreader.variable} ${notoSans.variable}`}>
         <ClientProvider>
           {children}
           <Footer />

@@ -9,12 +9,12 @@
 
 @theme {
   /* Colors */
-  --color-primary-100: #f4eee8;
-  --color-primary-200: #f2e6d9;
-  --color-primary-300: #e1c8ab;
-  --color-primary-400: #c1a788;
-  --color-primary-500: #5f554a;
-  --color-primary-600: #504538;
+  --color-primary-100: #f4eee8; // soft ivory
+  --color-primary-200: #f2e6d9; // light beige
+  --color-primary-300: #e1c8ab; // warm sand
+  --color-primary-400: #c1a788; // muted tan
+  --color-primary-500: #5f554a; // deep taupe
+  --color-primary-600: #504538; // dark mocha
 
   /* Screens */
   --breakpoint-xs: 425px;
@@ -22,7 +22,7 @@
 
 @layer base {
   body {
-    @apply font-newsreader;
+    font-family: var(--font-noto-sans);
   }
 
   body::-webkit-scrollbar {
@@ -52,8 +52,4 @@
   p {
     @apply text-lg;
   }
-}
-
-@utility font-newsreader {
-  font-family: var(--font-newsreader);
 }
