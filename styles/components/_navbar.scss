@@ -1,9 +1,36 @@
-.navbar__container {
-  @apply z-20 fixed h-full w-full bg-primary-300;
+.navbar {
+  // Dynamic shared variables to ensure the navbar btn icon is always perfectly centered within the circular clip-path
+  --btn-size: 30px;
+  --btn-top: 2rem;
+  --btn-right: 2rem;
 }
 
-.navbar__menu-toggle-btn {
-  @apply z-30 fixed items-center justify-center text-primary-600 top-8 right-8 cursor-pointer;
+.navbar__container {
+  @apply z-20 fixed h-full w-full bg-primary-300;
+
+  // Default close state
+  clip-path: circle(
+    30px at calc(100% - var(--btn-right) - (var(--btn-size) / 2))
+      calc(var(--btn-top) + (var(--btn-size) / 2))
+  );
+
+  transition: clip-path 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+// Open state
+.navbar.open .navbar__container {
+  clip-path: circle(
+    150% at calc(100% - var(--btn-right) - (var(--btn-size) / 2))
+      calc(var(--btn-top) + (var(--btn-size) / 2))
+  );
+}
+
+// Close state
+.navbar.closed .navbar__container {
+  clip-path: circle(
+    30px at calc(100% - var(--btn-right) - (var(--btn-size) / 2))
+      calc(var(--btn-top) + (var(--btn-size) / 2))
+  );
 }
 
 .navbar__menu-wrapper {
@@ -12,4 +39,18 @@
   .navbar__menu-item {
     @apply hover:text-primary-200 hover:underline hover:decoration-wavy hover:decoration-primary-500 text-primary-600 font-medium;
   }
+}
+
+.navbar__menu-toggle-btn {
+  @apply z-30 fixed flex items-center justify-center text-primary-600 cursor-pointer;
+
+  top: var(--btn-top);
+  right: var(--btn-right);
+  width: var(--btn-size);
+  height: var(--btn-size);
+  transition: transform 0.3s ease;
+}
+
+.navbar__menu-toggle-btn.open {
+  transform: rotate(180deg);
 }
