@@ -11,7 +11,7 @@ This is my personal portfolio website, built using technologies:
 - TypeScript
 - Tailwind
 - Sass
-- Motion
+- Three.js
 
 ## License
 

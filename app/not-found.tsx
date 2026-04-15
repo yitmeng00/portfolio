@@ -10,7 +10,7 @@ const NotFound = () => {
         color="#504538"
       />
       <h2>Page Not Found</h2>
-      <h6>We can&apos;t seem to find the page you&apos;re looking for.</h6>
+      <p>We can&apos;t seem to find the page you&apos;re looking for.</p>
     </section>
   );
 };

@@ -1,7 +1,6 @@
 "use client";
 
-import { motion, useCycle } from "motion/react";
-import { ReactNode } from "react";
+import { useState, ReactNode } from "react";
 
 import MainMenu from "@/ui/components/MainMenu";
 import { MenuToggle } from "@/ui/components/MenuToggle";
@@ -11,18 +10,18 @@ interface ClientProviderProps {
 }
 
 const ClientProvider = ({ children }: ClientProviderProps) => {
-  const [isOpen, toggleOpen] = useCycle(false, true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleToggleOpen = () => {
-    toggleOpen();
+    setIsOpen((prev) => !prev);
   };
 
   return (
     <>
-      <motion.nav initial={false} animate={isOpen ? "open" : "closed"}>
+      <nav className={isOpen ? "navbar open" : "navbar closed"}>
         <MainMenu onToggleOpen={handleToggleOpen} />
         <MenuToggle isOpen={isOpen} onToggleOpen={handleToggleOpen} />
-      </motion.nav>
+      </nav>
       {children}
     </>
   );

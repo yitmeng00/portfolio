@@ -9,12 +9,12 @@
 
 @theme {
   /* Colors */
-  --color-primary-100: #f4eee8;
-  --color-primary-200: #f2e6d9;
-  --color-primary-300: #e1c8ab;
-  --color-primary-400: #c1a788;
-  --color-primary-500: #5f554a;
-  --color-primary-600: #504538;
+  --color-primary-100: #f4eee8; // soft ivory
+  --color-primary-200: #f2e6d9; // light beige
+  --color-primary-300: #e1c8ab; // warm sand
+  --color-primary-400: #c1a788; // muted tan
+  --color-primary-500: #5f554a; // deep taupe
+  --color-primary-600: #504538; // dark mocha
 
   /* Screens */
   --breakpoint-xs: 425px;
@@ -22,7 +22,7 @@
 
 @layer base {
   body {
-    @apply font-newsreader;
+    font-family: var(--font-noto-sans);
   }
 
   body::-webkit-scrollbar {
@@ -30,19 +30,15 @@
   }
 
   h1 {
-    @apply xl:text-8xl xs:text-5xl text-4xl font-medium text-primary-600;
+    @apply xl:text-8xl xs:text-5xl text-4xl font-semibold text-primary-600;
   }
 
   h2 {
-    @apply text-6xl font-extrabold text-primary-600;
-  }
-
-  h3 {
-    @apply md:text-5xl text-3xl font-light text-primary-600;
+    @apply md:text-6xl text-5xl font-extrabold text-primary-600;
   }
 
   h4 {
-    @apply text-4xl;
+    @apply md:text-5xl text-4xl font-semibold;
   }
 
   h6 {
@@ -52,8 +48,4 @@
   p {
     @apply text-lg;
   }
-}
-
-@utility font-newsreader {
-  font-family: var(--font-newsreader);
 }

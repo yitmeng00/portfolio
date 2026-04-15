@@ -2,10 +2,14 @@
   @apply flex flex-row gap-8 text-primary-600;
 
   a {
-    @apply flex flex-row gap-2 hover:scale-[1.1] hover:cursor-pointer transition;
+    @apply flex flex-row gap-2 hover:cursor-pointer transition relative items-center;
 
     p {
-      @apply leading-none;
+      @apply leading-none md:text-lg text-base;
+    }
+
+    span {
+      @apply absolute left-0 -bottom-1 h-[2px] w-0 bg-primary-500 transition-all duration-300 group-hover:w-full;
     }
   }
 }

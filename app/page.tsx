@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <HomeHeader />
-      <PageContainer>
+      <PageContainer className="py-20 xl:px-96 md:px-52 px-10">
         <About />
         <Bio />
       </PageContainer>
