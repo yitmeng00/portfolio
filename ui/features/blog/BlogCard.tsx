@@ -22,7 +22,9 @@ const BlogCard = ({ post }: BlogCardProps) => {
             loading="eager"
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            onLoadingComplete={() => setIsLoading(false)}
+            onLoad={() => {
+              if (isLoading) setIsLoading(false);
+            }}
             className={`${isLoading ? "opacity-0" : "opacity-100"}`}
           />
         </div>
