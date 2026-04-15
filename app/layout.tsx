@@ -8,16 +8,6 @@ import "@/styles/app.scss";
 import { Footer } from "@/ui/components/layout";
 import ClientProvider from "@/ui/features/ClientProvider";
 
-const newsreader = localFont({
-  src: [
-    {
-      path: "../public/fonts/Newsreader-VariableFont_opsz,wght.ttf",
-      style: "normal",
-    },
-  ],
-  variable: "--font-newsreader",
-});
-
 const notoSans = localFont({
   src: [
     {
@@ -43,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${newsreader.variable} ${notoSans.variable}`}>
+      <body className={`${notoSans.variable}`}>
         <ClientProvider>
           {children}
           <Footer />

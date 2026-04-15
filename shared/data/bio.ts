@@ -1,6 +1,6 @@
 import { Bio } from "../interface/Bio";
 
-export const bioData: Bio[] = [
+export const BIO_DATA: Bio[] = [
   {
     id: 1,
     year: "2000",

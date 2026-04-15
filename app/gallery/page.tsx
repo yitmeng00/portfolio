@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { photos } from "@/shared/data/gallery";
+import { PHOTOS } from "@/shared/data/gallery";
 import { Photo } from "@/shared/interface/Gallery";
 import { MainHeader } from "@/ui/components/layout";
 import PageContainer from "@/ui/components/PageContainer";
@@ -27,7 +27,7 @@ const PortfolioPage = () => {
           <AboutSection />
           <GearSection />
         </div>
-        <GalleryGrid photos={photos} onImageClick={handleImageClick} />
+        <GalleryGrid photos={PHOTOS} onImageClick={handleImageClick} />
         {selectedImage && <Lightbox selectedImage={selectedImage} onClose={handleCloseModal} />}
       </div>
     </PageContainer>

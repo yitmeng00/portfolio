@@ -1,6 +1,6 @@
 import { SocialLinkItem } from "../interface/SocialLink";
 
-export const socialLinks: SocialLinkItem[] = [
+export const SOCIAL_LINKS: SocialLinkItem[] = [
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/yitmengwong/",

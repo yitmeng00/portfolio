@@ -1,6 +1,6 @@
 import { Photo } from "../interface/Gallery";
 
-export const photos: Photo[] = [
+export const PHOTOS: Photo[] = [
   { id: 1, url: "/assets/gallery/petronas-twin-tower.jpg", alt: "Petronas Twin Tower" },
   { id: 2, url: "/assets/gallery/trx-exchange.jpg", alt: "TRX Exchange" },
   { id: 3, url: "/assets/gallery/kl-tower.jpg", alt: "KL Tower" },
