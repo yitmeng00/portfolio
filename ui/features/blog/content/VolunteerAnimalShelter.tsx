@@ -13,7 +13,7 @@ const VolunteerAnimalShelter: React.FC = () => {
         exhausted I could barely feel my back and my legs.
       </p>
       <p>Here's how the day actually went.</p>
-      <h5>The morning shift — walking, cleaning, feeding</h5>
+      <h3>The morning shift — walking, cleaning, feeding</h3>
       <p>
         7:30am and the shelter is already awake and noisy. The first task: walk the dogs. Every dog
         gets brought out of their cage to do their business — pee, poop, stretch their legs, feel
@@ -39,7 +39,7 @@ const VolunteerAnimalShelter: React.FC = () => {
         Aileen. If you are on the morning shift, your day typically ends here, and you can choose to
         have lunch with the team before heading back.
       </p>
-      <h5>The afternoon — dismantling cages, washing everything</h5>
+      <h3>The afternoon — dismantling cages, washing everything</h3>
       <p>
         After a short rest, around 2pm, the heavy work begins: cage washing. The aluminium cages get
         dismantled, scrubbed down, wiped dry, and reassembled. It's physical, repetitive work and it
@@ -57,7 +57,7 @@ const VolunteerAnimalShelter: React.FC = () => {
         your back, your legs, your arms. You also feel something else — the quiet kind of
         satisfaction that comes from work that actually needed doing.
       </p>
-      <h5>The night run — feeding strays in Setia Alam and Bukit Raja</h5>
+      <h3>The night run — feeding strays in Setia Alam and Bukit Raja</h3>
       <p>
         The night is an ad hoc experience, following Aunty Aileen on her nightly journey to feed the
         stray dogs scattered across Setia Alam and Bukit Raja.
@@ -81,7 +81,7 @@ const VolunteerAnimalShelter: React.FC = () => {
         imagining Aunty Aileen doing this route alone. Every night. In the dark. With no team. Just
         the pots, the car, and the dogs waiting at the same spots they always wait.
       </p>
-      <h5>What I took home</h5>
+      <h3>What I took home</h3>
       <p>
         I went in expecting to feel good about myself for giving up a day. I left feeling humbled.
       </p>

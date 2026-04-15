@@ -7,12 +7,12 @@ const HomePage = () => {
   return (
     <>
       <HomeHeader />
-      <PageContainer className="py-20 xl:px-64 md:px-32 px-10">
-        <main>
+      <main>
+        <PageContainer className="py-20 xl:px-64 md:px-32 px-10">
           <About />
           <Bio />
-        </main>
-      </PageContainer>
+        </PageContainer>
+      </main>
     </>
   );
 };

@@ -7,12 +7,12 @@ const HomeHeader: React.FC = () => {
     <header id="home-header__container">
       <HomeHeaderBackground />
       <div className="header__heading-wrapper">
-        <h4 className="header__main-heading">
+        <h1 className="header__main-heading">
           Hello, <span>Yit Meng</span> here
-        </h4>
-        <h4 className="header__main-heading">
+        </h1>
+        <h1 className="header__main-heading">
           but you can call me <span>Ivan</span>
-        </h4>
+        </h1>
         <p className="header__sub-heading">
           A Full Stack Software Engineer (AWS Certified) focused on scalable system design and
           advancing toward a Solution Architect role.

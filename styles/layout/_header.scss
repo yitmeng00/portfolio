@@ -9,7 +9,7 @@
     @apply z-10 flex flex-col gap-3 w-1/2 items-center justify-center text-center;
 
     .header__main-heading {
-      @apply text-transparent uppercase;
+      @apply text-transparent uppercase md:text-5xl text-4xl font-semibold;
       -webkit-text-stroke: 2px #504538;
 
       span {
