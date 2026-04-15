@@ -23,7 +23,7 @@ const Lightbox = ({ selectedImage, onClose }: LightboxProps) => {
           draggable={false}
         />
         <button className="gallery-lightbox__close" onClick={onClose}>
-          <FontAwesomeIcon icon={faX} size="lg" />
+          <FontAwesomeIcon icon={faX} style={{ width: "20px", height: "20px" }} />
         </button>
       </div>
     </div>
