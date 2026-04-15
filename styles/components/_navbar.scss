@@ -12,8 +12,4 @@
   .navbar__menu-item {
     @apply hover:text-primary-200 hover:underline hover:decoration-wavy hover:decoration-primary-500 text-primary-600 font-medium;
   }
-
-  .navbar__footer-wrapper {
-    @apply flex flex-row gap-3 text-primary-600;
-  }
 }

@@ -1,8 +1,7 @@
-import { faGithub, faSquareLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "motion/react";
 import Link from "next/link";
-import * as React from "react";
+
+import SocialLink from "./SocialLink";
 
 const navbar = {
   open: (height: number = 1000) => ({
@@ -34,21 +33,10 @@ const MainMenu: React.FC<MainMenuProps> = ({ onToggleOpen }) => (
       <Link href="/" className="navbar__menu-item" onClick={onToggleOpen}>
         <h1>Home</h1>
       </Link>
-      <Link href="/portfolio" className="navbar__menu-item" onClick={onToggleOpen}>
-        <h1>Portfolio</h1>
+      <Link href="/gallery" className="navbar__menu-item" onClick={onToggleOpen}>
+        <h1>Gallery</h1>
       </Link>
-      <div className="navbar__footer-wrapper">
-        <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
-          <Link href={"https://www.linkedin.com/in/yitmengwong/"}>
-            <FontAwesomeIcon icon={faSquareLinkedin} style={{ width: "24px", height: "24px" }} />
-          </Link>
-        </motion.div>
-        <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
-          <Link href={"https://github.com/yitmeng00"}>
-            <FontAwesomeIcon icon={faGithub} style={{ width: "24px", height: "24px" }} />
-          </Link>
-        </motion.div>
-      </div>
+      <SocialLink />
     </div>
   </motion.div>
 );

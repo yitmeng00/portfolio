@@ -6,7 +6,7 @@
   }
 
   .header__heading-wrapper {
-    @apply z-10 flex flex-col gap-3 w-1/2 text-center;
+    @apply z-10 flex flex-col gap-3 w-1/2 items-center justify-center text-center;
 
     .header__main-heading {
       @apply md:text-6xl;
@@ -21,15 +21,15 @@
     }
 
     .header__icon-wrapper {
-      @apply flex flex-row gap-2 justify-center text-primary-600;
+      @apply flex flex-row gap-2 text-primary-600;
     }
   }
 }
 
 .main-header__container {
-  @apply lg:px-36 px-0;
+  @apply text-primary-600 font-extrabold pt-16;
 
-  .main-header__wrapper {
-    @apply bg-primary-200 h-96 flex items-end justify-center text-center px-20 py-10 text-primary-600 font-extrabold;
+  hr {
+    @apply mt-3 mb-6 bg-primary-600 h-[2px];
   }
 }

@@ -2,6 +2,8 @@
 @use "layout/footer";
 @use "layout/header";
 @use "components/navbar";
+@use "components/gallery";
+@use "components/social-link";
 
 @import url("tailwindcss"); // Signals to Sass that this is a plain CSS import
 
