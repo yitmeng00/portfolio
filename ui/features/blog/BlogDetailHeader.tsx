@@ -9,7 +9,7 @@ const BlogDetailHeader = ({ category, title, description, publishedAt }: BlogGri
   return (
     <section id="blog-detail">
       <span className="blog-detail-category">{category}</span>
-      <h2 className="blog-detail-title">{title}</h2>
+      <h1 className="blog-detail-title">{title}</h1>
       {description && <p className="blog-detail-desc">{description}</p>}
       <p className="blog-detail-publish-date">{publishedAt}</p>
     </section>
