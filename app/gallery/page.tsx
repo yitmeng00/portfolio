@@ -11,20 +11,12 @@ import { AboutSection, GearSection, GalleryGrid, Lightbox } from "@/ui/features/
 const PortfolioPage = () => {
   const [selectedImage, setSelectedImage] = useState<Omit<Photo, "id"> | null>(null);
 
-  const [isOpen, setIsOpen] = useState(false);
-
   const handleCloseModal = () => {
-    setIsOpen(false);
-
-    // Delay unmount so transition doesn't flicker
-    setTimeout(() => {
-      setSelectedImage(null);
-    }, 200);
+    setSelectedImage(null);
   };
 
   const handleImageClick = (img: { url: string; alt: string }) => {
     setSelectedImage(img);
-    setIsOpen(true);
   };
 
   return (
@@ -36,7 +28,7 @@ const PortfolioPage = () => {
           <GearSection />
         </div>
         <GalleryGrid photos={photos} onImageClick={handleImageClick} />
-        <Lightbox selectedImage={selectedImage} isOpen={isOpen} onClose={handleCloseModal} />
+        {selectedImage && <Lightbox selectedImage={selectedImage} onClose={handleCloseModal} />}
       </div>
     </PageContainer>
   );
