@@ -17,7 +17,7 @@
     @apply relative w-full h-50 overflow-hidden rounded-lg;
 
     img {
-      @apply object-cover;
+      @apply object-cover transition-opacity duration-500;
     }
   }
 
