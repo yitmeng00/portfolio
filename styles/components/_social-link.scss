@@ -1,0 +1,11 @@
+#social-link__container {
+  @apply flex flex-row gap-8 text-primary-600;
+
+  a {
+    @apply flex flex-row gap-2 hover:scale-[1.1] hover:cursor-pointer transition;
+
+    p {
+      @apply leading-none;
+    }
+  }
+}
