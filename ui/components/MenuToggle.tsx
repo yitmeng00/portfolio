@@ -10,7 +10,11 @@ export const MenuToggle: React.FC<MenuToggleProps> = ({ isOpen, onToggleOpen }) 
   const ICON_SIZE = "30px";
 
   return (
-    <button onClick={onToggleOpen} className={`navbar__menu-toggle-btn ${isOpen ? "open" : ""}`}>
+    <button
+      onClick={onToggleOpen}
+      className={`navbar__menu-toggle-btn ${isOpen ? "open" : ""}`}
+      aria-label={isOpen ? "Close menu" : "Open menu"}
+    >
       <FontAwesomeIcon
         icon={isOpen ? faXmark : faBars}
         style={{ width: ICON_SIZE, height: ICON_SIZE }}
