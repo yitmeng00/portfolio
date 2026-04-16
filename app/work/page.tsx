@@ -1,8 +1,12 @@
 "use client";
 
+import { lazy, Suspense } from "react";
+
 import { MainHeader } from "@/ui/components/layout";
 import PageContainer from "@/ui/components/PageContainer";
-import WorkTimeline from "@/ui/features/work/WorkTimeline";
+import WorkTimelineSkeleton from "@/ui/features/work/WorkTimelineSkeleton";
+
+const WorkTimeline = lazy(() => import("@/ui/features/work/WorkTimeline"));
 
 const WorkPage = () => {
   return (
@@ -19,7 +23,9 @@ const WorkPage = () => {
           real-world solutions that effectively bridge business needs with technical excellence.
         </p>
       </div>
-      <WorkTimeline />
+      <Suspense fallback={<WorkTimelineSkeleton />}>
+        <WorkTimeline />
+      </Suspense>
     </PageContainer>
   );
 };

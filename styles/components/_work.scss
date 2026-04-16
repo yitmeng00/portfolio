@@ -42,3 +42,45 @@
     @apply text-[11px] px-2 py-0.5 rounded border border-primary-600 bg-primary-100;
   }
 }
+
+@keyframes shimmer {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+.timeline__skeleton-dot {
+  @apply absolute left-[3px] top-[5px] w-[9px] h-[9px] rounded-full bg-primary-200;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+.timeline__skeleton-role {
+  @apply h-5 w-48 rounded bg-primary-100;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+.timeline__skeleton-company {
+  @apply h-3.5 w-32 rounded bg-primary-100 mt-1.5;
+  animation: shimmer 1.5s ease-in-out infinite 0.1s;
+}
+
+.timeline__skeleton-period {
+  @apply h-3 w-24 rounded bg-primary-100 mt-1.5;
+  animation: shimmer 1.5s ease-in-out infinite 0.2s;
+}
+
+.timeline__skeleton-tag {
+  @apply h-4 w-28 rounded bg-primary-100 mt-2;
+  animation: shimmer 1.5s ease-in-out infinite 0.3s;
+
+  &--short {
+    @apply w-20;
+    animation-delay: 0.4s;
+  }
+}
