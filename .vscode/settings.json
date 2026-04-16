@@ -1,4 +1,5 @@
 {
+  "tailwindCSS.experimental.configFile": "styles/tailwind.css",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
