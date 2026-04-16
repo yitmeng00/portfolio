@@ -5,7 +5,7 @@ interface MainHeaderProps {
 const MainHeader: React.FC<MainHeaderProps> = ({ title }) => {
   return (
     <section className="main-header__container">
-      <h2>{title}</h2>
+      <h1 className="page-heading">{title}</h1>
       <hr />
     </section>
   );

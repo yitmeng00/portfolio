@@ -3,8 +3,8 @@
 }
 
 .section__wrapper {
-  .section__title {
-    @apply pb-3 xs:text-2xl text-xl font-extrabold text-primary-600;
+  .section-title {
+    @apply pb-3;
   }
 }
 
@@ -70,4 +70,8 @@
   .bio__year {
     @apply font-semibold text-primary-600 min-w-40;
   }
+}
+
+.skeleton {
+  @apply animate-pulse bg-gray-200;
 }

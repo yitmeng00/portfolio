@@ -11,13 +11,12 @@ const About: React.FC = () => {
         wand to make life easier, more efficient, and more convenient.
       </p>
       <p className="about__paragraph-item">
-        When I’m not coding, you’ll likely find me with a camera in hand.{" "}
-        <span>
-          <u>
-            <Link href="https://unsplash.com/@yitmeng_w">Photography</Link>
-          </u>
-        </span>{" "}
-        is my zen zone—it’s where I get to capture life’s beautiful moments in pixels.
+        When I’m not coding, you’ll likely find me with a camera in hand. Photography is my zen
+        zone—it’s where I get to capture life’s random moments in pixels. When I need to reset, I
+        turn to movement. I stay active with running, hiking, and sports like tennis, badminton, and
+        swimming—it’s how I clear my mind and recharge. And beyond all that, I look for ways to
+        contribute where I can. Volunteering adds a different kind of perspective—one that reminds
+        me that the most meaningful impact often happens off the screen.
       </p>
       <p className="about__paragraph-item">
         <span className="about__paragraph-item-heading">FUN FACT:</span> I have a quirky habit of

@@ -7,10 +7,10 @@ const HomeHeader: React.FC = () => {
     <header id="home-header__container">
       <HomeHeaderBackground />
       <div className="header__heading-wrapper">
-        <h1 className="header__main-heading">
+        <h1 className="home-header-heading">
           Hello, <span>Yit Meng</span> here
         </h1>
-        <h1 className="header__main-heading">
+        <h1 className="home-header-heading">
           but you can call me <span>Ivan</span>
         </h1>
         <p className="header__sub-heading">

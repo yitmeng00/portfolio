@@ -1,5 +1,21 @@
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+
+%skeleton-base {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  border-radius: 4px;
+}
+
 #gallery-info-grid {
-  @apply grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12;
+  @apply grid grid-cols-1 sm:grid-cols-2 gap-6;
 }
 
 #gallery-about {
@@ -46,11 +62,30 @@
   @apply columns-1 sm:columns-2 md:columns-3 gap-6 space-y-6;
 
   .gallery-grid__item {
-    @apply break-inside-avoid;
+    @apply break-inside-avoid relative;
+
+    // Skeleton placeholder — matches image's natural aspect ratio slot
+    .gallery-grid__skeleton {
+      @extend %skeleton-base;
+      @apply w-full;
+      aspect-ratio: 1 / 1;
+    }
 
     img {
-      @apply w-full h-auto hover:scale-[1.02] hover:cursor-pointer transition;
+      @apply w-full h-auto hover:scale-[1.02] hover:cursor-pointer transition-all duration-300;
+      // Smooth fade-in once loaded (opacity toggled via inline style)
+      transition:
+        opacity 0.3s ease,
+        transform 0.2s ease;
     }
+  }
+}
+
+.gallery-grid__load-more {
+  @apply load-more-btn-wrapper mt-16;
+
+  .gallery-grid__load-more-btn {
+    @apply load-more-btn;
   }
 }
 
@@ -60,12 +95,18 @@
   .gallery-lightbox__content {
     @apply relative flex items-center justify-center max-w-5xl w-full bg-white rounded-lg min-h-[80vh];
 
+    // Skeleton fills the content area while the large image loads
+    .gallery-lightbox__skeleton {
+      @extend %skeleton-base;
+      @apply absolute inset-0 rounded-lg;
+    }
+
     img {
-      @apply w-auto max-w-full max-h-[80vh] m-12;
+      @apply w-auto max-w-full max-h-[80vh] m-12 relative z-10 transition-opacity duration-300 ease-in-out;
     }
 
     .gallery-lightbox__close {
-      @apply absolute top-3 right-3 hover:cursor-pointer;
+      @apply absolute top-3 right-3 hover:cursor-pointer z-20;
     }
   }
 }
