@@ -21,7 +21,7 @@ const MainMenu: React.FC<MainMenuProps> = ({ onToggleOpen }) => (
           >
             <div className="navbar__menu-item-info">
               <p>{String(index + 1).padStart(2, "0")}</p>
-              <h1>
+              <h1 className="nav-menu-title">
                 {item.label}
                 <span />
               </h1>

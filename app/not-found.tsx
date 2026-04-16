@@ -9,7 +9,7 @@ const NotFound = () => {
         style={{ width: "72px", height: "72px" }}
         color="#504538"
       />
-      <h2>Page Not Found</h2>
+      <h1 className="not-found-heading">Page Not Found</h1>
       <p>We can&apos;t seem to find the page you&apos;re looking for.</p>
     </section>
   );
