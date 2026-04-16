@@ -5,8 +5,8 @@ const About: React.FC = () => {
     <section className="about__container">
       <p className="about__paragraph-item">
         Hey there! Exploring and learning new things has been my passion forever. For me, the best
-        part of being a engineer / developer is being able to craft solutions that actually make a
-        difference. Whether it’s developing a feature that improves user experience or building a
+        part of being an engineer and developer is being able to craft solutions that actually make
+        a difference. Whether it’s developing a feature that improves user experience or building a
         solution that solves a real-life problem, it’s all about using tech as a modern-day magic
         wand to make life easier, more efficient, and more convenient.
       </p>
