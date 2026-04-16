@@ -27,10 +27,10 @@ const HomeHeaderBackground: React.FC = () => {
     init(scene, initialVariant);
 
     const onResize = () => {
-      const { clientWidth: w, clientHeight: h } = element;
-      syncCamera(renderer, camera, w, h);
+      const { clientWidth: width, clientHeight: height } = element;
+      syncCamera(renderer, camera, width, height);
 
-      const nextVariant = getVariant(w);
+      const nextVariant = getVariant(width);
       if (nextVariant !== stateRef.current.currentVariant) {
         switchVariant(scene, nextVariant, performance.now());
       }
@@ -51,25 +51,27 @@ const HomeHeaderBackground: React.FC = () => {
     const { renderer, camera } = three;
     const state = stateRef.current;
 
-    let tEased = 1;
+    let easedProgress = 1;
     if (state.isTransitioning) {
       const raw = Math.min((time - state.transitionStart) / TRANSITION_MS, 1);
-      tEased = easeInOut(raw);
+      easedProgress = easeInOut(raw);
       if (raw >= 1) state.isTransitioning = false;
     }
 
-    state.meshStates.forEach((s, i) => {
+    state.meshStates.forEach((state, i) => {
       const floatX = Math.cos(time * 0.0008 + i) * 0.03;
       const floatY = Math.sin(time * 0.001 + i) * 0.03;
 
-      if (tEased < 1) {
-        s.mesh.position.x = s.startPos.x + (s.targetPos.x + floatX - s.startPos.x) * tEased;
-        s.mesh.position.y = s.startPos.y + (s.targetPos.y + floatY - s.startPos.y) * tEased;
-        s.mesh.scale.lerpVectors(s.startScale, s.targetScale, tEased);
+      if (easedProgress < 1) {
+        state.mesh.position.x =
+          state.startPos.x + (state.targetPos.x + floatX - state.startPos.x) * easedProgress;
+        state.mesh.position.y =
+          state.startPos.y + (state.targetPos.y + floatY - state.startPos.y) * easedProgress;
+        state.mesh.scale.lerpVectors(state.startScale, state.targetScale, easedProgress);
       } else {
-        s.mesh.position.x = s.basePos.x + floatX;
-        s.mesh.position.y = s.basePos.y + floatY;
-        s.mesh.scale.set(1, 1, 1);
+        state.mesh.position.x = state.basePos.x + floatX;
+        state.mesh.position.y = state.basePos.y + floatY;
+        state.mesh.scale.set(1, 1, 1);
       }
     });
 

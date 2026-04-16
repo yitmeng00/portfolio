@@ -41,26 +41,26 @@ export const useVariantTransition = () => {
     const { meshStates, disposers } = stateRef.current;
 
     // Snapshot current positions/scales as transition start points
-    const prevPositions = meshStates.map((s) => s.mesh.position.clone());
-    const prevScales = meshStates.map((s) => s.mesh.scale.clone());
+    const prevPositions = meshStates.map((state) => state.mesh.position.clone());
+    const prevScales = meshStates.map((state) => state.mesh.scale.clone());
 
-    meshStates.forEach((s) => scene.remove(s.mesh));
-    disposers.forEach((d) => d());
+    meshStates.forEach((state) => scene.remove(state.mesh));
+    disposers.forEach((disposer) => disposer());
 
-    const { meshStates: next, disposers: nextDisposers } = buildScene(scene, nextVariant);
+    const { meshStates: states, disposers: nextDisposers } = buildScene(scene, nextVariant);
 
-    next.forEach((s, i) => {
-      s.startPos = (prevPositions[i] ?? prevPositions[0] ?? s.basePos).clone();
-      s.startScale = (prevScales[i] ?? prevScales[0] ?? new THREE.Vector3(1, 1, 1)).clone();
-      s.targetPos = s.basePos.clone();
-      s.targetScale = new THREE.Vector3(1, 1, 1);
+    states.forEach((state, i) => {
+      state.startPos = (prevPositions[i] ?? prevPositions[0] ?? state.basePos).clone();
+      state.startScale = (prevScales[i] ?? prevScales[0] ?? new THREE.Vector3(1, 1, 1)).clone();
+      state.targetPos = state.basePos.clone();
+      state.targetScale = new THREE.Vector3(1, 1, 1);
 
-      s.mesh.position.copy(s.startPos);
-      s.mesh.scale.copy(s.startScale);
+      state.mesh.position.copy(state.startPos);
+      state.mesh.scale.copy(state.startScale);
     });
 
     stateRef.current = {
-      meshStates: next,
+      meshStates: states,
       disposers: nextDisposers,
       currentVariant: nextVariant,
       transitionStart: now,

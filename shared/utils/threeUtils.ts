@@ -17,11 +17,11 @@ export const easeInOut = (t: number): number => (t < 0.5 ? 2 * t * t : -1 + (4 -
 export const syncCamera = (
   renderer: THREE.WebGLRenderer,
   camera: THREE.OrthographicCamera,
-  w: number,
-  h: number,
+  width: number,
+  height: number,
 ): void => {
-  const asp = w / h;
-  renderer.setSize(w, h);
+  const asp = width / height;
+  renderer.setSize(width, height);
   camera.left = -asp;
   camera.right = asp;
   camera.top = 1;
