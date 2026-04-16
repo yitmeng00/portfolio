@@ -1,0 +1,44 @@
+.work__desc {
+  @apply md:text-lg text-base font-light;
+}
+
+.timeline__container {
+  @apply flex justify-center;
+
+  .timeline__content-wrapper {
+    @apply relative flex flex-col gap-8 w-fit;
+
+    &::before {
+      content: "";
+      @apply absolute top-0 bottom-0 left-[7px] w-px bg-primary-600;
+    }
+  }
+
+  .timeline__item {
+    @apply relative pl-7;
+  }
+
+  .timeline__dot {
+    @apply absolute left-[3px] top-[5px] w-[9px] h-[9px] rounded-full border-2 border-primary-600 ring-1 transition-all bg-primary-300 ring-primary-600;
+  }
+
+  .timeline__role {
+    @apply md:text-lg text-base font-medium;
+  }
+
+  .timeline__company {
+    @apply md:text-sm text-xs font-medium mt-0.5;
+  }
+
+  .timeline__period {
+    @apply md:text-[13px] text-[11px] text-black/80 mt-0.5;
+  }
+
+  .timeline__project-wrapper {
+    @apply mt-2 flex flex-wrap gap-1;
+  }
+
+  .timeline__project {
+    @apply text-[11px] px-2 py-0.5 rounded border border-primary-600 bg-primary-100;
+  }
+}
