@@ -36,7 +36,7 @@ export const BLOG_DETAIL: Record<string, BlogPostDetail> = {
     publishedAt: "April 15, 2026",
     content: VolunteerAnimalShelter,
     description:
-      "It's 7:30am to 11:30pm of real, unglamorous, deeply rewarding work — and I'd do it again in a heartbeat.",
+      "It's 7:30am to 11:30pm of meaningful and deeply rewarding work — and I'd do it again without hesitation.",
   },
   "aws-saa-c03-real-world-cloud-design-lessons": {
     slug: "aws-saa-c03-real-world-cloud-design-lessons",
