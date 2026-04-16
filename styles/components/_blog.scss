@@ -3,10 +3,10 @@
 }
 
 .blog-grid__load-more-btn-wrapper {
-  @apply flex justify-center;
+  @apply load-more-btn-wrapper;
 
   .blog-grid__load-more-btn {
-    @apply px-6 py-2 border rounded-lg hover:bg-primary-100 transition hover:cursor-pointer;
+    @apply load-more-btn;
   }
 }
 

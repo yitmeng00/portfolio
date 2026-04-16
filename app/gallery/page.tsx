@@ -27,9 +27,9 @@ const PortfolioPage = () => {
           <AboutSection />
           <GearSection />
         </div>
-        <GalleryGrid photos={PHOTOS} onImageClick={handleImageClick} />
-        {selectedImage && <Lightbox selectedImage={selectedImage} onClose={handleCloseModal} />}
       </div>
+      <GalleryGrid photos={PHOTOS} onImageClick={handleImageClick} />
+      {selectedImage && <Lightbox selectedImage={selectedImage} onClose={handleCloseModal} />}
     </PageContainer>
   );
 };
