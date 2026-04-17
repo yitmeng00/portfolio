@@ -38,7 +38,7 @@
   }
 
   span {
-    @apply absolute left-0 -bottom-1 h-[2px] w-0 bg-primary-500 transition-all duration-300 group-hover:w-full;
+    @apply absolute left-0 -bottom-1 h-0.5 w-0 bg-primary-500 transition-all duration-300 group-hover:w-full;
   }
 }
 
@@ -77,7 +77,7 @@
     }
 
     .lesson-card {
-      @apply bg-primary-100 border border-1 border-primary-600 rounded-lg py-[1rem] px-[1.2rem] my-[1.2rem];
+      @apply bg-primary-100 border border-primary-600 rounded-lg py-4 px-[1.2rem] my-[1.2rem];
     }
 
     .lesson-card .tag {
@@ -97,15 +97,15 @@
     }
 
     .resource-stack {
-      @apply flex flex-col gap-[8px] my-[1.2rem];
+      @apply flex flex-col gap-2 my-[1.2rem];
     }
 
     .resource-row {
-      @apply flex items-start gap-[12px] bg-primary-100 border border-1 border-primary-600 rounded-md py-[10px] px-[14px];
+      @apply flex items-start gap-3 bg-primary-100 border border-primary-600 rounded-md py-2.5 px-3.5;
     }
 
     .resource-badge {
-      @apply text-[11px] font-medium py-[3px] px-[8px] rounded-md whitespace-nowrap shrink-0 mt-1;
+      @apply text-[11px] font-medium py-0.75 px-2 rounded-md whitespace-nowrap shrink-0 mt-1;
     }
 
     .badge-used {
@@ -117,7 +117,7 @@
     }
 
     .resource-row .resource-row-title {
-      @apply text-[0.9rem] font-medium mb-[2px];
+      @apply text-[0.9rem] font-medium mb-0.5;
     }
 
     .resource-row .resource-row-desc {
@@ -129,11 +129,11 @@
     }
 
     .service-card {
-      @apply flex items-center gap-[6px] px-3 py-2 text-[13px] rounded-md bg-primary-100 border border-[0.5px] border-primary-600;
+      @apply flex items-center gap-1.5 px-3 py-2 text-[13px] rounded-md bg-primary-100 border-[0.5px] border-primary-600;
     }
 
     .divider {
-      @apply my-8 border-0 border-t border-[0.5px];
+      @apply my-8 border-0 border-t;
     }
 
     .last-word {

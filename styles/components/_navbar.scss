@@ -56,7 +56,7 @@
     }
 
     .navbar__menu-item-info .nav-menu-title span {
-      @apply absolute left-0 -bottom-1 h-[3px] w-0 bg-primary-500 transition-all duration-300 group-hover:w-full;
+      @apply absolute left-0 -bottom-1 h-0.75 w-0 bg-primary-500 transition-all duration-300 group-hover:w-full;
     }
   }
 }

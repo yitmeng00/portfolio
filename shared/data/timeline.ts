@@ -11,7 +11,12 @@ export const TIMELINE_DATA: Timeline[] = [
     role: "Full Stack Software Engineer",
     company: "Aspen Spectra Sdn Bhd",
     period: "05/2022 – 06/2024",
-    projects: ["E-Claim System", "Project Management System", "IoT Monitoring Dashboard"],
+    projects: [
+      "E-Claim System",
+      "Project Management System",
+      "Inventory Management System",
+      "IoT Monitoring Dashboard",
+    ],
   },
   {
     role: "Web Application Developer Intern",

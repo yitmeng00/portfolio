@@ -4,9 +4,11 @@ import { lazy, Suspense } from "react";
 
 import { PageContainer } from "@/ui/components";
 import { MainHeader } from "@/ui/components/layout";
-import { WorkTimelineSkeleton } from "@/ui/features/work";
+import { WorkTimelineSkeleton, WorkSkillsSkeleton, WorkBadgesSkeleton } from "@/ui/features/work";
 
 const WorkTimeline = lazy(() => import("@/ui/features/work/WorkTimeline"));
+const WorkSkills = lazy(() => import("@/ui/features/work/WorkSkills"));
+const WorkBadges = lazy(() => import("@/ui/features/work/WorkBadges"));
 
 const WorkPage = () => {
   return (
@@ -25,6 +27,12 @@ const WorkPage = () => {
       </div>
       <Suspense fallback={<WorkTimelineSkeleton />}>
         <WorkTimeline />
+      </Suspense>
+      <Suspense fallback={<WorkSkillsSkeleton />}>
+        <WorkSkills />
+      </Suspense>
+      <Suspense fallback={<WorkBadgesSkeleton />}>
+        <WorkBadges />
       </Suspense>
     </PageContainer>
   );

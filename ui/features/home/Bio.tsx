@@ -3,7 +3,7 @@ import { SectionWrapper } from "@/ui/components";
 
 const Bio: React.FC = () => {
   return (
-    <SectionWrapper title="BIO">
+    <SectionWrapper title="Bio">
       {BIO_DATA.map((bio) => (
         <div key={bio.id} className="bio__wrapper">
           <p className="bio__year">{bio.year}</p>
