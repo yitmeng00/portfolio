@@ -59,7 +59,7 @@
 
 /* Heading 2 */
 @utility section-title {
-  @apply xs:text-2xl text-xl font-extrabold text-primary-600;
+  @apply xs:text-2xl text-xl font-extrabold text-primary-600 uppercase;
 }
 
 @utility blog-grid-heading {
