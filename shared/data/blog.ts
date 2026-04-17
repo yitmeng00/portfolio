@@ -1,6 +1,8 @@
-import AWSSAAC03 from "@/ui/features/blog/content/AWSSAAC03";
-import StakeholderDiscoverySession from "@/ui/features/blog/content/StakeholderDiscoverySession";
-import VolunteerAnimalShelter from "@/ui/features/blog/content/VolunteerAnimalShelter";
+import {
+  AWSSAAC03,
+  StakeholderDiscoverySession,
+  VolunteerAnimalShelter,
+} from "@/ui/features/blog/content";
 
 import { BlogPost, BlogPostDetail } from "../interface/Blog";
 

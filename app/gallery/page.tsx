@@ -4,8 +4,8 @@ import { useState } from "react";
 
 import { PHOTOS } from "@/shared/data/gallery";
 import { Photo } from "@/shared/interface/Gallery";
+import { PageContainer } from "@/ui/components";
 import { MainHeader } from "@/ui/components/layout";
-import PageContainer from "@/ui/components/PageContainer";
 import { AboutSection, GearSection, GalleryGrid, Lightbox } from "@/ui/features/gallery";
 
 const PortfolioPage = () => {

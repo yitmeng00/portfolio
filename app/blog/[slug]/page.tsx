@@ -4,9 +4,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { BLOG_DETAIL } from "@/shared/data/blog";
-import PageContainer from "@/ui/components/PageContainer";
-import BlogDetailContent from "@/ui/features/blog/BlogDetailContent";
-import BlogDetailHeader from "@/ui/features/blog/BlogDetailHeader";
+import { PageContainer } from "@/ui/components";
+import { BlogDetailContent, BlogDetailHeader } from "@/ui/features/blog";
 
 interface Props {
   params: Promise<{ slug: string }>;

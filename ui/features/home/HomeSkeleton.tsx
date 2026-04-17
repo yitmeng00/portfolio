@@ -37,9 +37,11 @@ const BioSkeleton: React.FC = () => (
   </div>
 );
 
-export const HomeSkeleton: React.FC = () => (
+const HomeSkeleton: React.FC = () => (
   <>
     <AboutSkeleton />
     <BioSkeleton />
   </>
 );
+
+export default HomeSkeleton;
