@@ -2,9 +2,8 @@
 
 import { lazy, Suspense } from "react";
 
-import PageContainer from "@/ui/components/PageContainer";
-import { HomeHeader } from "@/ui/features/home";
-import { HomeSkeleton } from "@/ui/features/home/HomeSkeleton";
+import { PageContainer } from "@/ui/components";
+import { HomeHeader, HomeSkeleton } from "@/ui/features/home";
 
 const About = lazy(() => import("@/ui/features/home/About"));
 const Bio = lazy(() => import("@/ui/features/home/Bio"));

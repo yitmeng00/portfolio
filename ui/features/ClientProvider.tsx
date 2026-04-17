@@ -2,8 +2,7 @@
 
 import { useState, ReactNode } from "react";
 
-import MainMenu from "@/ui/components/MainMenu";
-import { MenuToggle } from "@/ui/components/MenuToggle";
+import { MainMenu, MenuToggle } from "@/ui/components";
 
 interface ClientProviderProps {
   children: ReactNode;

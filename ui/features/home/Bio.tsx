@@ -1,5 +1,5 @@
 import { BIO_DATA } from "@/shared/data/bio";
-import SectionWrapper from "@/ui/components/SectionWrapper";
+import { SectionWrapper } from "@/ui/components";
 
 const Bio: React.FC = () => {
   return (

@@ -6,7 +6,7 @@ interface MenuToggleProps {
   onToggleOpen: () => void;
 }
 
-export const MenuToggle: React.FC<MenuToggleProps> = ({ isOpen, onToggleOpen }) => {
+const MenuToggle: React.FC<MenuToggleProps> = ({ isOpen, onToggleOpen }) => {
   const ICON_SIZE = "30px";
 
   return (
@@ -22,3 +22,5 @@ export const MenuToggle: React.FC<MenuToggleProps> = ({ isOpen, onToggleOpen }) 
     </button>
   );
 };
+
+export default MenuToggle;

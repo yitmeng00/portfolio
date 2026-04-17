@@ -1,4 +1,4 @@
-import SocialLink from "@/ui/components/SocialLink";
+import { SocialLink } from "@/ui/components";
 
 import HomeHeaderBackground from "./HomeHeaderBackground";
 

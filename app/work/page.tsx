@@ -2,9 +2,9 @@
 
 import { lazy, Suspense } from "react";
 
+import { PageContainer } from "@/ui/components";
 import { MainHeader } from "@/ui/components/layout";
-import PageContainer from "@/ui/components/PageContainer";
-import WorkTimelineSkeleton from "@/ui/features/work/WorkTimelineSkeleton";
+import { WorkTimelineSkeleton } from "@/ui/features/work";
 
 const WorkTimeline = lazy(() => import("@/ui/features/work/WorkTimeline"));
 

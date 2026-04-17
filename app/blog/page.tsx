@@ -1,9 +1,9 @@
 "use client";
 
 import { BLOG_POSTS } from "@/shared/data/blog";
+import { PageContainer } from "@/ui/components";
 import { MainHeader } from "@/ui/components/layout";
-import PageContainer from "@/ui/components/PageContainer";
-import BlogGrid from "@/ui/features/blog/BlogGrid";
+import { BlogGrid } from "@/ui/features/blog";
 
 const BlogPage = () => {
   return (
