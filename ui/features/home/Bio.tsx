@@ -4,12 +4,14 @@ import { SectionWrapper } from "@/ui/components";
 const Bio: React.FC = () => {
   return (
     <SectionWrapper title="Bio">
-      {BIO_DATA.map((bio) => (
-        <div key={bio.id} className="bio__wrapper">
-          <p className="bio__year">{bio.year}</p>
-          <p dangerouslySetInnerHTML={{ __html: bio.desc }} />
-        </div>
-      ))}
+      <div className="bio__timeline">
+        {BIO_DATA.map((bio) => (
+          <div key={bio.id} className="bio__wrapper">
+            <p className="bio__year">{bio.year}</p>
+            <p dangerouslySetInnerHTML={{ __html: bio.desc }} />
+          </div>
+        ))}
+      </div>
     </SectionWrapper>
   );
 };

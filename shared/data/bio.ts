@@ -6,15 +6,15 @@ export const BIO_DATA: Bio[] = [
     year: "2000",
     desc: "Born in Georgetown, Penang.",
   },
-  {
-    id: 2,
-    year: "2005/05",
-    desc: "Achieved consolation award in the 12th UCMAS Abacus & Mental Arithmetic National & International Competition at UNITEN.",
-  },
+  // {
+  //   id: 2,
+  //   year: "2005/05",
+  //   desc: "Achieved consolation award in the 12th UCMAS Abacus & Mental Arithmetic National & International Competition at UNITEN.",
+  // },
   {
     id: 3,
     year: "2013 - 2017",
-    desc: "Completed secondary education at SMJK Yu Hua Kajang. Served as President of the Librarian Club (2016 - 2017).",
+    desc: "Completed secondary education at SMJK Yu Hua. Served as President of the Librarian Club (2016 - 2017).",
   },
   {
     id: 4,
