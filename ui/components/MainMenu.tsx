@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { MENU_ITEMS } from "@/shared/data/menu";
+import { isSafeUrl } from "@/shared/utils/url";
 
 import SocialLink from "./SocialLink";
 
@@ -12,7 +13,7 @@ const MainMenu: React.FC<MainMenuProps> = ({ onToggleOpen }) => (
   <div className="navbar__container">
     <div className="navbar__menu-wrapper">
       <div className="navbar__menu">
-        {MENU_ITEMS.map((item, index) => (
+        {MENU_ITEMS.filter((item) => isSafeUrl(item.href)).map((item, index) => (
           <Link
             key={item.href}
             href={item.href}
