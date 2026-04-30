@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 import { BlogPost } from "@/shared/interface/Blog";
+import { isSafeUrl } from "@/shared/utils/url";
 
 interface BlogCardProps {
   post: BlogPost;
@@ -15,7 +16,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
 
   return (
     <div id="blog-card" className="group">
-      <Link href={`/blog/${post.slug}`}>
+      <Link href={isSafeUrl(`/blog/${post.slug}`) ? `/blog/${post.slug}` : "/"}>
         <div className="blog-card__image-wrapper">
           {isLoading && <div className="absolute inset-0 animate-pulse bg-gray-200" />}
           <Image
