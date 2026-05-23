@@ -4,5 +4,4 @@ export const GEARS = [
   "16-50mm f/3.5-6.3",
   "50mm f/1.8",
   "iPhone 14 Pro",
-  "Insta360 GO Ultra",
 ];

@@ -95,9 +95,15 @@
   @apply h-7 rounded-sm bg-primary-100;
   animation: shimmer 1.5s ease-in-out infinite;
 
-  &--sm { @apply w-14; }
-  &--md { @apply w-20; }
-  &--lg { @apply w-28; }
+  &--sm {
+    @apply w-14;
+  }
+  &--md {
+    @apply w-20;
+  }
+  &--lg {
+    @apply w-28;
+  }
 }
 
 // Badges skeleton
@@ -110,7 +116,107 @@
   @apply h-3.5 w-32 rounded bg-primary-100;
   animation: shimmer 1.5s ease-in-out infinite 0.1s;
 
-  &--short { @apply w-20; animation-delay: 0.2s; }
+  &--short {
+    @apply w-20;
+    animation-delay: 0.2s;
+  }
+}
+
+// Personal Projects
+.projects__grid {
+  @apply grid md:grid-cols-2 gap-5;
+}
+
+.projects__card {
+  @apply text-left rounded-lg border border-primary-300 bg-white overflow-hidden
+    hover:shadow-md hover:border-primary-400 transition-all duration-200 cursor-pointer;
+}
+
+.projects__card-image-wrapper {
+  @apply relative w-full aspect-video overflow-hidden bg-primary-200;
+}
+
+.projects__card-image {
+  @apply object-contain transition-transform duration-300;
+
+  .projects__card:hover & {
+    @apply scale-[1.03];
+  }
+}
+
+.projects__card-body {
+  @apply p-4 flex flex-col gap-1.5;
+}
+
+.projects__card-title {
+  @apply text-base font-semibold text-primary-600;
+}
+
+.projects__card-desc {
+  @apply text-sm text-black/60 leading-relaxed;
+}
+
+// Modal
+.projects__modal-backdrop {
+  @apply fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4;
+}
+
+.projects__modal {
+  @apply relative bg-white rounded-xl overflow-hidden w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-xl;
+}
+
+.projects__modal-close {
+  @apply absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center
+    rounded-full bg-white/90 hover:bg-primary-100 transition-colors cursor-pointer;
+}
+
+.projects__modal-image-wrapper {
+  @apply w-full bg-primary-200;
+}
+
+.projects__modal-image {
+  @apply w-full h-auto block;
+}
+
+.projects__modal-body {
+  @apply p-6 flex flex-col gap-4;
+}
+
+.projects__modal-header {
+  @apply flex items-center justify-between gap-4;
+}
+
+.projects__modal-title {
+  @apply text-2xl font-bold text-primary-600;
+}
+
+.projects__modal-github {
+  @apply flex items-center gap-1.5 text-sm font-medium text-primary-500
+    hover:text-primary-600 transition-colors shrink-0;
+}
+
+.projects__modal-short-desc {
+  @apply text-sm text-black/60 leading-relaxed;
+}
+
+.projects__modal-tags {
+  @apply flex flex-wrap gap-2;
+}
+
+.projects__modal-tag {
+  @apply text-xs px-2.5 py-1 rounded-sm border border-primary-400 bg-primary-100 text-primary-600 font-medium;
+}
+
+.projects__modal-story {
+  @apply flex flex-col gap-3 pt-2 border-t border-primary-200;
+}
+
+.projects__modal-story-label {
+  @apply text-sm font-semibold uppercase tracking-widest text-primary-500;
+}
+
+.projects__modal-story-para {
+  @apply text-sm text-black/70 leading-relaxed;
 }
 
 @keyframes shimmer {

@@ -4,3 +4,4 @@ export { default as WorkSkills } from "./WorkSkills";
 export { default as WorkSkillsSkeleton } from "./WorkSkillsSkeleton";
 export { default as WorkBadges } from "./WorkBadges";
 export { default as WorkBadgesSkeleton } from "./WorkBadgesSkeleton";
+export { default as WorkProjects } from "./WorkProjects";
