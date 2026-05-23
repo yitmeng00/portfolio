@@ -9,6 +9,7 @@ import { WorkTimelineSkeleton, WorkSkillsSkeleton, WorkBadgesSkeleton } from "@/
 const WorkTimeline = lazy(() => import("@/ui/features/work/WorkTimeline"));
 const WorkSkills = lazy(() => import("@/ui/features/work/WorkSkills"));
 const WorkBadges = lazy(() => import("@/ui/features/work/WorkBadges"));
+const WorkProjects = lazy(() => import("@/ui/features/work/WorkProjects"));
 
 const WorkPage = () => {
   return (
@@ -30,6 +31,9 @@ const WorkPage = () => {
       </Suspense>
       <Suspense fallback={<WorkSkillsSkeleton />}>
         <WorkSkills />
+      </Suspense>
+      <Suspense fallback={null}>
+        <WorkProjects />
       </Suspense>
       <Suspense fallback={<WorkBadgesSkeleton />}>
         <WorkBadges />
