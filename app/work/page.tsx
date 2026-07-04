@@ -17,13 +17,14 @@ const WorkPage = () => {
       <div>
         <MainHeader title="WORK" />
         <p className="work__desc">
-          I&apos;m a Full Stack Software Engineer with 2+ years of experience delivering end-to-end
-          web solutions, and 1.5 years specializing in frontend development. Proven track record of
-          owning solution design from stakeholder discovery and system architecture through to
-          deployment and performance optimization. AWS Certified Solutions Architect – Associate,
-          with growing expertise in cloud infrastructure and system design. Currently focused on
-          advancing into a Solution Architect role, with a passion for building efficient,
-          real-world solutions that effectively bridge business needs with technical excellence.
+          Software Architect with 4+ years of experience architecting and delivering
+          enterprise-grade systems across the web and cloud. Proven track record of owning solution
+          design end-to-end — from stakeholder discovery and system architecture through
+          containerised deployment, performance optimization, and DevOps automation. AWS Certified
+          Solutions Architect – Associate, with solid cloud architecture foundations and practical
+          exposure to production monitoring via Amazon CloudWatch. Driven by a genuine passion for
+          translating complex business challenges into scalable, resilient technical solutions that
+          deliver measurable outcomes.
         </p>
       </div>
       <Suspense fallback={<WorkTimelineSkeleton />}>

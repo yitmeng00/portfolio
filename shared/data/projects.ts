@@ -34,6 +34,53 @@ export const PROJECTS_DATA: Project[] = [
     githubUrl: "https://github.com/yitmeng00/clinical-scheduler-platform",
   },
   {
+    id: "ledgr",
+    title: "Ledgr",
+    shortDesc:
+      "A full-stack personal finance tracker with transaction management, budget tracking, statistics, and multi-account support — built as a React + Express monorepo.",
+    image: "/assets/projects/budget-tracker.png",
+    tags: [
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS v4",
+      "TanStack Query",
+      "Node.js",
+      "Express 5",
+      "MySQL",
+      "Docker",
+    ],
+    story: [
+      "Ledgr started as a question: what does full-stack actually mean when you own every layer? I built it as a monorepo with a React client and an Express API, which forced me to think carefully about where logic belongs. The API validates with Zod, queries MySQL directly with no ORM, and the client never touches raw response shapes — everything gets transformed into clean UI state before it reaches a component.",
+      "The statistics page was the most interesting engineering problem. Monthly and annual charts, category breakdowns, budget surplus calculations — each requires a different query shape, and getting them to feel instant meant thinking about what TanStack Query caches and what it refetches. I also had to design the budget system carefully: default monthly limits with per-month overrides meant the resolution logic had to be explicit and predictable.",
+      "The responsive design pushed me to treat mobile as a first-class target, not an afterthought. Bottom navigation, bottom-sheet modals, and a layout that genuinely works at 375px all required deliberate decisions at the component level, not just media query patches on top of a desktop-first layout.",
+    ],
+    githubUrl: "https://github.com/yitmeng00/budget-tracker",
+  },
+  {
+    id: "ledgr-mobile",
+    title: "Ledgr Mobile",
+    shortDesc:
+      "A React Native finance tracker for iOS and Android with on-device SQLite, recurring transactions, CSV import/export, and full offline support.",
+    image: "/assets/projects/budget-tracker-mobile.png",
+    tags: [
+      "React Native",
+      "Expo SDK 56",
+      "TypeScript",
+      "SQLite",
+      "TanStack Query",
+      "NativeWind",
+      "Expo Router",
+    ],
+    story: [
+      "I've had a habit of recording every transaction for monthly budget planning, but every app I tried either had paywalled features or interrupted me with ads just to log a coffee. So I built my own. Having a real personal use case changed how I made decisions — every friction point I felt as a user became something I fixed as the developer.",
+      "Building the mobile version of Ledgr after the web version was a study in how different the constraints are. Everything is on-device: a single SQLite file, no network calls, no backend to offload logic to. That meant the data layer had to be rock-solid — the schema is versioned, the seed runs exactly once on first launch, and every query is a plain TypeScript function with no framework magic underneath.",
+      "The recurring transactions engine was the most algorithmically interesting part. On every app launch, the root layout checks all active rules against today's date and creates any due transactions before the first render. Getting the schedule logic right across daily, biweekly, end-of-month, and annual intervals — especially across month and year boundaries — required careful test cases rather than intuition.",
+      "Localization across four languages (English, Bahasa Melayu, Simplified and Traditional Chinese) taught me that i18n can't be bolted on at the end. Every string that touches the UI has to go through the translation layer from day one. The backup and restore system — a full JSON export of every row in every table — was also a reminder that user data portability is a feature, not an afterthought.",
+    ],
+    githubUrl: "https://github.com/yitmeng00/budget-tracker-mobile",
+  },
+  {
     id: "inventrack",
     title: "InvenTrack",
     shortDesc:
@@ -74,5 +121,19 @@ export const PROJECTS_DATA: Project[] = [
       "It was also my first real encounter with Vite's environment variable system for keeping API keys out of source. Even in client-side code where the key ends up in the bundle regardless, the habit of never hardcoding secrets is worth building early.",
     ],
     githubUrl: "https://github.com/yitmeng00/weather-app",
+  },
+  {
+    id: "mytasks",
+    title: "MyTasks",
+    shortDesc:
+      "A client-side task manager built with pure HTML, CSS, and Vanilla JavaScript — no build step, no dependencies, just localStorage.",
+    image: "/assets/projects/mytasks.png",
+    tags: ["HTML5", "CSS3", "Vanilla JavaScript", "localStorage", "Font Awesome"],
+    story: [
+      "MyTasks was a deliberate exercise in constraint. No framework, no build tool, no npm — just a single HTML file you open in a browser. That constraint forced every architectural decision to be explicit. I ended up structuring the JavaScript into discrete modules: `StorageManager`, `State`, `Renderer`, `EventHandlers`, `ModalService`, `NotificationService`, and an `App` entry point. The patterns that React and Vue abstract away — you still need them, you just write them yourself.",
+      "The v2 rewrite was where the interesting thinking happened. I replaced dynamic modal construction (building DOM nodes in JavaScript every time) with a static modal overlay that gets toggled and populated, which is cheaper and easier to reason about. I also added a real-time search, filter tabs, sort options, priority levels, categories, and due dates — all layered onto a state object that drives a full re-render on every change.",
+      "Working without any tooling sharpens your eye for what browsers actually give you. The custom `<select>` chevron using `appearance: none` with an SVG background, the `min` date constraint preventing past-due selection, the responsive breakpoints at 768px, 375px, and 320px — nothing is automatic. You notice every browser default you're fighting.",
+    ],
+    githubUrl: "https://github.com/yitmeng00/my-tasks-to-do-app",
   },
 ];

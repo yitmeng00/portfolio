@@ -14,8 +14,8 @@ const HomeHeader: React.FC = () => {
           but you can call me <span>Ivan</span>
         </h1>
         <p className="header__sub-heading">
-          A Full Stack Software Engineer (AWS Certified) focused on scalable system design and
-          advancing toward a Solution Architect role.
+          A Software Architect (AWS Certified) focused on scalable system design and advancing
+          toward a Solutions Architect role.
         </p>
         <SocialLink />
       </div>
