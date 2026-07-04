@@ -1,5 +1,27 @@
 export const SKILLS_DATA = [
   {
+    category: "Architecture & Design",
+    items: ["System Design & UML", "REST API"],
+  },
+  {
+    category: "Cloud & Infrastructure",
+    items: ["Docker", "AWS", "Disaster Recovery"],
+  },
+  {
+    category: "Backend",
+    items: [
+      "Node.js",
+      "Express",
+      "C#",
+      ".NET",
+      "PHP",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Database Design & Optimization",
+    ],
+  },
+  {
     category: "Frontend",
     items: [
       "React",
@@ -8,22 +30,17 @@ export const SKILLS_DATA = [
       "TypeScript",
       "JavaScript",
       "Tailwind",
-      "Bulma",
       "Bootstrap",
-      "Sass",
+      "Scss",
     ],
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Express", "C#", "PHP", ".NET", "REST API", "MySQL", "MongoDB"],
-  },
-  {
-    category: "Cloud & DevOps",
-    items: ["AWS", "Docker", "Cloud Infrastructure"],
+    category: "Delivery",
+    items: ["Agile", "Git", "Jest"],
   },
   {
     category: "Others",
-    items: ["Git", "Jest", "TOGAF", "Agile"],
+    items: ["WebSocket"],
   },
 ];
 

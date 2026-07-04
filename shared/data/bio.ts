@@ -43,12 +43,12 @@ export const BIO_DATA: Bio[] = [
   },
   {
     id: 9,
-    year: "2019/05 - 2022/04",
-    desc: "Completed a Bacehlor's Degree in Computer Science at UCSI University.",
+    year: "2022/04",
+    desc: "Completed a Bachelor's Degree in Computer Science at UCSI University (May 2019 - April 2022).",
   },
   {
     id: 10,
-    year: "2022",
+    year: "2022/09",
     desc: `Published <i><a href="https://www.jstage.jst.go.jp/article/jaalr/3/2/3_7/_article" target="_blank"><u>"Go.Travel - A Smart Tourism Guide Mobile Application"</i></u></a> in the Journal of Advances in Artificial Life Robotics.`,
   },
 
@@ -66,5 +66,10 @@ export const BIO_DATA: Bio[] = [
     id: 13,
     year: "2026/03",
     desc: `Obtained <a href="https://www.credly.com/badges/424f6aaa-740b-4f74-831e-7a2b55c31bc7/public_url" target="_blank"><u>AWS Certified Solutions Architect - Associate</u></a> certification.`,
+  },
+  {
+    id: 14,
+    year: "2026/07",
+    desc: "Software Architect at Swift.",
   },
 ];
