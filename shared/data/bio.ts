@@ -69,7 +69,7 @@ export const BIO_DATA: Bio[] = [
   },
   {
     id: 14,
-    year: "2026/07",
+    year: "2026/07 - Current",
     desc: "Software Architect at Swift.",
   },
 ];
