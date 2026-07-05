@@ -1,25 +1,27 @@
 export const SKILLS_DATA = [
   {
     category: "Architecture & Design",
-    items: ["System Design & UML", "REST API"],
+    items: [
+      "System Design & UML",
+      "Solution Architecture",
+      "REST API Design",
+      "Disaster Recovery / High Availability Design",
+      "Database Design",
+      "Real-time Systems Architecture (WebSocket, event-driven patterns)",
+    ],
   },
   {
     category: "Cloud & Infrastructure",
-    items: ["Docker", "AWS", "Disaster Recovery"],
+    items: [
+      "AWS (EC2, S3, RDS, IAM, VPC)",
+      "Docker / Containerization",
+      "CI/CD Pipelines",
+      "Real-time Monitoring & Observability",
+    ],
   },
   {
     category: "Backend",
-    items: [
-      "Node.js",
-      "Express",
-      "C#",
-      ".NET",
-      "PHP",
-      "MySQL",
-      "PostgreSQL",
-      "MongoDB",
-      "Database Design & Optimization",
-    ],
+    items: ["Node.js", "Express", "C#", ".NET", "PHP", "MySQL", "PostgreSQL", "MongoDB"],
   },
   {
     category: "Frontend",
@@ -35,12 +37,8 @@ export const SKILLS_DATA = [
     ],
   },
   {
-    category: "Delivery",
-    items: ["Agile", "Git", "Jest"],
-  },
-  {
-    category: "Others",
-    items: ["WebSocket"],
+    category: "Delivery & Collaboration",
+    items: ["Agile", "Git", "Jest", "WordPress"],
   },
 ];
 
