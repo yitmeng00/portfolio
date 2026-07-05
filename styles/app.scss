@@ -46,7 +46,7 @@
 }
 
 @utility page-heading {
-  @apply md:text-6xl text-5xl text-primary-600 font-extrabold;
+  @apply md:text-6xl sm:text-5xl text-3xl text-primary-600 font-extrabold;
 }
 
 @utility not-found-heading {

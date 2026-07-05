@@ -1,12 +1,12 @@
+"use client";
+
 import { faX } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import { useState } from "react";
 
-import { Photo } from "@/shared/interface/Gallery";
-
 interface LightboxProps {
-  selectedImage: Omit<Photo, "id">;
+  selectedImage: { url: string; alt: string };
   onClose: () => void;
 }
 
