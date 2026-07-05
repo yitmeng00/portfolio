@@ -14,7 +14,7 @@ const AboutSection = () => {
           icon={faArrowUpRightFromSquare}
           style={{ width: "12px", height: "12px" }}
         />
-        <p>more photos</p>
+        <p>more photos — unsplash</p>
         <span />
       </Link>
     </div>
