@@ -7,6 +7,7 @@ import { PHOTOGRAPHY_STYLES } from "@/shared/data/photography";
 import type { PhotographyStylePhoto } from "@/shared/interface/Photography";
 
 import Lightbox from "./Lightbox";
+import PhotoScroller from "./PhotoScroller";
 
 const PhotographyStyles = () => {
   const [selected, setSelected] = useState<PhotographyStylePhoto | null>(null);
@@ -26,7 +27,7 @@ const PhotographyStyles = () => {
         {PHOTOGRAPHY_STYLES.map((style, styleIndex) => (
           <div key={style.id} className="photography-styles__item">
             <p className="photography-styles__item-label">{style.name}</p>
-            <div className="photography-styles__item-photos">
+            <PhotoScroller label={style.name}>
               {style.photos.map((photo, i) => (
                 <button
                   key={i}
@@ -39,12 +40,12 @@ const PhotographyStyles = () => {
                     alt={photo.alt}
                     fill
                     className="object-cover"
-                    sizes="(max-width: 640px) 50vw, 20vw"
+                    sizes="(max-width: 640px) 75vw, (max-width: 1024px) 40vw, 30vw"
                     priority={styleIndex === 0 && i === 0}
                   />
                 </button>
               ))}
-            </div>
+            </PhotoScroller>
           </div>
         ))}
       </div>
