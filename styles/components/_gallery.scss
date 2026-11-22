@@ -95,7 +95,7 @@
   }
 
   .photography-styles__grid {
-    @apply grid grid-cols-1 lg:grid-cols-2 gap-8;
+    @apply flex flex-col gap-10;
   }
 
   .photography-styles__item {
@@ -103,12 +103,13 @@
       @apply text-sm font-medium text-black/40 uppercase tracking-widest mb-3;
     }
 
-    .photography-styles__item-photos {
-      @apply grid grid-cols-1 sm:grid-cols-2 gap-2;
-    }
-
+    // Widths chosen so the next photo always peeks in from the right edge
     .photography-styles__item-photo {
-      @apply relative aspect-square overflow-hidden rounded-md bg-primary-200 cursor-pointer;
+      @apply relative shrink-0 w-[75%] sm:w-[40%] lg:w-[30%] aspect-square overflow-hidden rounded-md bg-primary-200 cursor-pointer snap-start;
+
+      img {
+        @apply transition-transform duration-300 hover:scale-[1.03];
+      }
     }
   }
 
@@ -125,6 +126,57 @@
 
     &:hover span {
       @apply scale-x-100;
+    }
+  }
+}
+
+.photo-scroller {
+  @apply relative;
+  --fade-size: 3rem;
+  --fade-start: 0px;
+  --fade-end: var(--fade-size);
+
+  &[data-at-start="false"] {
+    --fade-start: var(--fade-size);
+  }
+
+  &[data-at-end="true"] {
+    --fade-end: 0px;
+  }
+
+  .photo-scroller__track {
+    @apply flex gap-2 overflow-x-auto snap-x snap-mandatory scroll-smooth outline-none;
+    // Hide the scrollbar but keep native scrolling (touch, trackpad, keyboard)
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    // Fade whichever edge still has more photos to reveal
+    mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      #000 var(--fade-start),
+      #000 calc(100% - var(--fade-end)),
+      transparent 100%
+    );
+
+    &:focus-visible {
+      @apply ring-2 ring-primary-400 ring-offset-2 rounded-md;
+    }
+  }
+
+  .photo-scroller__arrow {
+    @apply absolute top-1/2 -translate-y-1/2 z-10 hidden sm:flex items-center justify-center w-10 h-10
+      rounded-full bg-white/90 text-primary-600 shadow-md cursor-pointer
+      transition hover:bg-white hover:scale-110;
+
+    &--prev {
+      @apply left-2;
+    }
+
+    &--next {
+      @apply right-2;
     }
   }
 }

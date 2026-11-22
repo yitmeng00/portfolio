@@ -6,5 +6,5 @@ export interface PhotographyStylePhoto {
 export interface PhotographyStyle {
   id: string;
   name: string;
-  photos: [PhotographyStylePhoto, PhotographyStylePhoto];
+  photos: PhotographyStylePhoto[];
 }
