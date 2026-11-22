@@ -7,7 +7,7 @@
 @use "components/blog";
 @use "components/work";
 
-@import url("tailwindcss"); // Signals to Sass that this is a plain CSS import
+@import "tailwindcss/index.css"; // ".css" extension makes Sass emit a plain CSS import (url() form breaks Next 16.4 dev)
 
 @theme {
   /* Colors */
